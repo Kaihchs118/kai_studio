@@ -1,4 +1,4 @@
-baseURL = "http://localhost:1313/"
+baseURL = "https://Kaihchs118.github.io/kai_studio/"
 languageCode = "zh-TW"
 title = "KAI STUDIO"
 theme = "PaperMod"
@@ -8,11 +8,10 @@ theme = "PaperMod"
   showBreadCrumbs = true
   showPostNavLinks = true
   showCodeCopyButtons = true
-  customCSS = ["css/custom.css"]
 
   [params.assets]
     favicon = "img/demo1.png"
 
   [params.homeInfoParams]
-    Title = "歡迎來到我的網站"
-    Content = "這裡是簡單介紹，下面會自動列出文章。"
+    Title = "歡迎來到KAI STUDIO"
+    Content = "可以點擊[這裏](kai_studio/content/posts/demo.md)來看看怎麼用這網站"
