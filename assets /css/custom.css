@@ -1,0 +1,12 @@
+:root {
+    --pm-accent: #87CEFA; /* 淺藍色 */
+}
+
+a, a:hover, a:focus {
+    color: var(--pm-accent);
+}
+
+button, .btn {
+    background-color: var(--pm-accent);
+    border-color: var(--pm-accent);
+}
