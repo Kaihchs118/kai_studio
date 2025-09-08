@@ -2,20 +2,60 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/</loc>
+    <loc>http://localhost:1313/kai_studio/tags/ai/</loc>
+    <lastmod>2025-09-08T15:30:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/kai_studio/</loc>
+    <lastmod>2025-09-08T15:30:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/kai_studio/posts/</loc>
+    <lastmod>2025-09-08T15:30:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/kai_studio/tags/</loc>
+    <lastmod>2025-09-08T15:30:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/kai_studio/tags/%E7%A1%AC%E9%AB%94/</loc>
+    <lastmod>2025-09-08T15:30:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/kai_studio/tags/%E7%A7%91%E6%8A%80%E8%B6%A8%E5%8B%A2/</loc>
+    <lastmod>2025-09-08T15:30:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/kai_studio/tags/%E8%BB%9F%E9%AB%94/</loc>
+    <lastmod>2025-09-08T15:30:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/kai_studio/tags/%E9%9B%BB%E8%85%A6%E6%96%B0%E8%81%9E/</loc>
+    <lastmod>2025-09-08T15:30:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/kai_studio/posts/20250908/</loc>
+    <lastmod>2025-09-08T15:30:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/kai_studio/posts/demo-copy/</loc>
     <lastmod>2025-09-08T12:33:04+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
+    <loc>http://localhost:1313/kai_studio/posts/demo/</loc>
     <lastmod>2025-09-08T12:33:04+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/demo/</loc>
-    <lastmod>2025-09-08T12:33:04+08:00</lastmod>
+    <loc>http://localhost:1313/kai_studio/tags/dorico/</loc>
+    <lastmod>2025-08-28T18:00:00+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/demo-copy/</loc>
-    <lastmod>2025-09-08T12:33:04+08:00</lastmod>
+    <loc>http://localhost:1313/kai_studio/tags/finale/</loc>
+    <lastmod>2025-08-28T18:00:00+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>http://localhost:1313/kai_studio/tags/musescore/</loc>
+    <lastmod>2025-08-28T18:00:00+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>http://localhost:1313/kai_studio/posts/finale/</loc>
+    <lastmod>2025-08-28T18:00:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/kai_studio/tags/%E8%A8%98%E8%AD%9C%E8%BB%9F%E9%AB%94/</loc>
+    <lastmod>2025-08-28T18:00:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/kai_studio/tags/%E8%BB%9F%E9%AB%94%E9%96%8B%E7%99%BC/</loc>
+    <lastmod>2025-08-28T18:00:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/kai_studio/tags/%E9%9F%B3%E6%A8%82%E7%A7%91%E6%8A%80/</loc>
+    <lastmod>2025-08-28T18:00:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/kai_studio/categories/</loc>
   </url>
 </urlset>
