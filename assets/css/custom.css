@@ -1,0 +1,30 @@
+/* 針對 PaperMod 首頁文章列表 */
+main.list .posts {
+    grid-template-columns: repeat(5, 1fr) !important; /* 設置為5列，每列等寬 */
+    gap: var(--gap); /* 保持間距，或者根據需要調整 */
+}
+
+/* 可選：針對小螢幕進行響應式調整，避免五列在手機上太擠 */
+@media (max-width: 1200px) {
+    main.list .posts {
+        grid-template-columns: repeat(4, 1fr) !important; /* 1200px 以下顯示4列 */
+    }
+}
+
+@media (max-width: 900px) {
+    main.list .posts {
+        grid-template-columns: repeat(3, 1fr) !important; /* 900px 以下顯示3列 */
+    }
+}
+
+@media (max-width: 600px) {
+    main.list .posts {
+        grid-template-columns: repeat(2, 1fr) !important; /* 600px 以下顯示2列 */
+    }
+}
+
+@media (max-width: 480px) {
+    main.list .posts {
+        grid-template-columns: repeat(1, 1fr) !important; /* 480px 以下顯示1列 */
+    }
+}
