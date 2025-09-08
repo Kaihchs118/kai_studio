@@ -1,14 +1,13 @@
 ---
-title: "這是標題2"
+title: "MuseScore 超簡單排版教學"
 date: 2025-09-08T12:33:04+08:00
 draft: false
 # 新增或修改以下 cover 部分
 cover:
     image: "https://musescore.org/themes/musescore_theme/images/frontpage/laptop/laptop_desktop_2x.webp?cache-v1" # 確保路徑與你的圖片實際位置匹配，這個路徑應該是相對於 static 資料夾的
-    alt: "Demo Image" # 可選
-    caption: "這是一張示範圖片" # 可選
+    
 ---
-# MuseScore 超簡單排版教學
+
 
 ### 1. 檢查排版：
 
@@ -29,4 +28,4 @@ cover:
 ### 5. 插入斷點（若需）：
 
 選第 26 小節末尾，從「添加」選單加「換行符號」，確保後續內容換行。
-＞ ⚠️ 注意：確保間距調整後樂譜可讀，譜表間距不低於 1\.0 mm。
+>⚠️ 注意：確保間距調整後樂譜可讀，譜表間距不低於 1\.0 mm。
