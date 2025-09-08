@@ -1,5 +1,6 @@
-name: Build and Deploy Hugo site
+name: Hugo Build and Deploy
 
+# 觸發條件：只要 push 到 main 分支
 on:
   push:
     branches:
@@ -8,31 +9,10 @@ on:
 jobs:
   build-deploy:
     runs-on: ubuntu-latest
+
     steps:
+      # 1️⃣ 取回 repo 與 submodule（PaperMod 主題）
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          submodules: recursive  # 如果 theme 是 submodule 才需要，否則也沒差
-          persist-credentials: true
-
-      - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v2
-        with:
-          hugo-version: '0.128.0'   # 換成你本地的 hugo version
-
-      - name: Build site
-        run: hugo --minify
-
-      - name: Deploy to docs folder
-        run: |
-          rm -rf docs || true
-          mkdir docs
-          cp -a public/. docs/
-
-      - name: Commit and push changes
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add docs
-          git commit -m "chore: update site [skip ci]" || echo "No changes to commit"
-          git push origin main
+          submodules: re
