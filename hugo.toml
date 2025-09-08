@@ -12,6 +12,6 @@ theme = "PaperMod"
   [params.assets]
     favicon = "img/demo1.png"
 
-  [params.homeInfoParams]ㄋ
+  [params.homeInfoParams]
     Title = "歡迎來到KAI STUDIO"
-    Content = "可以點擊[這裏](https://kaihchs118.github.io/kai_studio/posts/demo/)來看看怎麼用這網站"
+    Content = "Scroll Down ..."
