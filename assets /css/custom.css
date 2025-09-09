@@ -1,6 +1,6 @@
 /* PaperMod 標籤多色範例 */
 .tag-badge[href*="ai"] {
-    background-color: #;  /* 橙色 */
+    background-color: #10b981;  /* 橙色 */
     color: blue;
 }
 
