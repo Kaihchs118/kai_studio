@@ -1,6 +1,6 @@
 ---
 title: "為你彈奏蕭邦的夜曲：捷運綠線列車進站時的音樂，為何聽起來如此熟悉？"
-date: 2020-10-13T00:00:00+08:00
+date: 2025-10-13T00:00:00+08:00
 draft: false
 categories: ["FILM/MUSIC"]
 tags: ["Chopin Nocturne Op.9 No.2", "古典樂", "夜曲", "捷運進站聲", "約翰‧費爾德", "蕭邦"]
