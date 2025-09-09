@@ -14,7 +14,7 @@ theme = "PaperMod"
 
   [params.homeInfoParams]
     Title = "歡迎來到KAI STUDIO"
-    Content = "找看看你想要看的文章" 
+    Content = "Kai Studio" 
 [menu]
   [[menu.main]]
     identifier = "home"
