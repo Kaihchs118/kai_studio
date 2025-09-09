@@ -1,10 +1,3 @@
-好，我幫你排成 Hugo 用的 Markdown 格式，包含 front matter，文章本體保持剛剛整理好的結構，程式碼用 fenced code block（```bash / ```powershell）。
-
-你可以直接放到 content/posts/yt-dlp-ffmpeg.md 之類的檔案裡。
-
-
----
-
 ---
 title: "抓片神器＋轉檔全能：yt-dlp 和 FFmpeg 實用筆記"
 date: 2025-09-09T20:00:00+08:00
