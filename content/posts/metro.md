@@ -4,7 +4,7 @@ date: 2025-09-03T00:00:00+08:00
 draft: false
 categories: ["FILM/MUSIC"]
 tags: ["Chopin Nocturne Op.9 No.2", "古典樂", "夜曲", "捷運進站聲", "約翰‧費爾德", "蕭邦"]
-author: "Carrie Tang"
+author: "Kai"
 ---
 
 你是否曾經搭乘松山新店（綠）線時，注意到列車進站的那段鋼琴旋律？  
