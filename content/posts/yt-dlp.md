@@ -19,7 +19,7 @@ cover:
 ## 安裝
 
 ### Linux（Ubuntu 為例）
-```bash
+
 sudo apt install yt-dlp ffmpeg
 
 macOS
