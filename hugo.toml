@@ -8,6 +8,8 @@ theme = "PaperMod"
   showBreadCrumbs = true
   showPostNavLinks = true
   showCodeCopyButtons = true
+  [params.menu]
+  enableSearch = true
 
   [params.assets]
     favicon = "img/demo1.png"
