@@ -1,6 +1,6 @@
 ---
 title: "抓片神器＋轉檔全能：yt-dlp 和 FFmpeg 實用筆記"
-date: 2025-09-09T20:00:00+08:00
+date: 2025-09-09T19:00:00+08:00
 draft: false
 tags: ["yt-dlp", "ffmpeg", "影音工具", "自由軟體"]
 categories: ["工具筆記"]
