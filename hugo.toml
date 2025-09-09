@@ -14,4 +14,22 @@ theme = "PaperMod"
 
   [params.homeInfoParams]
     Title = "歡迎來到KAI STUDIO"
-    Content = "找看看你想要看的文章"
+    Content = "找看看你想要看的文章" [menu]
+
+  [[menu.main]]
+    identifier = "home"
+    name = "首頁"
+    url = "/"
+    weight = 1
+
+  [[menu.main]]
+    identifier = "posts"
+    name = "文章"
+    url = "/posts/"
+    weight = 2
+
+  [[menu.main]]
+    identifier = "about"
+    name = "關於我"
+    url = "/about/"
+    weight = 3
