@@ -1,5 +1,5 @@
 ---
-title: "KAI STUDIO"
+title: "歡迎！"
 date: 2025-09-09T10:00:00+08:00
 draft: false
 type: "home"
