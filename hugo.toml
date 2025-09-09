@@ -57,6 +57,6 @@ theme = "PaperMod"
   
   [[menu.main]]
   identifier = "first-visit"
-  name = ""
+  name = "新手村"
   url = "/First/"
   weight = 7
