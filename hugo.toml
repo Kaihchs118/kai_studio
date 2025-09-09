@@ -56,5 +56,5 @@ theme = "PaperMod"
   [[menu.main]]
   identifier = "first-visit"
   name = "第一次進來點我"
-  url = "/First.md/"
+  url = "/First/"
   weight = 7
