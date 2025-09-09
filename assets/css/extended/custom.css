@@ -1,0 +1,49 @@
+.nav-red {
+    color: red !important;
+}
+/* 找到文章列表的容器，強制它變成網格佈局 */
+.main .posts-list {
+  display: grid;
+  /* 設定網格為五欄，每欄等寬 */
+  grid-template-columns: repeat(5, 1fr);
+  /* 設定欄與欄之間的間距 */
+  grid-gap: 1rem;
+}
+
+/* 針對每一個文章項目，移除可能影響佈局的樣式 */
+.main .posts-list .post-entry {
+  /* 移除邊距，讓網格的間距設定來控制 */
+  margin: 0;
+  /* 寬度設為自動，讓它填滿網格的欄位 */
+  width: auto;
+}
+
+/* --- 以下是響應式設計，讓版面在小螢幕上更好看 (可選，但強烈建議保留) --- */
+
+/* 當螢幕寬度小於 1400px 時，變成四欄 */
+@media (max-width: 1400px) {
+  .main .posts-list {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+/* 當螢幕寬度小於 1024px 時，變成三欄 */
+@media (max-width: 1024px) {
+  .main .posts-list {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* 當螢幕寬度小於 768px 時，變成兩欄 */
+@media (max-width: 768px) {
+  .main .posts-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* 當螢幕寬度小於 500px 時，變回單欄 */
+@media (max-width: 500px) {
+  .main .posts-list {
+    grid-template-columns: 1fr;
+  }
+}

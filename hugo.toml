@@ -56,5 +56,5 @@ theme = "PaperMod"
   [[menu.main]]
   identifier = "first-visit"
   name = "第一次進來點我"
-  url = "https://kaihchs118.github.io/kai_studio/"
+  url = "/First.md/"
   weight = 7
