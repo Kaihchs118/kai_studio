@@ -2,13 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/kai_studio/tags/ai/</loc>
-    <lastmod>2025-09-08T15:30:00+08:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/kai_studio/</loc>
-    <lastmod>2025-09-08T15:30:00+08:00</lastmod>
+    <lastmod>2025-09-09T09:00:00+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/kai_studio/posts/</loc>
+    <lastmod>2025-09-09T07:20:04+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/kai_studio/posts/vdoeditor/</loc>
+    <lastmod>2025-09-09T07:20:04+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/kai_studio/posts/welcome/</loc>
+    <lastmod>2025-09-08T21:25:04+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/kai_studio/tags/ai/</loc>
     <lastmod>2025-09-08T15:30:00+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/kai_studio/tags/</loc>
@@ -26,13 +32,10 @@
     <loc>http://localhost:1313/kai_studio/tags/%E9%9B%BB%E8%85%A6%E6%96%B0%E8%81%9E/</loc>
     <lastmod>2025-09-08T15:30:00+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/kai_studio/posts/20250908/</loc>
+    <loc>http://localhost:1313/kai_studio/posts/9technews/</loc>
     <lastmod>2025-09-08T15:30:00+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/kai_studio/posts/demo-copy/</loc>
-    <lastmod>2025-09-08T12:33:04+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/kai_studio/posts/demo/</loc>
+    <loc>http://localhost:1313/kai_studio/posts/musescorelayout/</loc>
     <lastmod>2025-09-08T12:33:04+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/kai_studio/tags/dorico/</loc>
