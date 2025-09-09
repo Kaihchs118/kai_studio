@@ -33,3 +33,9 @@ theme = "PaperMod"
     name = "關於我"
     url = "/about/"
     weight = 3
+
+  [[menu.main]]
+    identifier = "about"
+    name = "關於我"
+    url = "/about/"
+    weight = 3
