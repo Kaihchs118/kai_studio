@@ -12,7 +12,8 @@ theme = "PaperMod"
   showPostNavLinks = true
   showCodeCopyButtons = true
   customCSS = ["css/custom.css"]
-  
+  fixednav: true 
+
 
 
   [params.assets]
