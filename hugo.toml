@@ -41,15 +41,15 @@ theme = "PaperMod"
   name = "標籤"
   url = "/tags/"
   weight = 4
-[[menu.main]]
-identifier = "search"
-name = "搜尋"
-url = "#"
-weight = 6
-pre = "<i class='fas fa-search'></i>"
+  [[menu.main]]
+  identifier = "search"
+  name = "搜尋"
+  url = "#"
+  weight = 5
+  pre = "<i class='fas fa-search'></i>"
 
   [[menu.main]]
   identifier = "about"
   name = "關於我"
   url = "/about/"
-  weight = 5
+  weight = 6
