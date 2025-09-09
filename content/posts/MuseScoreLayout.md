@@ -1,6 +1,6 @@
 ---
 title: "MuseScore 超簡單排版教學"
-date: 2025-09-08T12:33:04+08:00
+date: 2025-09-07T12:33:04+08:00
 draft: false
 # 新增或修改以下 cover 部分
 cover:
