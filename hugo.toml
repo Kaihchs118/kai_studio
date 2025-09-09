@@ -32,10 +32,10 @@ theme = "PaperMod"
     identifier = "about"
     name = "關於我"
     url = "/about/"
-    weight = 3
+    weight = 4
 
   [[menu.main]]
     identifier = "tag"
-    name = "關於我"
-    url = "/about/"
+    name = "標題"
+    url = "/Tag/"
     weight = 3
