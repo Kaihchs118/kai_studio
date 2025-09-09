@@ -5,6 +5,8 @@ draft: false
 categories: ["MUSIC"]
 tags: ["Chopin Nocturne Op.9 No.2", "古典樂", "夜曲", "捷運進站聲", "約翰‧費爾德", "蕭邦"]
 author: "Kai"
+cover:
+    image: "https://thf.bing.com/th/id/OIP.J-nuK1upVN8s9kEuvWauPAHaFj?w=251&h=184&c=7&r=0&o=5&cb=thfc1&dpr=2&pid=1.7"
 ---
 
 你是否曾經搭乘松山新店（綠）線時，注意到列車進站的那段鋼琴旋律？  
