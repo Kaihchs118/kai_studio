@@ -1,18 +1,11 @@
-好的，這是在 Windows 平台下，使用 Python (pip) 安裝 `yt-dlp` 的詳細教學版本。
-
-我將原有的 Windows 安裝區塊替換為更詳盡的步驟，並解釋了為何需要手動安裝 FFmpeg 以及如何設定環境變數，讓初學者也能輕鬆上手。
-
 ---
-
-```markdown
----
-title: "抓片神器＋轉檔全能：yt-dlp 與 FFmpeg 終極實用筆記"
+title: "抓片神器＋轉檔全能：yt-dlp 與 FFmpeg 終極應用！"
 date: 2025-09-09T19:00:00+08:00
 draft: false
 tags: ["yt-dlp", "ffmpeg", "影音工具", "自由軟體", "教學", "Python"]
 categories: ["工具筆記"]
 cover:
-  image: "img/yt-dlp-ffmpeg-cover.png"
+  image: "https://thf.bing.com/th/id/OIP.5FR4S5tojUE6z_fbTu9cWQHaE8?w=220&h=180&c=7&r=0&o=7&cb=thfc1&dpr=2&pid=1.7&rm=3"
   alt: "yt-dlp 和 FFmpeg 的標誌"
 ---
 
