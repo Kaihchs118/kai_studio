@@ -5,6 +5,9 @@
     <loc>http://localhost:1313/kai_studio/</loc>
     <lastmod>2025-09-09T09:00:00+08:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/kai_studio/about/</loc>
+    <lastmod>2025-09-09T09:00:00+08:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/kai_studio/posts/</loc>
     <lastmod>2025-09-09T07:20:04+08:00</lastmod>
   </url><url>
@@ -60,5 +63,30 @@
     <lastmod>2025-08-28T18:00:00+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/kai_studio/categories/</loc>
+    <lastmod>2020-10-13T00:00:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/kai_studio/tags/chopin-nocturne-op.9-no.2/</loc>
+    <lastmod>2020-10-13T00:00:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/kai_studio/categories/film/music/</loc>
+    <lastmod>2020-10-13T00:00:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/kai_studio/tags/%E5%8F%A4%E5%85%B8%E6%A8%82/</loc>
+    <lastmod>2020-10-13T00:00:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/kai_studio/tags/%E5%A4%9C%E6%9B%B2/</loc>
+    <lastmod>2020-10-13T00:00:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/kai_studio/tags/%E6%8D%B7%E9%81%8B%E9%80%B2%E7%AB%99%E8%81%B2/</loc>
+    <lastmod>2020-10-13T00:00:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/kai_studio/posts/metro/</loc>
+    <lastmod>2020-10-13T00:00:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/kai_studio/tags/%E7%B4%84%E7%BF%B0%E8%B2%BB%E7%88%BE%E5%BE%B7/</loc>
+    <lastmod>2020-10-13T00:00:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/kai_studio/tags/%E8%95%AD%E9%82%A6/</loc>
+    <lastmod>2020-10-13T00:00:00+08:00</lastmod>
   </url>
 </urlset>
