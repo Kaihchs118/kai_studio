@@ -12,7 +12,7 @@ theme = "PaperMod"
   showPostNavLinks = true
   showCodeCopyButtons = true
   customCSS = ["css/custom.css"]
-
+  
 
 
   [params.assets]
