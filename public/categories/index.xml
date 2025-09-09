@@ -6,13 +6,20 @@
     <description>Recent content in Categories on KAI STUDIO</description>
     <generator>Hugo -- 0.148.2</generator>
     <language>zh-TW</language>
-    <lastBuildDate>Wed, 03 Sep 2025 08:00:00 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 08 Sep 2025 15:30:00 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/kai_studio/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>FILM/MUSIC</title>
-      <link>http://localhost:1313/kai_studio/categories/film/music/</link>
+      <title>NEWS/2025</title>
+      <link>http://localhost:1313/kai_studio/categories/news/2025/</link>
+      <pubDate>Mon, 08 Sep 2025 15:30:00 +0800</pubDate>
+      <guid>http://localhost:1313/kai_studio/categories/news/2025/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>MUSIC</title>
+      <link>http://localhost:1313/kai_studio/categories/music/</link>
       <pubDate>Wed, 03 Sep 2025 08:00:00 +0800</pubDate>
-      <guid>http://localhost:1313/kai_studio/categories/film/music/</guid>
+      <guid>http://localhost:1313/kai_studio/categories/music/</guid>
       <description></description>
     </item>
   </channel>
