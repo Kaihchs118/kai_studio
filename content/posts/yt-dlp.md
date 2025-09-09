@@ -46,7 +46,7 @@ choco install yt-dlp ffmpeg
 
 yt-dlp：影片與音訊下載
 
-> **影片網址的前後需要有""不然沒辦法正常運行**
+> **影片網址的前後需要有" "不然沒辦法正常運行**
 
 下載單一影片：
 
@@ -54,11 +54,12 @@ yt-dlp [影片網址]
 
 下載整個播放清單：
 
-yt-dlp https://www.youtube.com/playlist?list=XXXX
+yt-dlp "https://www.youtube.com/playlist?list=XXXX"
 
 列出可抓的格式：
 
 yt-dlp -F [影片網址]
+
 
 只抓音訊（例如 m4a）：
 
