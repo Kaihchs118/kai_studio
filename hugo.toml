@@ -56,3 +56,9 @@ theme = "PaperMod"
   name = "關於我"
   url = "/about/"
   weight = 6
+  
+  [[menu.main]]
+  identifier = "first"
+  name = "第一次進來看看！"
+  url = "kai_studio/content/First.md"
+  weight = 7
