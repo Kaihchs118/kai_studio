@@ -1,12 +1,33 @@
-:root {
-    --pm-accent: #87CEFA; /* 淺藍色 */
+/* PaperMod 標籤多色範例 */
+.tag-badge[href*="ai"] {
+    background-color: #f59e0b;  /* 橙色 */
+    color: white;
 }
 
-a, a:hover, a:focus {
-    color: var(--pm-accent);
+.tag-badge[href*="剪輯"] {
+    background-color: #10b981;  /* 綠色 */
+    color: white;
 }
 
-button, .btn {
-    background-color: var(--pm-accent);
-    border-color: var(--pm-accent);
+.tag-badge[href*="音樂"] {
+    background-color: #3b82f6;  /* 藍色 */
+    color: white;
+}
+
+.tag-badge[href*="3c"] {
+    background-color: #ef4444;  /* 紅色 */
+    color: white;
+}
+
+.tag-badge[href*="開發"] {
+    background-color: #8b5cf6;  /* 紫色 */
+    color: white;
+}
+
+/* 其他標籤，隨機色或統一淡色 */
+.tag-badge {
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-size: 0.85rem;
+    margin-right: 4px;
 }
