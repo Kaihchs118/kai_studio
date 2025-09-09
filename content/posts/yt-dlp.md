@@ -1,105 +1,128 @@
+好，我幫你排成 Hugo 用的 Markdown 格式，包含 front matter，文章本體保持剛剛整理好的結構，程式碼用 fenced code block（```bash / ```powershell）。
+
+你可以直接放到 content/posts/yt-dlp-ffmpeg.md 之類的檔案裡。
+
+
 ---
-title: "剪輯軟體大比較！！！！"
-date: 2025-09-09T07:20:04+08:00
+
+---
+title: "抓片神器＋轉檔全能：yt-dlp 和 FFmpeg 實用筆記"
+date: 2025-09-09T20:00:00+08:00
 draft: false
-# 新增或修改以下 cover 部分
+tags: ["yt-dlp", "ffmpeg", "影音工具", "自由軟體"]
+categories: ["工具筆記"]
 cover:
-    image: "https://thf.bing.com/th/id/OIP.xF6ey7MfOxpICg-8letBBwHaEA?o=7&cb=thfc1rm=3&rs=1&pid=ImgDetMain&o=7&rm=3" # 確保路徑與你的圖片實際位置匹配，這個路徑應該是相對於 static 資料夾的
+  image: "img/yt-dlp-ffmpeg-cover.png"
+  alt: "yt-dlp 和 FFmpeg"
 ---
 
-# 剪輯軟體比較：Adobe Premiere Pro、Final Cut Pro、DaVinci Resolve
+平常在找影片素材或處理音樂時，光靠網頁下載器常常畫質受限、廣告一堆。其實只要兩個自由軟體，就能乾淨又快速地完成工作：
 
-> [!NOTE]  
-> 三款專業剪輯軟體的**核心優勢**與**限制**，助您快速選擇最佳工具！
-
-## 競爭概覽
-
-- **Premiere Pro**：業界標準，Adobe 生態整合，跨平台。  
-- **Final Cut Pro**：Mac 專屬，直觀高效。  
-- **DaVinci Resolve**：免費版強大，調色領先。
-
-> [!TIP]  
-> 根據**平台**、**預算**與**調色需求**試用免費版！
-
-## 優缺點分析
-
-### 1. Adobe Premiere Pro
-
-> [!INFO]  
-> 適合與 Adobe 生態協作的專業創作者。
-
-#### 優點
-- **生態整合**：與 After Effects 等無縫協作。  
-- **功能全面**：4K/8K 剪輯、AI 字幕、外掛支援。  
-- **跨平台**：Windows、macOS 兼容。
-
-#### 缺點
-- **訂閱昂貴**：年約 **NT$8,442**。  
-- **偶爾當機**：需高配硬體。  
-- **無繁體中文**。
-
-> [!HIGHLIGHT]  
-> **最佳選擇**：跨平台、需要 Adobe 生態的專業剪輯師。
+- **yt-dlp**：幾乎所有影片網站都能下載  
+- **FFmpeg**：轉檔、壓縮、拼接、處理聲音的萬能工具  
 
 ---
 
-### 2. Final Cut Pro
+## 安裝
 
-> [!INFO]  
-> Mac 專屬，適合高效剪輯的 Mac 用戶。
+### Linux（Ubuntu 為例）
+```bash
+sudo apt install yt-dlp ffmpeg
 
-#### 優點
-- **直觀介面**：磁性時間軸，易上手。  
-- **Mac 優化**：4K/8K 剪輯穩定。  
-- **買斷制**：**NT$9,990**，90 天免費試用。
+macOS
 
-#### 缺點
-- **僅限 Mac**：不支援 Windows。  
-- **無繁體中文**：僅簡體中文。  
-- **初始成本高**。
+先裝 Homebrew，再輸入：
 
-> [!HIGHLIGHT]  
-> **最佳選擇**：Mac 用戶、偏好買斷制的創作者。
+brew install yt-dlp ffmpeg
 
----
+Windows
 
-### 3. DaVinci Resolve
+一般使用者可以直接去官網下載：
 
-> [!INFO]  
-> 免費版強大，調色頂尖，適合預算有限者。
+yt-dlp
 
-#### 優點
-- **免費版強大**：剪輯、調色、音訊一站式。  
-- **頂尖調色**：電影級色彩校正。  
-- **跨平台**：Windows、Mac、Linux。
+FFmpeg
 
-#### 缺點
-- **硬體要求高**：調色功能需高配電腦。  
-- **學習曲線陡**：新手上手難。  
-- **無繁體中文**。
 
-> [!HIGHLIGHT]  
-> **最佳選擇**：預算有限、需要專業調色的用戶。
+想省事的人，也能用 Chocolatey：
+
+choco install yt-dlp ffmpeg
+
 
 ---
 
-## 比較表格
+yt-dlp：影片與音訊下載
 
-| 特性         | Premiere Pro            | Final Cut Pro         | DaVinci Resolve       |
-|--------------|------------------------|----------------------|----------------------|
-| **平台**     | Windows, macOS        | macOS               | Windows, macOS, Linux |
-| **價格**     | NT$8,442/年           | NT$9,990 (買斷)     | 免費 / US$295        |
-| **免費試用** | 7 天                  | 90 天               | 免費版永久           |
-| **調色功能** | 強                    | 普通                | 頂尖                 |
-| **學習曲線** | 中高                  | 中                  | 高                   |
+下載單一影片：
 
-> [!HIGHLIGHT]  
-> **推薦**：  
-- **Premiere Pro**：跨平台、Adobe 生態用戶。  
-- **Final Cut Pro**：Mac 用戶、買斷制。  
-- **DaVinci Resolve**：預算有限、調色需求者。
+yt-dlp [影片網址]
 
-試用連結：  
-- [Premiere Pro](https://www.adobe.com/products/premiere.html)  
-- [Final Cut Pro](https://www.apple.com/final-cut-pro/)  
-- [DaVinci Resolve](https://www.blackmagicdesign.com/products/davinciresolve/)
+下載整個播放清單：
+
+yt-dlp https://www.youtube.com/playlist?list=XXXX
+
+列出可抓的格式：
+
+yt-dlp -F [影片網址]
+
+只抓音訊（例如 m4a）：
+
+yt-dlp -f 140 [影片網址]
+
+支援網站超過一千種，YouTube、Vimeo、Twitch、Bilibili… 幾乎想得到的都能下載。
+
+
+---
+
+FFmpeg：轉檔與處理
+
+基本轉檔：
+
+ffmpeg -i [輸入檔] [輸出檔]
+
+例如把 MP4 轉成 WAV：
+
+ffmpeg -i demo.mp4 demo.wav
+
+它不只轉檔，還能壓縮影片、合併檔案、裁切、加濾鏡。專業剪輯軟體做不到的批次處理，用 FFmpeg 幾乎都能解決。
+
+
+---
+
+常用指令速查表
+
+下載影片：yt-dlp [網址]
+
+下載播放清單：yt-dlp [清單網址]
+
+列出格式：yt-dlp -F [網址]
+
+指定格式下載：yt-dlp -f [代碼] [網址]
+
+影片轉音訊：ffmpeg -i in.mp4 out.wav
+
+合併影片：ffmpeg -i "concat:1.mp4|2.mp4" -c copy out.mp4
+
+壓縮影片：ffmpeg -i in.mp4 -vcodec libx264 -crf 23 out.mp4
+
+
+
+---
+
+結語
+
+學會 yt-dlp + FFmpeg，就能：
+
+把影片或音訊抓下來
+
+輕鬆轉成需要的格式
+
+提高處理效率，不靠雜七雜八的軟體
+
+
+這兩個工具，安裝一次，受用無窮。
+
+---
+
+要不要我再幫你生一張 **封面圖（cover image）**，讓文章在首頁看起來更完整？
+
