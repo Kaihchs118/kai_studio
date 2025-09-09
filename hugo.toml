@@ -35,7 +35,7 @@ theme = "PaperMod"
     weight = 3
 
   [[menu.main]]
-    identifier = "about"
+    identifier = "tag"
     name = "關於我"
     url = "/about/"
     weight = 3
