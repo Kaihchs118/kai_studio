@@ -8,7 +8,7 @@ theme = "PaperMod"
   showBreadCrumbs = true
   showPostNavLinks = true
   showCodeCopyButtons = true
-  customCSS = ["css/custom.css"]
+  customCSS = ["assets/css/custom.css"]
   [params.assets]
     favicon = "img/demo1.png"
 
