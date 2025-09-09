@@ -9,39 +9,42 @@ theme = "PaperMod"
   showPostNavLinks = true
   showCodeCopyButtons = true
   customCSS = ["assets/css/custom.css"]
+
   [params.assets]
     favicon = "img/demo1.png"
 
   [params.homeInfoParams]
     Title = "歡迎來到KAI STUDIO"
-    Content = "Kai Studio" 
+    Content = "Kai Studio"
+
 [menu]
-[[menu.main]]
-identifier = "home"
-name = "首頁"
-url = "/"
-weight = 1
 
-[[menu.main]]
-identifier = "posts"
-name = "文章"
-url = "/posts/"
-weight = 2
+  [[menu.main]]
+  identifier = "home"
+  name = "首頁"
+  url = "/"
+  weight = 1
 
-[[menu.main]]
-identifier = "categories"
-name = "分類"
-url = "/categories/"
-weight = 3
+  [[menu.main]]
+  identifier = "posts"
+  name = "文章"
+  url = "/posts/"
+  weight = 2
 
-[[menu.main]]
-identifier = "tags"
-name = "標籤"
-url = "/tags/"
-weight = 4
+  [[menu.main]]
+  identifier = "categories"
+  name = "分類"
+  url = "/categories/"
+  weight = 3
 
-[[menu.main]]
-identifier = "about"
-name = "關於我"
-url = "/about/"
-weight = 5
+  [[menu.main]]
+  identifier = "tags"
+  name = "標籤"
+  url = "/tags/"
+  weight = 4
+
+  [[menu.main]]
+  identifier = "about"
+  name = "關於我"
+  url = "/about/"
+  weight = 5
