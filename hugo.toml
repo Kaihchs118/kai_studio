@@ -8,10 +8,10 @@ theme = "PaperMod"
   showBreadCrumbs = true
   showPostNavLinks = true
   showCodeCopyButtons = true
+showSearch = true
+  searchPlaceholder = "搜尋文章..."
   [params.menu]
   enableSearch = true
-  showSearch = true
-  searchPlaceholder = "搜尋文章..."
   [params.assets]
     favicon = "img/demo1.png"
 
