@@ -20,13 +20,13 @@ cover:
 
 ### Linux（Ubuntu 為例）
 
-sudo apt install yt-dlp ffmpeg
+> sudo apt install yt-dlp ffmpeg
 
 macOS
 
 先裝 Homebrew，再輸入：
 
-brew install yt-dlp ffmpeg
+> brew install yt-dlp ffmpeg
 
 Windows
 
@@ -115,7 +115,5 @@ ffmpeg -i demo.mp4 demo.wav
 
 這兩個工具，安裝一次，受用無窮。
 
----
-
-要不要我再幫你生一張 **封面圖（cover image）**，讓文章在首頁看起來更完整？
+-
 
