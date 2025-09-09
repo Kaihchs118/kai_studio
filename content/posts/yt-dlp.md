@@ -59,7 +59,8 @@ yt-dlp "https://www.youtube.com/playlist?list=XXXX"
 列出可抓的格式：
 
 yt-dlp -F [影片網址]
-記得列出來的格式數字
+
+> 記得列出來的格式數字
 
 只抓音訊（例如 m4a）：
 
