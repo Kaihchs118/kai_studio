@@ -4,7 +4,7 @@ date: 2025-09-10T04:00:00+08:00
 tags: ["蘋果", "iPhone 17", "iPhone Air", "AirPods Pro 3", "Apple Watch Series 11"]
 draft : false
 cover:
-  image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQB9ajZfH1ioyLnyvawft6aX-DyifZfzCzbrw&s"
+  image: "https://mrmad.com.tw/wp-content/uploads/2025/09/apple-event-2025-summary-cover.jpg"
 comments: true
 ---
 
