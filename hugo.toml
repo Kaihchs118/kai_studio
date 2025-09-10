@@ -12,7 +12,6 @@ theme = "PaperMod"
   showPostNavLinks = true
   showCodeCopyButtons = true
   customCSS = ["css/custom.css"]
-  fixednav: true
   comments = true
   [params.utterances]
     repo = "https://github.com/Kaihchs118/kai_studio"
