@@ -3,7 +3,7 @@ title: "蘋果 2025 秋季發表會懶人包：iPhone 17、iPhone Air、AirPods 
 date: 2025-09-10
 description: "詳細整理蘋果 2025 年秋季發表會的所有新產品與功能，包含 iPhone 17 系列、iPhone Air、AirPods Pro 3、Apple Watch Series 11 等。"
 tags: ["蘋果", "iPhone 17", "iPhone Air", "AirPods Pro 3", "Apple Watch Series 11"]
-image: "images/apple-event-2025.jpg"
+image: "https://share.google/images/rRcq0wTbUkoBKsnXc"
 toc: true
 comments:true
 ---
