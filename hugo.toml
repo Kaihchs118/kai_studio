@@ -13,9 +13,13 @@ theme = "PaperMod"
   showCodeCopyButtons = true
   customCSS = ["css/custom.css"]
   comments = true
-  [params.utterances]
-    repo = "https://github.com/Kaihchs118/kai_studio"
 
+[params.utterances]
+  enabled = true
+  repo = "Kaihchs118/kai_studio"   # 你的 repo
+  issueTerm = "pathname"           # 以網址作為 issue 對應
+  label = "💬 comment"
+  theme = "preferred-color-scheme"
 
   [params.assets]
     favicon = "img/demo1.png"

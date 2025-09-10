@@ -5,6 +5,7 @@ draft: false
 tags: ["Finale", "記譜軟體", "Dorico", "MuseScore", "音樂科技", "軟體開發"]
 description: "2024年8月26日，MakeMusic 投下震撼彈，宣布終止開發擁有35年歷史的記譜軟體 Finale。本文將深入探討其背後原因、市場變化，以及對音樂創作者的深遠影響。"
 categories: ["MUSIC/SOFTWARE"]
+comments: true
 cover:
     image: "https://thf.bing.com/th/id/OIP.DGgujOomSM-5fREFNm2-_QHaF7?w=258&h=206&c=7&r=0&o=5&cb=thfc1&dpr=2&pid=1.7 "
 ---

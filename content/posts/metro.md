@@ -4,7 +4,7 @@ date: 2025-09-03T08:00:00+08:00
 draft: false
 categories: ["MUSIC"]
 tags: ["Chopin Nocturne Op.9 No.2", "古典樂", "夜曲", "捷運進站聲", "約翰‧費爾德", "蕭邦"]
-author: "Kai"
+comments: true
 cover:
     image: "https://thf.bing.com/th/id/OIP.J-nuK1upVN8s9kEuvWauPAHaFj?w=251&h=184&c=7&r=0&o=5&cb=thfc1&dpr=2&pid=1.7"
 ---

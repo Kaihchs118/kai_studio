@@ -2,6 +2,7 @@
 title: "MuseScore 超簡單排版教學"
 date: 2025-09-07T12:33:04+08:00
 draft: false
+comments: true
 # 新增或修改以下 cover 部分
 cover:
     image: "https://musescore.org/themes/musescore_theme/images/frontpage/laptop/laptop_desktop_2x.webp?cache-v1" # 確保路徑與你的圖片實際位置匹配，這個路徑應該是相對於 static 資料夾的

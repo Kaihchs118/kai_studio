@@ -4,6 +4,7 @@ date: 2025-09-08T15:30:00+08:00
 draft: false
 tags: ["電腦新聞", "AI", "硬體", "軟體", "科技趨勢"]
 categories: ["NEWS/2025"]
+comments: true
 cover:
     image: "https://thf.bing.com/th/id/OIP.lWwO6ByL2QaYFpvrFCovwgHaFW?w=199&h=144&c=7&r=0&o=7&cb=thfc1&dpr=2&pid=1.7&rm=3"
 ---

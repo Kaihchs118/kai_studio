@@ -2,6 +2,8 @@
 title: "關於我"
 date: 2025-09-09T09:00:00+08:00
 draft: false
+type: "home"
+comments: true
 ---
 
 ### 👋 嗨，我是KAI

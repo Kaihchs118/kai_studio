@@ -3,6 +3,7 @@ title: "歡迎！"
 date: 2025-09-09T10:00:00+08:00
 draft: false
 type: "home"
+comments: true
 ---
 
 ## 歡迎來到 KAI STUDIO 🎉
@@ -18,3 +19,4 @@ type: "home"
 持續更新中，記得回來看看最新的分享！
 
 > 有任何問題歡迎寄信到：`kai10050621@gmail.com`
+> 或者可以在下面的留言板輸入想要問的問題喔
