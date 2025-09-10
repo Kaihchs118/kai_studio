@@ -8,9 +8,6 @@
 {{- $scratch.Add "meta" (slice (i18n "read_time" .ReadingTime | default (printf "%d min" .ReadingTime))) }}
 {{- end }}
 
-{{- if .ReadingTime }}
-  <span class="reading-time">閱讀時間大約 {{ .ReadingTime }} 分鐘</span>
-{{- end }}
 
 {{- if (.Param "ShowWordCount") -}}
 {{- $scratch.Add "meta" (slice (i18n "words" .WordCount | default (printf "%d words" .WordCount))) }}

@@ -22,7 +22,7 @@
       </div>
     {{- end }}
 
-    <!-- 文章 Meta: 閱讀時間、作者、日期等 -->
+    <!-- 文章 Meta (不顯示閱讀時間) -->
     {{- if not (.Param "hideMeta") }}
       <div class="post-meta">
         {{ partial "post_meta.html" . }}
@@ -52,26 +52,34 @@
   <!-- Footer -->
   <footer class="post-footer">
 
-    <!-- 標籤 -->
-    <ul class="post-tags">
+    <!-- 標籤卡片化 -->
+    <ul class="post-tags" style="display:flex; flex-wrap:wrap; gap:0.5rem; list-style:none; padding:0;">
       {{- range ($.GetTerms "tags") }}
-        <li><a href="{{ .Permalink }}">{{ .LinkTitle }}</a></li>
+        <li style="background:linear-gradient(90deg, #6a11cb 0%, #2575fc 100%); padding:0.3rem 0.6rem; border-radius:12px; color:#fff; font-weight:bold;">
+          <a href="{{ .Permalink }}" style="color:#fff; text-decoration:none;">{{ .LinkTitle }}</a>
+        </li>
       {{- end }}
     </ul>
 
-    <!-- 分享 / 按讚 / RSS -->
+    <!-- 分享按鈕 -->
     {{- if (and site.Params.ShowShareButtons (ne .Params.disableShare true)) }}
-      {{ partial "share_icons.html" . }}
+      <div class="share-buttons" style="margin-top:1rem;">
+        {{ partial "share_icons.html" . }}
+      </div>
     {{- end }}
 
-    <!-- 留言板 (Utterances) -->
+    <!-- 留言板 -->
     {{- if (.Param "comments") }}
-      {{ partial "comments.html" . }}
+      <div id="comments" style="margin-top:2rem; border-radius:12px; box-shadow:0 4px 10px rgba(0,0,0,0.1); padding:1rem; background:#fff;">
+        {{ partial "comments.html" . }}
+      </div>
     {{- end }}
 
     <!-- 上一篇 / 下一篇 -->
     {{- if (.Param "ShowPostNavLinks") }}
-      {{ partial "post_nav_links.html" . }}
+      <div class="post-nav-links" style="margin-top:2rem;">
+        {{ partial "post_nav_links.html" . }}
+      </div>
     {{- end }}
 
   </footer>
