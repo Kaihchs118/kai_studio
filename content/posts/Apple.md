@@ -3,7 +3,7 @@ title: "蘋果 2025 秋季發表會懶人包：iPhone 17、iPhone Air、AirPods 
 date: 2025-09-10T04:00:00+08:00
 tags: ["蘋果", "iPhone 17", "iPhone Air", "AirPods Pro 3", "Apple Watch Series 11"]
 draft : false
-image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQB9ajZfH1ioyLnyvawft6aX-DyifZfzCzbrw&s"
+cover: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQB9ajZfH1ioyLnyvawft6aX-DyifZfzCzbrw&s"
 comments: true
 ---
 
