@@ -6,10 +6,8 @@ draft: false
 comments: true
 # 新增或修改以下 cover 部分
 cover:
-    image: "https://thf.bing.com/th/id/OIP.xF6ey7MfOxpICg-8letBBwHaEA?o=7&cb=thfc1rm=3&rs=1&pid=ImgDetMain&o=7&rm=3" # 確保路徑與你的圖片實際位置匹配，這個路徑應該是相對於 static 資料夾的
+    image: "https://share.google/images/fRQRb3fhzCbyFmJbu" # 確保路徑與你的圖片實際位置匹配，這個路徑應該是相對於 static 資料夾的
 ---
-
-# Let’s Go！有感筆電從不會缺席的120款Roblox最極限遊戲 ─ 特裝版
 
 ## 商品資訊
 - **價格**：NT$799
