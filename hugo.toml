@@ -6,20 +6,24 @@ theme = "PaperMod"
 [outputs]
   home = ["HTML", "RSS", "JSON"]
 
+
 [params]
   showReadingTime = false
   showBreadCrumbs = true
   showPostNavLinks = true
   showCodeCopyButtons = true
-  comments = true
   customCSS = ["css/custom.css"]
+  # 開啟搜尋
+  [params.search]
+    enable = true
+    provider = "lunr"
 
-[params.utterances]
-  enabled = true
-  repo = "Kaihchs118/kai_studio"   # 你的 repo
-  issueTerm = "pathname"           # 以網址作為 issue 對應
-  label = "💬 留言區"
-  theme = "preferred-color-scheme"
+  [params.utterances]
+    enabled = true
+    repo = "Kaihchs118/kai_studio"   # 你的 repo
+    issueTerm = "pathname"           # 以網址作為 issue 對應
+    label = "💬 留言區"
+    theme = "preferred-color-scheme"
 
   [params.assets]
     favicon = "img/demo1.png"
@@ -30,7 +34,6 @@ theme = "PaperMod"
 
 
 [menu]
-
   [[menu.main]]
   identifier = "home"
   name = "首頁"
@@ -48,17 +51,17 @@ theme = "PaperMod"
   identifier = "tags"
   name = "標籤"
   url = "/tags/"
-  weight = 4
+  weight = 3
 
 
   [[menu.main]]
   identifier = "about"
   name = "關於我"
   url = "/about/"
-  weight = 6
+  weight = 4
   
   [[menu.main]]
   identifier = "first-visit"
   name = "新手村"
   url = "/First/"
-  weight = 7
+  weight = 5
