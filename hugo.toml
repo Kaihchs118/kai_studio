@@ -7,7 +7,7 @@ theme = "PaperMod"
   home = ["HTML", "RSS", "JSON"]
 
 [params]
-  showReadingTime = true
+  showReadingTime = false
   showBreadCrumbs = true
   showPostNavLinks = true
   showCodeCopyButtons = true
@@ -18,7 +18,7 @@ theme = "PaperMod"
   enabled = true
   repo = "Kaihchs118/kai_studio"   # 你的 repo
   issueTerm = "pathname"           # 以網址作為 issue 對應
-  label = "💬 comment"
+  label = "💬 留言區"
   theme = "preferred-color-scheme"
 
   [params.assets]
@@ -26,7 +26,8 @@ theme = "PaperMod"
 
   [params.homeInfoParams]
     Title = "歡迎來到KAI STUDIO"
-    Content = "Kai Studio"
+    Content = "往下滑看看吧"
+
 
 [menu]
 
@@ -42,11 +43,6 @@ theme = "PaperMod"
   url = "/posts/"
   weight = 2
 
-  [[menu.main]]
-  identifier = "categories"
-  name = "分類"
-  url = "/categories/"
-  weight = 3
 
   [[menu.main]]
   identifier = "tags"
