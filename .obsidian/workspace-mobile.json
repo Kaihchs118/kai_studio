@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/posts/robloxgame.md",
+                "file": "content/posts/DavinciUpdate20.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "robloxgame"
+              "title": "DavinciUpdate20"
             }
           }
         ]
@@ -40,7 +40,7 @@
             "autoReveal": false
           },
           "icon": "lucide-folder-closed",
-          "title": "Files"
+          "title": "檔案瀏覽器"
         }
       },
       {
@@ -139,25 +139,39 @@
           "icon": "lucide-list",
           "title": "Outline"
         }
+      },
+      {
+        "id": "f8de74a8fb5acb68",
+        "type": "leaf",
+        "state": {
+          "type": "git-view",
+          "state": {},
+          "icon": "git-pull-request",
+          "title": "Source Control"
+        }
       }
     ],
-    "currentTab": 0
+    "currentTab": 3
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "bases:Create new base": false
+      "obsidian-git:Open Git source control": false,
+      "switcher:開啟快速切換": false,
+      "graph:查看關聯圖": false,
+      "canvas:建立新畫布": false,
+      "daily-notes:開啟今天的每日筆記": false,
+      "templates:插入模板": false,
+      "command-palette:開啟命令面板": false,
+      "bases:建立新的 base": false
     }
   },
   "active": "430d299a1a37c7ea",
   "lastOpenFiles": [
-    "content/posts/finale.md",
+    "content/posts/MuseScoreLayout.md",
+    "content/posts/9technews.md",
+    "content/posts/DavinciUpdate20.md",
     "content/posts/robloxgame.md",
+    "content/posts/finale.md",
     "content/Roblox.md",
     "content/RobloxGames.md"
   ]
