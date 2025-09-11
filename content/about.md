@@ -4,6 +4,7 @@ date: 2025-09-09T09:00:00+08:00
 draft: false
 type: "home"
 comments: true
+_build_menu_ignore: true
 ---
 
 ### 👋 嗨，我是KAI

@@ -4,6 +4,7 @@ date: 2025-09-09T10:00:00+08:00
 draft: false
 type: "home"
 comments: true
+_build_menu_ignore: true
 ---
 
 ## 歡迎來到 KAI STUDIO 🎉
