@@ -1,7 +1,7 @@
 
 ---
 title: "DaVinci Resolve 重榜更新！追求時代"
-date: 2025-09-03T08:00:00+08:00
+date: 2025-09-12T00:00:00+08:00
 draft: false
 categories: ["SOFTWARE/DaVinci Resolve"]
 tags: ["DaVinci Resolve", "更新", "AI"]
