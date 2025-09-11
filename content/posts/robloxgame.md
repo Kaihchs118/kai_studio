@@ -5,7 +5,8 @@ tags:
   - roblox
 draft: false
 comments: true
-cover: '{"image":"https://th.bing.com/th/id/OIP.Rm4wAi6sJVoMYfKCEYqIcgHaEK?w=307&h=180&c=7&r=0&o=7&dpr=2&pid=1.7&rm=3"'
+cover: 
+    image:"https://th.bing.com/th/id/OIP.Rm4wAi6sJVoMYfKCEYqIcgHaEK?w=307&h=180&c=7&r=0&o=7&dpr=2&pid=1.7&rm=3"'
 ---
 
 # Roblox 遊戲推薦大全
