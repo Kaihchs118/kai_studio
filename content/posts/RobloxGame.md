@@ -93,7 +93,7 @@ comments : true
 **遊戲ID**：6408430866  
 **簡介**：用巴掌打飛對手，解鎖特殊手套，簡單又爆笑。  
 **點我進入**：[Slap Battles](https://www.roblox.com/games/6408430866/Slap-Battles)  
-{{<  youtube 6z3qXz4y8wQ */>}}  
+{{< youtube 6z3qXz4y8wQ >}}  
 
 ### No.014 item asylum 物品庇護所
 **遊戲ID**：5670218884  
