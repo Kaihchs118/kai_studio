@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><script src="/kai_studio/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=kai_studio/livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="noindex, nofollow">
+<title>抓片神器＋轉檔全能：yt-dlp 與 FFmpeg 終極應用！ | KAI STUDIO</title>
+<meta name="keywords" content="yt-dlp, ffmpeg, 影音工具, 自由軟體, 教學, Python">
+<meta name="description" content="在日常工作中，不論是尋找影片素材、下載線上課程，或是處理音樂檔案，我們常常會遇到網頁下載器畫質受限、廣告繁多，或根本不支援某些網站的窘境。
+其實，你只需要兩個強大且免費的自由軟體，就能乾淨、快速、高效地解決絕大多數的影音下載與處理需求：
+
+yt-dlp：最強大的影片下載器，支援 YouTube、Vimeo、Bilibili 等上千個網站，是 youtube-dl 的進化版。
+FFmpeg：影音界的瑞士刀，轉檔、壓縮、剪輯、合併、抽取音訊，幾乎無所不能。
+
+這兩個工具搭配使用，堪稱完美組合。本篇將從安裝到實用指令，帶你一次上手。
+
+為何選擇 yt-dlp &#43; FFmpeg？
+
+持續更新：YouTube 等影音網站會頻繁改版，yt-dlp 的社群非常活躍，能快速修正以應對網站變化。
+功能強大：能下載 8K 影片、播放清單、指定格式，甚至處理會員限定內容。
+批次處理：FFmpeg 能用簡單的指令處理大量檔案，這是許多圖形介面軟體難以企及的。
+乾淨無廣告：完全開源，沒有任何廣告或惡意軟體。
+
+
+安裝指南 (Windows, macOS, Linux, Android)
+yt-dlp 需要頻繁更新，因此使用套件管理器來安裝最為方便。以下將針對不同平台提供最佳安裝方式。
+Windows (使用 Python Pip &#43; 手動安裝 FFmpeg)
+此方法適合已安裝 Python 或偏好手動管理工具的使用者。yt-dlp 本身是 Python 套件，但它依賴 FFmpeg 來處理影片合併與轉檔，因此兩者皆須安裝。
+第一步：安裝 Python 與 yt-dlp
+
+
+安裝 Python：
+
+前往 Python 官方網站 下載最新版的安裝程式。
+執行安裝程式，務必勾選 Add Python to PATH 這個選項，這會自動幫你設定好環境變數。
+安裝完成後，開啟新的「Windows 終端機」或「命令提示字元 (CMD)」，輸入 python --version 和 pip --version，若能看到版本號，代表安裝成功。
+
+
+
+使用 Pip 安裝 yt-dlp：
+在終端機中輸入以下指令，即可從 Python 套件索引 (PyPI) 安裝 yt-dlp。">
+<meta name="author" content="">
+<link rel="canonical" href="http://localhost:1313/kai_studio/posts/yt-dlp/">
+<link crossorigin="anonymous" href="/kai_studio/assets/css/stylesheet.c807e8990834895c76fba2e3c366bc5eb3fe9c89284f40a1fbca4b0b95b441c9.css" integrity="sha256-yAfomQg0iVx2&#43;6Ljw2a8XrP&#43;nIkoT0Ch&#43;8pLC5W0Qck=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/kai_studio/img/demo1.png">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/kai_studio/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/kai_studio/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/kai_studio/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/kai_studio/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/kai_studio/posts/yt-dlp/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/kai_studio/" accesskey="h" title="KAI STUDIO (Alt + H)">KAI STUDIO</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="http://localhost:1313/kai_studio/" title="首頁">
+                    <span>首頁</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/kai_studio/posts/" title="文章">
+                    <span>文章</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/kai_studio/tags/" title="標籤">
+                    <span>標籤</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/kai_studio/about/" title="關於我">
+                    <span>關於我</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/kai_studio/first/" title="新手村">
+                    <span>新手村</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+
+  
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="http://localhost:1313/kai_studio/">Home</a>&nbsp;»&nbsp;<a href="http://localhost:1313/kai_studio/posts/">Posts</a></div>
+    <h1 class="post-title entry-hint-parent">
+      抓片神器＋轉檔全能：yt-dlp 與 FFmpeg 終極應用！
+    </h1>
+
+    
+      <div class="post-meta">
+        <span title='2025-09-09 19:00:00 +0800 CST'>September 9, 2025</span>
+      </div>
+
+  </header>
+
+  
+   
+<figure class="entry-cover">
+        <img loading="eager" src="https://thf.bing.com/th/id/OIP.5FR4S5tojUE6z_fbTu9cWQHaE8?w=220&amp;h=180&amp;c=7&amp;r=0&amp;o=7&amp;cb=thfc1&amp;dpr=2&amp;pid=1.7&amp;rm=3" alt="yt-dlp 和 FFmpeg 的標誌">
+        
+</figure>
+
+  
+
+  
+    <div class="post-content">
+        <p>在日常工作中，不論是尋找影片素材、下載線上課程，或是處理音樂檔案，我們常常會遇到網頁下載器畫質受限、廣告繁多，或根本不支援某些網站的窘境。</p>
+<p>其實，你只需要兩個強大且免費的自由軟體，就能乾淨、快速、高效地解決絕大多數的影音下載與處理需求：</p>
+<ul>
+<li><strong>yt-dlp</strong>：最強大的影片下載器，支援 YouTube、Vimeo、Bilibili 等上千個網站，是 <code>youtube-dl</code> 的進化版。</li>
+<li><strong>FFmpeg</strong>：影音界的瑞士刀，轉檔、壓縮、剪輯、合併、抽取音訊，幾乎無所不能。</li>
+</ul>
+<p>這兩個工具搭配使用，堪稱完美組合。本篇將從安裝到實用指令，帶你一次上手。</p>
+<hr>
+<h2 id="為何選擇-yt-dlp--ffmpeg">為何選擇 yt-dlp + FFmpeg？<a hidden class="anchor" aria-hidden="true" href="#為何選擇-yt-dlp--ffmpeg">#</a></h2>
+<ul>
+<li><strong>持續更新</strong>：YouTube 等影音網站會頻繁改版，<code>yt-dlp</code> 的社群非常活躍，能快速修正以應對網站變化。</li>
+<li><strong>功能強大</strong>：能下載 8K 影片、播放清單、指定格式，甚至處理會員限定內容。</li>
+<li><strong>批次處理</strong>：FFmpeg 能用簡單的指令處理大量檔案，這是許多圖形介面軟體難以企及的。</li>
+<li><strong>乾淨無廣告</strong>：完全開源，沒有任何廣告或惡意軟體。</li>
+</ul>
+<hr>
+<h2 id="安裝指南-windows-macos-linux-android">安裝指南 (Windows, macOS, Linux, Android)<a hidden class="anchor" aria-hidden="true" href="#安裝指南-windows-macos-linux-android">#</a></h2>
+<p><code>yt-dlp</code> 需要頻繁更新，因此使用套件管理器來安裝最為方便。以下將針對不同平台提供最佳安裝方式。</p>
+<h3 id="windows-使用-python-pip--手動安裝-ffmpeg">Windows (使用 Python Pip + 手動安裝 FFmpeg)<a hidden class="anchor" aria-hidden="true" href="#windows-使用-python-pip--手動安裝-ffmpeg">#</a></h3>
+<p>此方法適合已安裝 Python 或偏好手動管理工具的使用者。<code>yt-dlp</code> 本身是 Python 套件，但它依賴 <code>FFmpeg</code> 來處理影片合併與轉檔，因此兩者皆須安裝。</p>
+<h4 id="第一步安裝-python-與-yt-dlp"><strong>第一步：安裝 Python 與 yt-dlp</strong><a hidden class="anchor" aria-hidden="true" href="#第一步安裝-python-與-yt-dlp">#</a></h4>
+<ol>
+<li>
+<p><strong>安裝 Python</strong>：</p>
+<ul>
+<li>前往 <a href="https://www.python.org/downloads/windows/">Python 官方網站</a> 下載最新版的安裝程式。</li>
+<li>執行安裝程式，<strong>務必勾選 <code>Add Python to PATH</code></strong> 這個選項，這會自動幫你設定好環境變數。</li>
+<li>安裝完成後，開啟新的「<strong>Windows 終端機</strong>」或「<strong>命令提示字元 (CMD)</strong>」，輸入 <code>python --version</code> 和 <code>pip --version</code>，若能看到版本號，代表安裝成功。</li>
+</ul>
+</li>
+<li>
+<p><strong>使用 Pip 安裝 yt-dlp</strong>：
+在終端機中輸入以下指令，即可從 Python 套件索引 (PyPI) 安裝 <code>yt-dlp</code>。</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-powershell" data-lang="powershell"><span style="display:flex;"><span>pip install yt-dlp
+</span></span></code></pre></div></li>
+<li>
+<p><strong>更新 yt-dlp</strong>：
+日後若要更新 <code>yt-dlp</code> 至最新版本，只需執行：</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-powershell" data-lang="powershell"><span style="display:flex;"><span>pip install --upgrade yt-dlp
+</span></span></code></pre></div></li>
+</ol>
+<h4 id="第二步安裝-ffmpeg-並設定環境變數"><strong>第二步：安裝 FFmpeg 並設定環境變數</strong><a hidden class="anchor" aria-hidden="true" href="#第二步安裝-ffmpeg-並設定環境變數">#</a></h4>
+<p><code>pip</code> 不會幫你安裝 FFmpeg，我們需要手動下載並設定，這樣 <code>yt-dlp</code> 才能找到它。</p>
+<ol>
+<li>
+<p><strong>下載 FFmpeg</strong>：</p>
+<ul>
+<li>前往 <a href="https://www.gyan.dev/ffmpeg/builds/">FFmpeg 官方網站的 Windows Builds 頁面</a> (推薦 gyan.dev)。</li>
+<li>找到最新的 release 版本 (通常標示為 <code>ffmpeg-release-full.7z</code>) 並下載。</li>
+</ul>
+</li>
+<li>
+<p><strong>解壓縮檔案</strong>：</p>
+<ul>
+<li>將下載的 <code>.7z</code> 檔案解壓縮 (可能需要安裝 <a href="https://www.7-zip.org/">7-Zip</a>)。</li>
+<li>將解壓縮後的資料夾（例如 <code>ffmpeg-7.0.1-full_build</code>）移動到一個你不會輕易刪除的位置，例如 <code>C:\ffmpeg</code>。</li>
+</ul>
+</li>
+<li>
+<p><strong>設定環境變數 (關鍵步驟)</strong>：</p>
+<ul>
+<li>在 Windows 搜尋列中，搜尋「<strong>編輯系統環境變數</strong>」並開啟它。</li>
+<li>在跳出的「系統內容」視窗中，點擊「<strong>環境變數</strong>」。</li>
+<li>在下方的「<strong>系統變數</strong>」區塊中，找到名為 <code>Path</code> 的變數，點選它，然後按「<strong>編輯</strong>」。</li>
+<li>在「編輯環境變數」視窗中，點擊「<strong>新增</strong>」，然後貼上你剛剛存放 FFmpeg 的 <code>bin</code> 資料夾路徑，例如：<code>C:\ffmpeg\bin</code>。</li>
+<li>點擊所有視窗的「<strong>確定</strong>」來儲存設定。</li>
+</ul>
+</li>
+<li>
+<p><strong>驗證安裝</strong>：</p>
+<ul>
+<li><strong>完全關閉</strong>所有終端機視窗，然後<strong>重新開啟一個新視窗</strong> (這一步很重要，為了讓新的環境變數生效)。</li>
+<li>分別輸入以下指令：
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-powershell" data-lang="powershell"><span style="display:flex;"><span>yt-dlp --version
+</span></span><span style="display:flex;"><span>ffmpeg -version
+</span></span></code></pre></div></li>
+<li>如果兩個指令都能成功顯示版本號，恭喜你，所有工具都已安裝並設定完成！</li>
+</ul>
+</li>
+</ol>
+<h3 id="macos">macOS<a hidden class="anchor" aria-hidden="true" href="#macos">#</a></h3>
+<p>macOS 使用者最方便的選擇是 <a href="https://brew.sh/">Homebrew</a>。</p>
+<ol>
+<li>開啟<strong>終端機 (Terminal)</strong>。</li>
+<li>透過 Homebrew 安裝：
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>brew install yt-dlp ffmpeg
+</span></span></code></pre></div></li>
+<li>日後更新指令：
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>brew upgrade yt-dlp ffmpeg
+</span></span></code></pre></div></li>
+</ol>
+<h3 id="linux-ubuntudebian">Linux (Ubuntu/Debian)<a hidden class="anchor" aria-hidden="true" href="#linux-ubuntudebian">#</a></h3>
+<p>雖然許多發行版的套件庫（如 <code>apt</code>）有收錄 <code>yt-dlp</code>，但版本可能過舊。官方推薦直接從 GitHub 下載最新的二進位檔，並自行更新。</p>
+<ol>
+<li>開啟<strong>終端機</strong>。</li>
+<li>下載 <code>yt-dlp</code> 主程式並設為可執行：
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo wget https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp -O /usr/local/bin/yt-dlp
+</span></span><span style="display:flex;"><span>sudo chmod a+rx /usr/local/bin/yt-dlp
+</span></span></code></pre></div></li>
+<li>安裝 <code>ffmpeg</code>（通常套件庫的版本就很夠用了）：
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo apt update <span style="color:#f92672">&amp;&amp;</span> sudo apt install ffmpeg
+</span></span></code></pre></div></li>
+<li><code>yt-dlp</code> 日後可以<strong>自我更新</strong>，非常方便：
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo yt-dlp -U
+</span></span></code></pre></div></li>
+</ol>
+<hr>
+<h2 id="實用指令教學">實用指令教學<a hidden class="anchor" aria-hidden="true" href="#實用指令教學">#</a></h2>
+<blockquote>
+<p>⚠️ <strong>重要提示</strong>：在終端機中，如果網址包含 <code>&amp;</code> <code>?</code> 等特殊字元，請務必用雙引號 <code>&quot;</code> 將網址包起來，避免指令被錯誤解析。</p></blockquote>
+<h3 id="yt-dlp影片與音訊下載">yt-dlp：影片與音訊下載<a hidden class="anchor" aria-hidden="true" href="#yt-dlp影片與音訊下載">#</a></h3>
+<ul>
+<li>
+<p><strong>下載單一影片 (最高畫質)</strong>：</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>yt-dlp <span style="color:#e6db74">&#34;影片網址&#34;</span>
+</span></span></code></pre></div></li>
+<li>
+<p><strong>下載整個播放清單</strong>：</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>yt-dlp <span style="color:#e6db74">&#34;https://www.youtube.com/playlist?list=XXXX&#34;</span>
+</span></span></code></pre></div></li>
+<li>
+<p><strong>列出所有可下載的格式</strong>：
+你會看到影片和音訊的格式代碼 (format code)。</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>yt-dlp -F <span style="color:#e6db74">&#34;影片網址&#34;</span>
+</span></span></code></pre></div></li>
+<li>
+<p><strong>下載指定的影片和音訊格式並合併</strong>：
+例如，選擇代碼 <code>137</code> (1080p 影片) + <code>140</code> (m4a 音訊)。</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>yt-dlp -f 137+140 <span style="color:#e6db74">&#34;影片網址&#34;</span>
+</span></span></code></pre></div></li>
+<li>
+<p><strong>只下載最高品質的音訊</strong>：
+<code>yt-dlp</code> 會自動選擇最佳音訊並轉成 m4a 格式。</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>yt-dlp -x --audio-format m4a <span style="color:#e6db74">&#34;影片網址&#34;</span>
+</span></span></code></pre></div></li>
+</ul>
+<h3 id="ffmpeg轉檔與基礎處理">FFmpeg：轉檔與基礎處理<a hidden class="anchor" aria-hidden="true" href="#ffmpeg轉檔與基礎處理">#</a></h3>
+<ul>
+<li>
+<p><strong>基本轉檔 (MP4 轉 WAV)</strong>：</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>ffmpeg -i input.mp4 output.wav
+</span></span></code></pre></div></li>
+<li>
+<p><strong>轉換影片格式 (MOV 轉 MP4)</strong>：
+<code>-c copy</code> 表示直接複製影音流，不重新編碼，速度極快且無損畫質。</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>ffmpeg -i input.mov -c copy output.mp4
+</span></span></code></pre></div></li>
+</ul>
+<hr>
+<h2 id="常用指令速查表">常用指令速查表<a hidden class="anchor" aria-hidden="true" href="#常用指令速查表">#</a></h2>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">任務</th>
+          <th style="text-align: left">指令</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left"><strong>下載最高畫質影片</strong></td>
+          <td style="text-align: left"><code>yt-dlp &quot;[網址]&quot;</code></td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>下載整個播放清單</strong></td>
+          <td style="text-align: left"><code>yt-dlp &quot;[播放清單網址]&quot;</code></td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>列出所有可用格式</strong></td>
+          <td style="text-align: left"><code>yt-dlp -F &quot;[網址]&quot;</code></td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>下載指定格式</strong></td>
+          <td style="text-align: left"><code>yt-dlp -f [影片代碼]+[音訊代碼] &quot;[網址]&quot;</code></td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>僅下載最佳音訊 (轉為m4a)</strong></td>
+          <td style="text-align: left"><code>yt-dlp -x --audio-format m4a &quot;[網址]&quot;</code></td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>影片轉音訊 (如 mp3)</strong></td>
+          <td style="text-align: left"><code>ffmpeg -i in.mp4 -vn -b:a 192k out.mp3</code></td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>無損合併多個影片</strong>¹</td>
+          <td style="text-align: left"><code>ffmpeg -f concat -safe 0 -i filelist.txt -c copy out.mp4</code></td>
+      </tr>
+      <tr>
+          <td style="text-align: left">**壓縮影片 (調整 CRF)**²</td>
+          <td style="text-align: left"><code>ffmpeg -i in.mp4 -vcodec libx264 -crf 23 out.mp4</code></td>
+      </tr>
+  </tbody>
+</table>
+<blockquote>
+<p>¹ <strong>合併影片註解</strong>：需先建立一個 <code>filelist.txt</code>，內容為 <code>file '1.mp4'</code> <code>file '2.mp4'</code>&hellip;</p>
+<p>² <strong>壓縮影片註解</strong>：<code>crf</code> 值越低，畫質越好，檔案越大。<code>18</code> 接近無損，<code>23</code> 是預設值，<code>28</code> 壓縮率較高。</p></blockquote>
+<hr>
+<h2 id="結語">結語<a hidden class="anchor" aria-hidden="true" href="#結語">#</a></h2>
+<p>學會 <code>yt-dlp</code> 和 <code>FFmpeg</code> 這兩個指令工具，就像為自己配備了一間數位影音工作室。你將能夠：</p>
+<ul>
+<li><strong>自由下載</strong>：從網路獲取高品質的影音資源，不再受限。</li>
+<li><strong>輕鬆轉檔</strong>：將檔案轉換成任何你需要的格式。</li>
+<li><strong>提升效率</strong>：用指令自動化處理重複性的影音任務。</li>
+</ul>
+<p>這兩個工具是開源社群的寶貴資產，一旦學會，受用無窮。現在就動手安裝，體驗它們的強大之處吧！</p>
+
+
+    </div>
+
+  
+  <footer class="post-footer">
+
+    
+    <ul class="post-tags">
+        <li><a href="http://localhost:1313/kai_studio/tags/yt-dlp/">Yt-Dlp</a></li>
+        <li><a href="http://localhost:1313/kai_studio/tags/ffmpeg/">Ffmpeg</a></li>
+        <li><a href="http://localhost:1313/kai_studio/tags/%E5%BD%B1%E9%9F%B3%E5%B7%A5%E5%85%B7/">影音工具</a></li>
+        <li><a href="http://localhost:1313/kai_studio/tags/%E8%87%AA%E7%94%B1%E8%BB%9F%E9%AB%94/">自由軟體</a></li>
+        <li><a href="http://localhost:1313/kai_studio/tags/%E6%95%99%E5%AD%B8/">教學</a></li>
+        <li><a href="http://localhost:1313/kai_studio/tags/python/">Python</a></li>
+    </ul>
+
+    
+
+    
+
+    
+      
+<nav class="paginav">
+  <a class="prev" href="http://localhost:1313/kai_studio/posts/apple/">
+    <span class="title">« Prev</span>
+    <br>
+    <span>蘋果 2025 秋季發表會懶人包：iPhone 17、iPhone Air、AirPods Pro 3、Apple Watch Series 11</span>
+  </a>
+  <a class="next" href="http://localhost:1313/kai_studio/posts/9technews/">
+    <span class="title">Next »</span>
+    <br>
+    <span>電腦新聞新鮮報 (2025年9月)</span>
+  </a>
+</nav>
+
+
+  </footer>
+
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2025 <a href="http://localhost:1313/kai_studio/">KAI STUDIO</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'copy';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'copied!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'copy';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script>
+</body>
+
+</html>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>影音工具 on KAI STUDIO</title>
+    <link>http://localhost:1313/kai_studio/tags/%E5%BD%B1%E9%9F%B3%E5%B7%A5%E5%85%B7/</link>
+    <description>Recent content in 影音工具 on KAI STUDIO</description>
+    <generator>Hugo -- 0.148.2</generator>
+    <language>zh-TW</language>
+    <lastBuildDate>Tue, 09 Sep 2025 19:00:00 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/kai_studio/tags/%E5%BD%B1%E9%9F%B3%E5%B7%A5%E5%85%B7/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>抓片神器＋轉檔全能：yt-dlp 與 FFmpeg 終極應用！</title>
+      <link>http://localhost:1313/kai_studio/posts/yt-dlp/</link>
+      <pubDate>Tue, 09 Sep 2025 19:00:00 +0800</pubDate>
+      <guid>http://localhost:1313/kai_studio/posts/yt-dlp/</guid>
+      <description>&lt;p&gt;在日常工作中，不論是尋找影片素材、下載線上課程，或是處理音樂檔案，我們常常會遇到網頁下載器畫質受限、廣告繁多，或根本不支援某些網站的窘境。&lt;/p&gt;
+&lt;p&gt;其實，你只需要兩個強大且免費的自由軟體，就能乾淨、快速、高效地解決絕大多數的影音下載與處理需求：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;yt-dlp&lt;/strong&gt;：最強大的影片下載器，支援 YouTube、Vimeo、Bilibili 等上千個網站，是 &lt;code&gt;youtube-dl&lt;/code&gt; 的進化版。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;FFmpeg&lt;/strong&gt;：影音界的瑞士刀，轉檔、壓縮、剪輯、合併、抽取音訊，幾乎無所不能。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;這兩個工具搭配使用，堪稱完美組合。本篇將從安裝到實用指令，帶你一次上手。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;為何選擇-yt-dlp--ffmpeg&#34;&gt;為何選擇 yt-dlp + FFmpeg？&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;持續更新&lt;/strong&gt;：YouTube 等影音網站會頻繁改版，&lt;code&gt;yt-dlp&lt;/code&gt; 的社群非常活躍，能快速修正以應對網站變化。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;功能強大&lt;/strong&gt;：能下載 8K 影片、播放清單、指定格式，甚至處理會員限定內容。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;批次處理&lt;/strong&gt;：FFmpeg 能用簡單的指令處理大量檔案，這是許多圖形介面軟體難以企及的。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;乾淨無廣告&lt;/strong&gt;：完全開源，沒有任何廣告或惡意軟體。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;安裝指南-windows-macos-linux-android&#34;&gt;安裝指南 (Windows, macOS, Linux, Android)&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;yt-dlp&lt;/code&gt; 需要頻繁更新，因此使用套件管理器來安裝最為方便。以下將針對不同平台提供最佳安裝方式。&lt;/p&gt;
+&lt;h3 id=&#34;windows-使用-python-pip--手動安裝-ffmpeg&#34;&gt;Windows (使用 Python Pip + 手動安裝 FFmpeg)&lt;/h3&gt;
+&lt;p&gt;此方法適合已安裝 Python 或偏好手動管理工具的使用者。&lt;code&gt;yt-dlp&lt;/code&gt; 本身是 Python 套件，但它依賴 &lt;code&gt;FFmpeg&lt;/code&gt; 來處理影片合併與轉檔，因此兩者皆須安裝。&lt;/p&gt;
+&lt;h4 id=&#34;第一步安裝-python-與-yt-dlp&#34;&gt;&lt;strong&gt;第一步：安裝 Python 與 yt-dlp&lt;/strong&gt;&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;安裝 Python&lt;/strong&gt;：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;前往 &lt;a href=&#34;https://www.python.org/downloads/windows/&#34;&gt;Python 官方網站&lt;/a&gt; 下載最新版的安裝程式。&lt;/li&gt;
+&lt;li&gt;執行安裝程式，&lt;strong&gt;務必勾選 &lt;code&gt;Add Python to PATH&lt;/code&gt;&lt;/strong&gt; 這個選項，這會自動幫你設定好環境變數。&lt;/li&gt;
+&lt;li&gt;安裝完成後，開啟新的「&lt;strong&gt;Windows 終端機&lt;/strong&gt;」或「&lt;strong&gt;命令提示字元 (CMD)&lt;/strong&gt;」，輸入 &lt;code&gt;python --version&lt;/code&gt; 和 &lt;code&gt;pip --version&lt;/code&gt;，若能看到版本號，代表安裝成功。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;使用 Pip 安裝 yt-dlp&lt;/strong&gt;：
+在終端機中輸入以下指令，即可從 Python 套件索引 (PyPI) 安裝 &lt;code&gt;yt-dlp&lt;/code&gt;。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
