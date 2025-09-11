@@ -21,7 +21,7 @@ comments : true
 **遊戲ID**：6872265039  
 **簡介**：保護自己的床，摧毀敵人的床！結合策略、建築與PVP，考驗團隊合作與反應速度。  
 **點我進入**：[BedWars](https://www.roblox.com/games/6872265039/BedWars)  
-{{</* youtube kF4iOhPS4vI */>}}  
+{{<youtube kF4iOhPS4vI >}}  
 
 ### No.002 Arsenal 兵工廠
 **遊戲ID**：286090429  
@@ -93,7 +93,7 @@ comments : true
 **遊戲ID**：6408430866  
 **簡介**：用巴掌打飛對手，解鎖特殊手套，簡單又爆笑。  
 **點我進入**：[Slap Battles](https://www.roblox.com/games/6408430866/Slap-Battles)  
-{{</* youtube 6z3qXz4y8wQ */>}}  
+{{<  youtube 6z3qXz4y8wQ */>}}  
 
 ### No.014 item asylum 物品庇護所
 **遊戲ID**：5670218884  
