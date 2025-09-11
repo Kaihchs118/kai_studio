@@ -1,0 +1,68 @@
+/* 導覽列文字變紅 */
+.nav-red {
+  color: red !important;
+}
+
+/* --- 文章列表改成網格佈局 --- */
+.main .posts-list {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr); /* 五欄 */
+  grid-gap: 1rem;                        /* 欄間距 */
+}
+
+.main .posts-list .post-entry {
+  margin: 0;
+  width: auto; /* 自適應填滿欄位 */
+}
+
+/* 響應式調整 */
+@media (max-width: 1400px) {
+  .main .posts-list {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media (max-width: 1024px) {
+  .main .posts-list {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .main .posts-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 500px) {
+  .main .posts-list {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* --- TOC 樣式：淺藍色字 + hover 粗底線滑出 --- */
+.toc a {
+  position: relative;
+  color: rgba(0, 150, 255, 0.8); /* 淺藍色，帶透明 */
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.toc a:hover {
+  color: rgba(0, 150, 255, 1);   /* 滑過變亮 */
+}
+
+.toc a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -3px;
+  width: 0;
+  height: 3px;                   /* 底線粗度 */
+  background-color: rgba(0, 150, 255, 1);
+  transition: width 0.3s ease;
+}
+
+.toc a:hover::after {
+  width: 100%;
+}

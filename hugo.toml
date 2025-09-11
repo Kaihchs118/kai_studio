@@ -11,8 +11,8 @@ theme = "PaperMod"
   showBreadCrumbs = true
   showPostNavLinks = true
   showCodeCopyButtons = true
-  customCSS = ["css/custom.css"]
   comments = true
+  customCSS = ["css/custom.css"]
 
 [params.utterances]
   enabled = true
