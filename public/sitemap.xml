@@ -2,35 +2,41 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/kai_studio/tags/ai/</loc>
-    <lastmod>2025-09-12T00:00:00+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/kai_studio/categories/</loc>
-    <lastmod>2025-09-12T00:00:00+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/kai_studio/tags/davinci-resolve/</loc>
-    <lastmod>2025-09-12T00:00:00+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/kai_studio/posts/davinciupdate20/</loc>
-    <lastmod>2025-09-12T00:00:00+08:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/kai_studio/</loc>
-    <lastmod>2025-09-12T00:00:00+08:00</lastmod>
+    <lastmod>2035-09-09T10:00:00+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/kai_studio/posts/</loc>
-    <lastmod>2025-09-12T00:00:00+08:00</lastmod>
+    <lastmod>2025-09-11T18:00:00+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/kai_studio/categories/software/davinci-resolve/</loc>
-    <lastmod>2025-09-12T00:00:00+08:00</lastmod>
+    <loc>http://localhost:1313/kai_studio/tags/pvp/</loc>
+    <lastmod>2025-09-11T18:00:00+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/kai_studio/tags/</loc>
-    <lastmod>2025-09-12T00:00:00+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/kai_studio/tags/%E6%9B%B4%E6%96%B0/</loc>
-    <lastmod>2025-09-12T00:00:00+08:00</lastmod>
+    <loc>http://localhost:1313/kai_studio/tags/roblox/</loc>
+    <lastmod>2025-09-11T18:00:00+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/kai_studio/posts/robloxgame/</loc>
     <lastmod>2025-09-11T18:00:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/kai_studio/tags/</loc>
+    <lastmod>2025-09-11T18:00:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/kai_studio/tags/%E5%BB%BA%E7%AF%89%E5%89%B5%E6%84%8F/</loc>
+    <lastmod>2025-09-11T18:00:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/kai_studio/tags/%E6%81%90%E6%80%96%E7%94%9F%E5%AD%98/</loc>
+    <lastmod>2025-09-11T18:00:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/kai_studio/tags/%E6%90%9E%E7%AC%91%E6%B4%BE%E5%B0%8D/</loc>
+    <lastmod>2025-09-11T18:00:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/kai_studio/tags/%E8%A7%92%E8%89%B2%E6%89%AE%E6%BC%94/</loc>
+    <lastmod>2025-09-11T18:00:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/kai_studio/tags/%E8%B7%91%E9%85%B7/</loc>
+    <lastmod>2025-09-11T18:00:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/kai_studio/categories/</loc>
+    <lastmod>2025-09-11T11:30:00+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/kai_studio/categories/games/roblox/</loc>
     <lastmod>2025-09-11T11:30:00+08:00</lastmod>
@@ -40,6 +46,21 @@
   </url><url>
     <loc>http://localhost:1313/kai_studio/robloxgames/</loc>
     <lastmod>2025-09-11T11:30:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/kai_studio/tags/ai/</loc>
+    <lastmod>2025-09-11T00:00:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/kai_studio/tags/davinci-resolve/</loc>
+    <lastmod>2025-09-11T00:00:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/kai_studio/posts/davinciupdate20/</loc>
+    <lastmod>2025-09-11T00:00:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/kai_studio/categories/software/davinci-resolve/</loc>
+    <lastmod>2025-09-11T00:00:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/kai_studio/tags/%E6%9B%B4%E6%96%B0/</loc>
+    <lastmod>2025-09-11T00:00:00+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/kai_studio/tags/airpods-pro-3/</loc>
     <lastmod>2025-09-10T04:00:00+08:00</lastmod>

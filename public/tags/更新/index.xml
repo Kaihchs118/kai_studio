@@ -6,17 +6,14 @@
     <description>Recent content in 更新 on KAI STUDIO</description>
     <generator>Hugo -- 0.148.2</generator>
     <language>zh-TW</language>
-    <lastBuildDate>Fri, 12 Sep 2025 00:00:00 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 11 Sep 2025 00:00:00 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/kai_studio/tags/%E6%9B%B4%E6%96%B0/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>DaVinci Resolve 重榜更新！追求時代</title>
       <link>http://localhost:1313/kai_studio/posts/davinciupdate20/</link>
-      <pubDate>Fri, 12 Sep 2025 00:00:00 +0800</pubDate>
+      <pubDate>Thu, 11 Sep 2025 00:00:00 +0800</pubDate>
       <guid>http://localhost:1313/kai_studio/posts/davinciupdate20/</guid>
-      <description>&lt;h1 id=&#34;達文西-davinci-resolve-200-至-202-版本新增功能介紹&#34;&gt;達文西 DaVinci Resolve 20.0 至 20.2 版本新增功能介紹&lt;/h1&gt;
-&lt;p&gt;以下為 Blackmagic Design 旗下專業影片剪輯、調色、視覺效果與音頻後期製作軟體 &lt;strong&gt;DaVinci Resolve&lt;/strong&gt; 從 20.0 版到 20.2 版的重大新增功能整理。本文以詳細的方式介紹各版本的核心更新，涵蓋剪輯、調色、視覺效果、音頻處理及 AI 工具的進展，並確保內容適用於 X 平台分享，字數超過 1000 字，採用 Markdown 格式撰寫，適合 Hugo 框架使用。&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;davinci-resolve-200&#34;&gt;DaVinci Resolve 20.0&lt;/h2&gt;
+      <description>&lt;h2 id=&#34;davinci-resolve-200&#34;&gt;DaVinci Resolve 20.0&lt;/h2&gt;
 &lt;p&gt;DaVinci Resolve 20.0 於 2025 年 4 月 5 日以公開 Beta 版形式發布，帶來超過 100 項新功能，特別聚焦於 AI 技術的應用以及跨平台協作能力的提升。以下為主要新增功能：&lt;/p&gt;
 &lt;h3 id=&#34;ai-工具的全面升級&#34;&gt;AI 工具的全面升級&lt;/h3&gt;
 &lt;ul&gt;

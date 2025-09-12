@@ -6,17 +6,38 @@
     <description>Recent content in Posts on KAI STUDIO</description>
     <generator>Hugo -- 0.148.2</generator>
     <language>zh-TW</language>
-    <lastBuildDate>Fri, 12 Sep 2025 00:00:00 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 11 Sep 2025 18:00:00 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/kai_studio/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Roblox 遊戲推薦大全</title>
+      <link>http://localhost:1313/kai_studio/posts/robloxgame/</link>
+      <pubDate>Thu, 11 Sep 2025 18:00:00 +0800</pubDate>
+      <guid>http://localhost:1313/kai_studio/posts/robloxgame/</guid>
+      <description>&lt;h1 id=&#34;你一定會問有什麼差自己點點看&#34;&gt;你一定會問有什麼差，自己點點看&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;歡迎來到 Roblox 遊戲推薦專頁！下面有三篇精選文章，你可以依照遊戲類型或特色選擇：&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h2 id=&#34;真的好&#34;&gt;真的好！&lt;/h2&gt;
+&lt;p&gt;📌 &lt;strong&gt;特色&lt;/strong&gt;：收錄 Roblox 中有感筆電真的喜歡的，還有魏巍評論&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;https://kaihchs118.github.io/kai_studio/posts/roblox/&#34;&gt;👉 點我查看&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;2-經典必玩遊戲-先看這個&#34;&gt;2 經典必玩遊戲 先看這個！！！！！&lt;/h3&gt;
+&lt;p&gt;📌 &lt;strong&gt;特色&lt;/strong&gt;：整理 Roblox 中歷久不衰、評價高的遊戲清單，每個遊戲都值得一玩。&lt;br&gt;
+&lt;a href=&#34;https://kaihchs118.github.io/kai_studio/posts/haha/&#34;&gt;👉 點我查看&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;3-經典必玩遊戲-先看這個&#34;&gt;3 經典必玩遊戲 先看這個！！！！！&lt;/h3&gt;
+&lt;p&gt;📌 &lt;strong&gt;特色&lt;/strong&gt;：整理 Roblox 中歷久不衰、評價高的遊戲清單，每個遊戲都值得一玩。&lt;br&gt;
+&lt;a href=&#34;https://kaihchs118.github.io/kai_studio/posts/robloxgames/&#34;&gt;👉 點我查看&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;blockquote&gt;
+&lt;p&gt;小提示：你可以點擊上方標籤快速瀏覽同類型遊戲文章，例如 &lt;code&gt;PVP&lt;/code&gt;、&lt;code&gt;跑酷&lt;/code&gt; 或 &lt;code&gt;角色扮演&lt;/code&gt;，方便找到你最喜歡的遊戲！&lt;/p&gt;&lt;/blockquote&gt;</description>
+    </item>
     <item>
       <title>DaVinci Resolve 重榜更新！追求時代</title>
       <link>http://localhost:1313/kai_studio/posts/davinciupdate20/</link>
-      <pubDate>Fri, 12 Sep 2025 00:00:00 +0800</pubDate>
+      <pubDate>Thu, 11 Sep 2025 00:00:00 +0800</pubDate>
       <guid>http://localhost:1313/kai_studio/posts/davinciupdate20/</guid>
-      <description>&lt;h1 id=&#34;達文西-davinci-resolve-200-至-202-版本新增功能介紹&#34;&gt;達文西 DaVinci Resolve 20.0 至 20.2 版本新增功能介紹&lt;/h1&gt;
-&lt;p&gt;以下為 Blackmagic Design 旗下專業影片剪輯、調色、視覺效果與音頻後期製作軟體 &lt;strong&gt;DaVinci Resolve&lt;/strong&gt; 從 20.0 版到 20.2 版的重大新增功能整理。本文以詳細的方式介紹各版本的核心更新，涵蓋剪輯、調色、視覺效果、音頻處理及 AI 工具的進展，並確保內容適用於 X 平台分享，字數超過 1000 字，採用 Markdown 格式撰寫，適合 Hugo 框架使用。&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;davinci-resolve-200&#34;&gt;DaVinci Resolve 20.0&lt;/h2&gt;
+      <description>&lt;h2 id=&#34;davinci-resolve-200&#34;&gt;DaVinci Resolve 20.0&lt;/h2&gt;
 &lt;p&gt;DaVinci Resolve 20.0 於 2025 年 4 月 5 日以公開 Beta 版形式發布，帶來超過 100 項新功能，特別聚焦於 AI 技術的應用以及跨平台協作能力的提升。以下為主要新增功能：&lt;/p&gt;
 &lt;h3 id=&#34;ai-工具的全面升級&#34;&gt;AI 工具的全面升級&lt;/h3&gt;
 &lt;ul&gt;
@@ -58,30 +79,6 @@
 &lt;hr&gt;
 &lt;h2 id=&#34;davinci-resolve-201&#34;&gt;DaVinci Resolve 20.1&lt;/h2&gt;
 &lt;p&gt;DaVinci Resolve 20.1 於 2025 年 8 月發布，作為 20.0 的增量更新，重點在於修復 Beta 版的問題並新增部分功能。以下為主要更新：&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Roblox 遊戲推薦大全終於來了</title>
-      <link>http://localhost:1313/kai_studio/posts/robloxgame/</link>
-      <pubDate>Thu, 11 Sep 2025 18:00:00 +0800</pubDate>
-      <guid>http://localhost:1313/kai_studio/posts/robloxgame/</guid>
-      <description>&lt;h1 id=&#34;roblox-遊戲推薦大全&#34;&gt;Roblox 遊戲推薦大全&lt;/h1&gt;
-&lt;blockquote&gt;
-&lt;p&gt;歡迎來到 Roblox 遊戲推薦專頁！下面有三篇精選文章，你可以依照遊戲類型或特色選擇：&lt;/p&gt;&lt;/blockquote&gt;
-&lt;h2 id=&#34;超推薦-真的好&#34;&gt;超推薦 真的好！&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;📌 &lt;strong&gt;特色&lt;/strong&gt;：收錄 Roblox 中有感筆電真的喜歡的，還有魏巍評論&lt;/p&gt;&lt;/blockquote&gt;
-&lt;h2 id=&#34;點我查看&#34;&gt;&lt;a href=&#34;https://kaihchs118.github.io/kai_studio/posts/roblox/&#34;&gt;🤡點我查看&lt;/a&gt;&lt;/h2&gt;
-&lt;h3 id=&#34;綜合熱門遊戲&#34;&gt;綜合熱門遊戲&lt;/h3&gt;
-&lt;blockquote&gt;
-&lt;p&gt;📌 &lt;strong&gt;特色&lt;/strong&gt;：收錄 Roblox 中最受歡迎的遊戲，包含 PVP、跑酷、角色扮演等全類型經典遊戲。&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p&gt;&lt;a href=&#34;https://kaihchs118.github.io/kai_studio/posts/robloxgames/&#34;&gt;👉 點我查看&lt;/a&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;h3 id=&#34;2-經典必玩遊戲-先看這個&#34;&gt;2 經典必玩遊戲 先看這個！！！！！&lt;/h3&gt;
-&lt;p&gt;📌 &lt;strong&gt;特色&lt;/strong&gt;：整理 Roblox 中歷久不衰、評價高的遊戲清單，每個遊戲都值得一玩。&lt;br&gt;
-&lt;a href=&#34;https://kaihchs118.github.io/kai_studio/posts/robloxga22mes/&#34;&gt;👉 點我查看&lt;/a&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;blockquote&gt;
-&lt;p&gt;小提示：你可以點擊上方標籤快速瀏覽同類型遊戲文章，例如 &lt;code&gt;PVP&lt;/code&gt;、&lt;code&gt;跑酷&lt;/code&gt; 或 &lt;code&gt;角色扮演&lt;/code&gt;，方便找到你最喜歡的遊戲！&lt;/p&gt;&lt;/blockquote&gt;</description>
     </item>
     <item>
       <title>蘋果 2025 秋季發表會懶人包：iPhone 17、iPhone Air、AirPods Pro 3、Apple Watch Series 11</title>
