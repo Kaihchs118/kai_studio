@@ -33,6 +33,11 @@ theme = "PaperMod"
     Content = "往下滑看看吧"
 
 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
 [menu]
   [[menu.main]]
   identifier = "home"
