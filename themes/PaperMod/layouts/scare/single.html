@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>你被騙了 🤡</title>
+<style>
+html,body{margin:0;padding:0;height:100%;display:flex;align-items:center;justify-content:center;background:#111;color:#fff;font-family:"Microsoft JhengHei",sans-serif;overflow:hidden;}
+.container{text-align:center;}
+h1{font-size:3rem;margin-bottom:1rem;color:#ff3b5c;text-shadow:0 0 12px red;}
+button{padding:1rem 2rem;font-size:1.2rem;border:none;border-radius:8px;background:#ff3b5c;color:#fff;cursor:pointer;transition:0.2s;}
+button:hover{transform:scale(1.05);}
+.overlay{position:fixed;inset:0;background:#000;display:flex;align-items:center;justify-content:center;opacity:0;pointer-events:none;transition:opacity 0.1s;z-index:9999;}
+.overlay.show{opacity:1;pointer-events:auto;}
+.scare-text{font-size:5rem;font-weight:bold;color:#fff;text-shadow:0 0 20px red,0 0 40px white;}
+.flash{position:fixed;inset:0;background:red;opacity:0;pointer-events:none;mix-blend-mode:screen;z-index:9998;}
+@keyframes shake-it{
+0%{transform:translate(0,0) rotate(0deg)}
+10%{transform:translate(-12px,5px) rotate(-5deg)}
+20%{transform:translate(10px,-10px) rotate(3deg)}
+30%{transform:translate(-8px,8px) rotate(-3deg)}
+40%{transform:translate(8px,-5px) rotate(4deg)}
+50%{transform:translate(-6px,6px) rotate(-2deg)}
+60%{transform:translate(6px,-6px) rotate(2deg)}
+70%{transform:translate(-4px,4px) rotate(-1deg)}
+80%{transform:translate(4px,-4px) rotate(1deg)}
+90%{transform:translate(-2px,2px) rotate(0deg)}
+100%{transform:translate(0,0) rotate(0deg)}
+}
+@keyframes jump-text{
+0%{transform:scale(1) rotate(0deg)}
+25%{transform:scale(1.5) rotate(15deg)}
+50%{transform:scale(0.8) rotate(-10deg)}
+75%{transform:scale(1.3) rotate(20deg)}
+100%{transform:scale(1) rotate(0deg)}
+}
+</style>
+</head>
+<body>
+<div class="container" id="startScreen">
+<h1>你被騙了</h1>
+<button id="goBtn">點我 🤡</button>
+</div>
+
+<div class="overlay" id="scareOverlay">
+  <div class="scare-text" id="scareText">💀 嚇！ 💀</div>
+  <div style="margin-top:2rem;">
+    <button id="backBtn">返回</button>
+  </div>
+</div>
+
+<div class="flash" id="flash"></div>
+
+<script>
+const goBtn=document.getElementById('goBtn');
+const overlay=document.getElementById('scareOverlay');
+const backBtn=document.getElementById('backBtn');
+const flash=document.getElementById('flash');
+const scareText=document.getElementById('scareText');
+
+let backCounter=0;
+const backNeeded=3;
+
+// 背景瘋狂紅白閃爍
+function crazyFlash(){
+  let i=0;
+  const interval=setInterval(()=>{
+    flash.style.background=i%2===0?'red':'white';
+    flash.style.opacity=0.9;
+    i++;
+    if(i>19){clearInterval(interval); flash.style.opacity=0;}
+  },50);
+}
+
+// 雷聲 + 尖叫聲
+function playThunder(){
+  try{
+    const ctx=new (window.AudioContext||window.webkitAudioContext)();
+    // 低頻雷
+    const osc=ctx.createOscillator();
+    const gain=ctx.createGain();
+    osc.connect(gain); gain.connect(ctx.destination);
+    osc.type='triangle';
+    osc.frequency.setValueAtTime(60,ctx.currentTime);
+    gain.gain.setValueAtTime(0.001,ctx.currentTime);
+    gain.gain.linearRampToValueAtTime(1,ctx.currentTime+0.02);
+    gain.gain.exponentialRampToValueAtTime(0.001,ctx.currentTime+1);
+    osc.start(); osc.stop(ctx.currentTime+1);
+
+    // 尖叫噪聲
+    const bufferSize=ctx.sampleRate*0.3;
+    const buffer=ctx.createBuffer(1,bufferSize,ctx.sampleRate);
+    const data=buffer.getChannelData(0);
+    for(let i=0;i<bufferSize;i++){data[i]=(Math.random()*2-1)*Math.exp(-i/(ctx.sampleRate*0.3));}
+    const noise=ctx.createBufferSource(); noise.buffer=buffer;
+    const f=ctx.createBiquadFilter(); f.type='highpass'; f.frequency.value=1000;
+    noise.connect(f).connect(ctx.destination); noise.start(ctx.currentTime); noise.stop(ctx.currentTime+0.3);
+  }catch(e){}
+}
+
+// 觸發瘋狂嚇
+function triggerScare(){
+  overlay.classList.add('show');
+  overlay.classList.add('shake-it');
+  scareText.style.animation='jump-text 0.5s ease-in-out';
+  crazyFlash();
+  playThunder();
+  setTimeout(()=>{overlay.classList.remove('shake-it'); scareText.style.animation='';},600);
+}
+
+// 點按鈕觸發
+goBtn.addEventListener('click',()=>{triggerScare();});
+
+// 返回按鈕連按三次才解除
+backBtn.addEventListener('click',()=>{
+  backCounter++;
+  if(backCounter>=backNeeded){
+    overlay.classList.remove('show');
+    backCounter=0;
+  } else {
+    triggerScare();
+  }
+});
+
+// 鍵盤 S→D→A 解除
+let keySeq=[]; const correctSeq=['s','d','a'];
+document.addEventListener('keydown',e=>{
+  keySeq.push(e.key.toLowerCase());
+  if(keySeq.slice(-3).join('')==='sda'){overlay.classList.remove('show'); keySeq=[];}
+  else if(keySeq.length>3){keySeq.shift();}
+});
+</script>
+</body>
+</html>
