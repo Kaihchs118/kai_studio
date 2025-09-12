@@ -6,8 +6,59 @@
     <description>Recent content on KAI STUDIO</description>
     <generator>Hugo -- 0.148.2</generator>
     <language>zh-TW</language>
-    <lastBuildDate>Thu, 11 Sep 2025 18:00:00 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 12 Sep 2025 00:00:00 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/kai_studio/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>DaVinci Resolve 重榜更新！追求時代</title>
+      <link>http://localhost:1313/kai_studio/posts/davinciupdate20/</link>
+      <pubDate>Fri, 12 Sep 2025 00:00:00 +0800</pubDate>
+      <guid>http://localhost:1313/kai_studio/posts/davinciupdate20/</guid>
+      <description>&lt;h1 id=&#34;達文西-davinci-resolve-200-至-202-版本新增功能介紹&#34;&gt;達文西 DaVinci Resolve 20.0 至 20.2 版本新增功能介紹&lt;/h1&gt;
+&lt;p&gt;以下為 Blackmagic Design 旗下專業影片剪輯、調色、視覺效果與音頻後期製作軟體 &lt;strong&gt;DaVinci Resolve&lt;/strong&gt; 從 20.0 版到 20.2 版的重大新增功能整理。本文以詳細的方式介紹各版本的核心更新，涵蓋剪輯、調色、視覺效果、音頻處理及 AI 工具的進展，並確保內容適用於 X 平台分享，字數超過 1000 字，採用 Markdown 格式撰寫，適合 Hugo 框架使用。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;davinci-resolve-200&#34;&gt;DaVinci Resolve 20.0&lt;/h2&gt;
+&lt;p&gt;DaVinci Resolve 20.0 於 2025 年 4 月 5 日以公開 Beta 版形式發布，帶來超過 100 項新功能，特別聚焦於 AI 技術的應用以及跨平台協作能力的提升。以下為主要新增功能：&lt;/p&gt;
+&lt;h3 id=&#34;ai-工具的全面升級&#34;&gt;AI 工具的全面升級&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;AI IntelliScript&lt;/strong&gt;：這項功能允許用戶匯入文字腳本，系統會自動將腳本與媒體檔案的轉錄音頻進行比對，生成最佳選擇的時間線，並將備用鏡次放置於其他軌道，方便剪輯師進一步檢查與調整。這對於需要快速從腳本生成粗剪的製作流程尤其實用。&lt;a href=&#34;https://www.fuji.com.tw/shownews.asp?RecordNo=6376&#34;&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;AI Animated Subtitles&lt;/strong&gt;：字幕功能進化，新增動態效果，字幕可隨著對白內容動態出現，提升視覺吸引力，特別適合社群媒體影片或需要強調對白的場景。&lt;a href=&#34;https://www.threads.com/%40benchan_colorist/post/DIGJcAST20r/davinci-resolve-%25E9%2581%2594%25E8%258A%25AC%25E5%25A5%2587-20-%25E7%259A%2584-%25E6%2596%25B0ai-%25E5%258A%259F%25E8%2583%25BDai-intelliscript-%25E5%258C%25AF%25E5%2585%25A5%25E6%2596%2587%25E5%25AD%2597%25E8%2585%25B3%25E6%259C%25AC%25E7%2585%25A7%25E8%2585%25B3%25E6%259C%25AC%25E7%2594%259F%25E6%2588%2590timelineai-dialogue-m?hl=zh-tw&#34;&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;AI Multicam SmartSwitch&lt;/strong&gt;：利用 AI 技術，根據說話者檢測自動切換多機位角度，生成時間線，簡化多機位剪輯流程，特別適用於訪談或直播內容製作。&lt;a href=&#34;https://www.fuji.com.tw/shownews.asp?RecordNo=6376&#34;&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;AI Audio Assistant&lt;/strong&gt;：自動分析時間線音頻並生成專業混音，平衡對白、音樂和音效，無需手動調整即可獲得自然且專業的音頻效果。&lt;a href=&#34;https://www.fcportables.com/davinci-resolve-portable/&#34;&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;AI Magic Mask 2&lt;/strong&gt;：改進的遮罩追蹤技術，新增筆刷效果，追蹤更精準，可快速分離人物或物體，適用於複雜的調色或視覺效果處理。&lt;a href=&#34;https://www.threads.com/%40benchan_colorist/post/DIGJcAST20r/davinci-resolve-%25E9%2581%2594%25E8%258A%25AC%25E5%25A5%2587-20-%25E7%259A%2584-%25E6%2596%25B0ai-%25E5%258A%259F%25E8%2583%25BDai-intelliscript-%25E5%258C%25AF%25E5%2585%25A5%25E6%2596%2587%25E5%25AD%2597%25E8%2585%25B3%25E6%259C%25AC%25E7%2585%25A7%25E8%2585%25B3%25E6%259C%25AC%25E7%2594%259F%25E6%2588%2590timelineai-dialogue-m?hl=zh-tw&#34;&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;AI Dialogue Matcher&lt;/strong&gt;：統一不同時間、地點錄製的對白聲場與環境音，讓聲音聽起來一致，特別適用於跨場景的對白整合。&lt;a href=&#34;https://www.threads.com/%40benchan_colorist/post/DIGJcAST20r/davinci-resolve-%25E9%2581%2594%25E8%258A%25AC%25E5%25A5%2587-20-%25E7%259A%2584-%25E6%2596%25B0ai-%25E5%258A%259F%25E8%2583%25BDai-intelliscript-%25E5%258C%25AF%25E5%2585%25A5%25E6%2596%2587%25E5%25AD%2597%25E8%2585%25B3%25E6%259C%25AC%25E7%2585%25A7%25E8%2585%25B3%25E6%259C%25AC%25E7%2594%259F%25E6%2588%2590timelineai-dialogue-m?hl=zh-tw&#34;&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;AI Music Editor&lt;/strong&gt;：自動調整音樂長度以匹配影片時長，無需手動裁剪或重新編排音樂。&lt;a href=&#34;https://www.threads.com/%40benchan_colorist/post/DIGJcAST20r/davinci-resolve-%25E9%2581%2594%25E8%258A%25AC%25E5%25A5%2587-20-%25E7%259A%2584-%25E6%2596%25B0ai-%25E5%258A%259F%25E8%2583%25BDai-intelliscript-%25E5%258C%25AF%25E5%2585%25A5%25E6%2596%2587%25E5%25AD%2597%25E8%2585%25B3%25E6%259C%25AC%25E7%2585%25A7%25E8%2585%25B3%25E6%259C%25AC%25E7%2594%259F%25E6%2588%2590timelineai-dialogue-m?hl=zh-tw&#34;&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;AI Voice Convert&lt;/strong&gt;：改變對白聲音的音色，保留語氣與語調，甚至能在嘈雜環境中提升聲音清晰度，適合後期配音或修復音頻。&lt;a href=&#34;https://www.threads.com/%40benchan_colorist/post/DIGJcAST20r/davinci-resolve-%25E9%2581%2594%25E8%258A%25AC%25E5%25A5%2587-20-%25E7%259A%2584-%25E6%2596%25B0ai-%25E5%258A%259F%25E8%2583%25BDai-intelliscript-%25E5%258C%25AF%25E5%2585%25A5%25E6%2596%2587%25E5%25AD%2597%25E8%2585%25B3%25E6%259C%25AC%25E7%2585%25A7%25E8%2585%25B3%25E6%259C%25AC%25E7%2594%259F%25E6%2588%2590timelineai-dialogue-m?hl=zh-tw&#34;&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;AI Detect Music Beats&lt;/strong&gt;：自動檢測音樂節拍並視覺化呈現，方便剪輯師將畫面切換與音樂節奏對齊，提升影片節奏感。&lt;a href=&#34;https://www.threads.com/%40benchan_colorist/post/DIGJcAST20r/davinci-resolve-%25E9%2581%2594%25E8%258A%25AC%25E5%25A5%2587-20-%25E7%259A%2584-%25E6%2596%25B0ai-%25E5%258A%259F%25E8%2583%25BDai-intelliscript-%25E5%258C%25AF%25E5%2585%25A5%25E6%2596%2587%25E5%25AD%2597%25E8%2585%25B3%25E6%259C%25AC%25E7%2585%25A7%25E8%2585%25B3%25E6%259C%25AC%25E7%2594%259F%25E6%2588%2590timelineai-dialogue-m?hl=zh-tw&#34;&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;New AI SuperScale&lt;/strong&gt;：新增 3x 與 4x 增強效果，提升低解析度素材的畫質，適用於舊素材修復或需要放大畫面的場景。&lt;a href=&#34;https://www.threads.com/%40benchan_colorist/post/DIGJcAST20r/davinci-resolve-%25E9%2581%2594%25E8%258A%25AC%25E5%25A5%2587-20-%25E7%259A%2584-%25E6%2596%25B0ai-%25E5%258A%259F%25E8%2583%25BDai-intelliscript-%25E5%258C%25AF%25E5%2585%25A5%25E6%2596%2587%25E5%25AD%2597%25E8%2585%25B3%25E6%259C%25AC%25E7%2585%25A7%25E8%2585%25B3%25E6%259C%25AC%25E7%2594%259F%25E6%2588%2590timelineai-dialogue-m?hl=zh-tw&#34;&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;剪輯與工作流程改進&#34;&gt;剪輯與工作流程改進&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;專用關鍵幀編輯器&lt;/strong&gt;：在剪輯與快編頁面新增專用關鍵幀編輯器，提供更精細的動畫控制，方便調整不透明度、縮放等參數。&lt;a href=&#34;https://www.fuji.com.tw/shownews.asp?RecordNo=6376&#34;&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;旁白面板&lt;/strong&gt;：新增專用旁白錄製與編輯面板，簡化旁白製作流程，提升效率。&lt;a href=&#34;https://www.fuji.com.tw/shownews.asp?RecordNo=6376&#34;&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Blackmagic Cloud 增強&lt;/strong&gt;：引入雲端檔案夾功能，允許用戶與協作者共享專案素材，僅在需要時本地同步，保持媒體池整潔。&lt;a href=&#34;https://www.fuji.com.tw/shownews.asp?RecordNo=6376&#34;&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;多層合成工具&lt;/strong&gt;：Fusion 頁面新增進階多層合成工作流程，支援更複雜的視覺效果製作，例如 OpenXR 與 PSD 檔案的處理。&lt;a href=&#34;https://apps.apple.com/tw/app/davinci-resolve/id571213070?mt=12&#34;&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;新光流向量工具&lt;/strong&gt;：提升運動追蹤與平滑度，特別適用於動態畫面或變速效果。&lt;a href=&#34;https://www.fuji.com.tw/shownews.asp?RecordNo=6376&#34;&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;調色與視覺效果&#34;&gt;調色與視覺效果&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Chroma Warp&lt;/strong&gt;：色彩扭曲器新增 Chroma Warp 功能，允許更精細的色彩分離與調整，增強調色靈活性。&lt;a href=&#34;https://www.fuji.com.tw/shownews.asp?RecordNo=6376&#34;&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;深度貼圖升級&lt;/strong&gt;：改進的 AI 深度貼圖技術，加快場景分析與遮罩生成，提升調色與合成效率。&lt;a href=&#34;https://www.fuji.com.tw/shownews.asp?RecordNo=6376&#34;&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Resolve FX 新增插件&lt;/strong&gt;：新增背景散焦插件（適用於人像拍攝）與電影風格創建器，允許調整色彩、飽和度與亮度，模擬多種電影效果，並可添加膠片顆粒。&lt;a href=&#34;https://www.blackmagicdesign.com/products/davinciresolve&#34;&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;音頻處理&#34;&gt;音頻處理&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Fairlight 音頻增強&lt;/strong&gt;：新增 AI 音頻工具，如自動化音頻混音、移除靜音片段、按說話者分割對白等，提升音頻後期效率。&lt;a href=&#34;https://www.fcportables.com/davinci-resolve-portable/&#34;&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;沉浸式音頻支援&lt;/strong&gt;：支援高解析度 3D 音頻格式（最高 22.2），包括杜比全景聲、MPEG-H、Auro-3D 等，適合電影或沉浸式內容製作。&lt;a href=&#34;http://www.fuji.com.tw/posts/4877&#34;&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;其他功能&#34;&gt;其他功能&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;支援 Apple Vision Pro&lt;/strong&gt;：針對 Apple Immersive Video 的剪輯、調色與音頻混音功能，支援 Blackmagic URSA Cine Immersive 攝影機拍攝的素材。&lt;a href=&#34;https://www.fuji.com.tw/shownews.asp?RecordNo=6376&#34;&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;多用戶協作&lt;/strong&gt;：改進項目庫，支援實時本地與遠端協作，提升團隊製作效率。&lt;a href=&#34;https://www.blackmagicdesign.com/products/davinciresolve&#34;&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;davinci-resolve-201&#34;&gt;DaVinci Resolve 20.1&lt;/h2&gt;
+&lt;p&gt;DaVinci Resolve 20.1 於 2025 年 8 月發布，作為 20.0 的增量更新，重點在於修復 Beta 版的問題並新增部分功能。以下為主要更新：&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Roblox 遊戲推薦大全終於來了</title>
       <link>http://localhost:1313/kai_studio/posts/robloxgame/</link>
@@ -16,25 +67,27 @@
       <description>&lt;h1 id=&#34;roblox-遊戲推薦大全&#34;&gt;Roblox 遊戲推薦大全&lt;/h1&gt;
 &lt;blockquote&gt;
 &lt;p&gt;歡迎來到 Roblox 遊戲推薦專頁！下面有三篇精選文章，你可以依照遊戲類型或特色選擇：&lt;/p&gt;&lt;/blockquote&gt;
-&lt;h2 id=&#34;超推薦-真的好&#34;&gt;==超推薦== 真的好！&lt;/h2&gt;
-&lt;h2 id=&#34;-點我查看&#34;&gt;📌 &lt;strong&gt;特色&lt;/strong&gt;：收錄 Roblox 中有感筆電真的喜歡的，還有魏巍評論
-&lt;a href=&#34;https://kaihchs118.github.io/kai_studio/posts/roblox/&#34;&gt;👉 點我查看&lt;/a&gt;&lt;/h2&gt;
-&lt;h3 id=&#34;1-綜合熱門遊戲&#34;&gt;1 綜合熱門遊戲&lt;/h3&gt;
-&lt;p&gt;📌 &lt;strong&gt;特色&lt;/strong&gt;：收錄 Roblox 中最受歡迎的遊戲，包含 PVP、跑酷、角色扮演等全類型經典遊戲。&lt;br&gt;
-&lt;a href=&#34;https://kaihchs118.github.io/kai_studio/posts/roblox/&#34;&gt;👉 點我查看&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;超推薦-真的好&#34;&gt;超推薦 真的好！&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;📌 &lt;strong&gt;特色&lt;/strong&gt;：收錄 Roblox 中有感筆電真的喜歡的，還有魏巍評論&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h2 id=&#34;點我查看&#34;&gt;&lt;a href=&#34;https://kaihchs118.github.io/kai_studio/posts/roblox/&#34;&gt;🤡點我查看&lt;/a&gt;&lt;/h2&gt;
+&lt;h3 id=&#34;綜合熱門遊戲&#34;&gt;綜合熱門遊戲&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;📌 &lt;strong&gt;特色&lt;/strong&gt;：收錄 Roblox 中最受歡迎的遊戲，包含 PVP、跑酷、角色扮演等全類型經典遊戲。&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;https://kaihchs118.github.io/kai_studio/posts/robloxgames/&#34;&gt;👉 點我查看&lt;/a&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;2-經典必玩遊戲-先看這個&#34;&gt;2 經典必玩遊戲 先看這個！！！！！&lt;/h3&gt;
 &lt;p&gt;📌 &lt;strong&gt;特色&lt;/strong&gt;：整理 Roblox 中歷久不衰、評價高的遊戲清單，每個遊戲都值得一玩。&lt;br&gt;
-&lt;a href=&#34;https://kaihchs118.github.io/kai_studio/posts/robloxgames/&#34;&gt;👉 點我查看&lt;/a&gt;&lt;/p&gt;
+&lt;a href=&#34;https://kaihchs118.github.io/kai_studio/posts/robloxga22mes/&#34;&gt;👉 點我查看&lt;/a&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;blockquote&gt;
 &lt;p&gt;小提示：你可以點擊上方標籤快速瀏覽同類型遊戲文章，例如 &lt;code&gt;PVP&lt;/code&gt;、&lt;code&gt;跑酷&lt;/code&gt; 或 &lt;code&gt;角色扮演&lt;/code&gt;，方便找到你最喜歡的遊戲！&lt;/p&gt;&lt;/blockquote&gt;</description>
     </item>
     <item>
       <title>Roblox 終極遊戲聖經：220款精選遊戲</title>
-      <link>http://localhost:1313/kai_studio/posts/roblox/</link>
+      <link>http://localhost:1313/kai_studio/roblox/</link>
       <pubDate>Thu, 11 Sep 2025 11:30:00 +0800</pubDate>
-      <guid>http://localhost:1313/kai_studio/posts/roblox/</guid>
+      <guid>http://localhost:1313/kai_studio/roblox/</guid>
       <description>&lt;p&gt;歡迎來到 Roblox 終極遊戲聖經！🎉 這份清單精選 220 款遊戲，涵蓋各種風格，&lt;br&gt;
 從熱血對戰到休閒放鬆，總有一款適合你！點擊下方目錄，探索你的最愛！&lt;/p&gt;
 &lt;h3 id=&#34;-快速導覽遊戲分類目錄&#34;&gt;🚀 快速導覽・遊戲分類目錄&lt;/h3&gt;
@@ -67,11 +120,12 @@
 &lt;a href=&#34;https://www.roblox.com/games/6872265039/BedWars&#34;&gt;👉 點我開玩&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Roblox 終極遊戲聖經：有感筆電217款精選遊戲</title>
-      <link>http://localhost:1313/kai_studio/posts/robloxgames/</link>
+      <title>Roblox 終極遊戲聖經：300ˇ多款精選遊戲</title>
+      <link>http://localhost:1313/kai_studio/robloxgames/</link>
       <pubDate>Thu, 11 Sep 2025 11:30:00 +0800</pubDate>
-      <guid>http://localhost:1313/kai_studio/posts/robloxgames/</guid>
-      <description>&lt;p&gt;歡迎來到 Roblox 遊戲的終極殿堂！這份清單為你 exhaustive 地整理了來自兩本遊戲寶典、 &lt;strong&gt;全部 217 款&lt;/strong&gt; 橫跨各種風格的超讚遊戲。無論你是想找刺激的對戰、沉浸式的角色扮演，還是只想找點樂子放鬆一下，這份清單都能滿足你！&lt;/p&gt;
+      <guid>http://localhost:1313/kai_studio/robloxgames/</guid>
+      <description>&lt;p&gt;歡迎來到 Roblox 遊戲的終極殿堂！這份清單為你 exhaustive 地整理了來自兩本遊戲寶典、 &lt;strong&gt;全部 300 款&lt;/strong&gt; 橫跨各種風格的超讚遊戲。無論你是想找刺激的對戰、沉浸式的角色扮演，還是只想找點樂子放鬆一下，這份清單都能滿足你！&lt;/p&gt;
+&lt;p&gt;你一定會問油什麼差&lt;/p&gt;
 &lt;p&gt;點擊下方目錄，直接跳到你最感興趣的分類吧！&lt;/p&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;快速導覽遊戲分類目錄&#34;&gt;&lt;strong&gt;快速導覽・遊戲分類目錄&lt;/strong&gt;&lt;/h3&gt;
@@ -132,46 +186,7 @@
 &lt;a href=&#34;https://www.roblox.com/games/489393931/Flag-Wars&#34;&gt;👉 點我開玩&lt;/a&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;兩艘巨大的空中戰艦在雲端之上展開史詩般的對決！你可以選擇駕駛戰鬥機進行空戰、操控艦上的砲塔，或是勇敢地進行登艦作戰。遊戲場面宏大，充滿了蒸汽龐克風格的浪漫與激情。每場戰鬥都分工明確，玩家可擔任飛行員、砲手、維修員等多種角色，協力保衛己方飛船或發動猛烈攻擊。空中戰鬥緊張刺激，地面登艦則考驗你的近戰與策略。遊戲內還有豐富的升級與自訂系統，讓你打造專屬戰機與裝備。社群常舉辦大型空戰賽事，讓你與全球玩家一較高下。這不僅是戰爭遊戲，更是一場空中冒險的夢幻旅程，快來體驗雲端上的榮耀與激情！
-&lt;a href=&#34;https://www.roblox.com/games/52834614/Zeppelin-Wars&#34;&gt;👉 點我開玩&lt;/a&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;角色扮演--開放世界-rp--open-world&#34;&gt;角色扮演 &amp;amp; 開放世界 (RP &amp;amp; Open World)&lt;/h2&gt;
-&lt;h3 id=&#34;brookhaven-布魯克黑文&#34;&gt;Brookhaven 布魯克黑文&lt;/h3&gt;
-&lt;p&gt;歡迎來到布魯克黑文，一個讓你打造第二人生的夢想小鎮！這裡沒有固定的規則或任務，你可以買房子、開名車、找工作，或是單純地和朋友們四處閒逛。想成為任何人、做任何事，這裡就是你的舞台。
-&lt;a href=&#34;https://www.roblox.com/games/4924962211/Brookhaven-RP&#34;&gt;👉 點我開玩&lt;/a&gt;
-&lt;img alt=&#34;在布魯克黑文，你會選擇扮演什麼樣的角色呢？&#34; loading=&#34;lazy&#34; src=&#34;https://tr.rbxcdn.com/2618269e8011110b64d2b25b50a369e1/768/432/Image/Png&#34;&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Roblox 終極遊戲聖經：有感筆電217款精選遊戲</title>
-      <link>http://localhost:1313/kai_studio/posts/robloxkind/</link>
-      <pubDate>Thu, 11 Sep 2025 11:30:00 +0800</pubDate>
-      <guid>http://localhost:1313/kai_studio/posts/robloxkind/</guid>
-      <description>&lt;p&gt;歡迎來到 Roblox 遊戲的終極殿堂！這份清單為你 exhaustive 地整理了來自兩本遊戲寶典、 &lt;strong&gt;全部 217 款&lt;/strong&gt; 橫跨各種風格的超讚遊戲。無論你是想找刺激的對戰、沉浸式的角色扮演，還是只想找點樂子放鬆一下，這份清單都能滿足你！&lt;/p&gt;
-&lt;p&gt;點擊下方目錄，直接跳到你最感興趣的分類吧！&lt;/p&gt;
-&lt;hr&gt;
-&lt;h3 id=&#34;-快速導覽遊戲分類目錄&#34;&gt;🚀 &lt;strong&gt;快速導覽・遊戲分類目錄&lt;/strong&gt;&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;#-pvp-&#34;&gt;⚔️ PVP 熱血對戰&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#--rp--&#34;&gt;🏙️ 角色扮演 &amp;amp; 開放世界&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#--obby&#34;&gt;🤸 極限跑酷 &amp;amp; OBBY&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#--&#34;&gt;📈 模擬器 &amp;amp; 大亨&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#-&#34;&gt;👻 驚悚恐怖&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#--&#34;&gt;🛡️ 生存挑戰&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#--&#34;&gt;🎉 派對同樂 &amp;amp; 迷你遊戲&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#--meme&#34;&gt;😂 搞笑 &amp;amp; 迷因&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#---&#34;&gt;🏗️ 創意建築 &amp;amp; 沙盒&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#---&#34;&gt;📖 互動故事 &amp;amp; 冒險&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#--&#34;&gt;💥 動漫 &amp;amp; 影視改編&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#---&#34;&gt;🏆 運動 &amp;amp; 競技&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#---&#34;&gt;🧩 益智 &amp;amp; 合作解謎&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#---&#34;&gt;🌀 獵奇 &amp;amp; 實驗性玩法&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#---&#34;&gt;🍃 休閒 &amp;amp; 放鬆&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#---&#34;&gt;❤️ 感人 &amp;amp; 勵志&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;-pvp-熱血對戰&#34;&gt;⚔️ PVP 熱血對戰&lt;/h2&gt;
-&lt;p&gt;這不只是蓋蓋方塊，更是策略與團隊合作的終極考驗！你必須保護好自己隊伍的床，因為床在，你就能無限復活。同時，也要勇敢地衝向敵陣，摧毀他們的床，讓他們無法重生，最終成為戰場上唯一的贏家！遊戲中有豐富的資源收集與升級系統，玩家可以透過佔領地圖上的資源點來獲取鐵、金或鑽石，進而購買更強大的裝備和防禦設施。每一場戰鬥都極度講究團隊分工，有人專注於防守基地，有人則負責衝鋒陷陣，甚至還有玩家專精於偷襲與破壞。遊戲節奏緊湊，勝負往往在一瞬間逆轉，讓你每分每秒都腎上腺素飆升！此外，獨特的地圖設計與不斷更新的玩法模式，讓每場比賽都充滿新鮮感與挑戰性。無論你是新手還是高手，都能在這裡找到屬於自己的榮耀時刻！
-&lt;a href=&#34;https://www.roblox.com/games/6872265039/BedWars&#34;&gt;👉 點我開玩&lt;/a&gt;
-&lt;img alt=&#34;準備好保護你的床，摧毀敵人的復活點了嗎？&#34; loading=&#34;lazy&#34; src=&#34;https://tr.rbxcdn.com/9dc67022295980a3c5a32c417c6a06a2/768/432/Image/Png&#34;&gt;&lt;/p&gt;</description>
+&lt;a href=&#34;https://www.roblox.com/games/52834614/Zeppelin-Wars&#34;&gt;👉 點我開玩&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>蘋果 2025 秋季發表會懶人包：iPhone 17、iPhone Air、AirPods Pro 3、Apple Watch Series 11</title>
