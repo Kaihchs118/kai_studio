@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><script src="/kai_studio/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=kai_studio/livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="noindex, nofollow">
+<title>DaVinci Resolve 重榜更新！追求時代 | KAI STUDIO</title>
+<meta name="keywords" content="DaVinci Resolve, 更新, AI">
+<meta name="description" content="達文西 DaVinci Resolve 20.0 至 20.2 版本新增功能介紹
+以下為 Blackmagic Design 旗下專業影片剪輯、調色、視覺效果與音頻後期製作軟體 DaVinci Resolve 從 20.0 版到 20.2 版的重大新增功能整理。本文以詳細的方式介紹各版本的核心更新，涵蓋剪輯、調色、視覺效果、音頻處理及 AI 工具的進展，並確保內容適用於 X 平台分享，字數超過 1000 字，採用 Markdown 格式撰寫，適合 Hugo 框架使用。
+
+DaVinci Resolve 20.0
+DaVinci Resolve 20.0 於 2025 年 4 月 5 日以公開 Beta 版形式發布，帶來超過 100 項新功能，特別聚焦於 AI 技術的應用以及跨平台協作能力的提升。以下為主要新增功能：
+AI 工具的全面升級
+
+AI IntelliScript：這項功能允許用戶匯入文字腳本，系統會自動將腳本與媒體檔案的轉錄音頻進行比對，生成最佳選擇的時間線，並將備用鏡次放置於其他軌道，方便剪輯師進一步檢查與調整。這對於需要快速從腳本生成粗剪的製作流程尤其實用。
+AI Animated Subtitles：字幕功能進化，新增動態效果，字幕可隨著對白內容動態出現，提升視覺吸引力，特別適合社群媒體影片或需要強調對白的場景。
+AI Multicam SmartSwitch：利用 AI 技術，根據說話者檢測自動切換多機位角度，生成時間線，簡化多機位剪輯流程，特別適用於訪談或直播內容製作。
+AI Audio Assistant：自動分析時間線音頻並生成專業混音，平衡對白、音樂和音效，無需手動調整即可獲得自然且專業的音頻效果。
+AI Magic Mask 2：改進的遮罩追蹤技術，新增筆刷效果，追蹤更精準，可快速分離人物或物體，適用於複雜的調色或視覺效果處理。
+AI Dialogue Matcher：統一不同時間、地點錄製的對白聲場與環境音，讓聲音聽起來一致，特別適用於跨場景的對白整合。
+AI Music Editor：自動調整音樂長度以匹配影片時長，無需手動裁剪或重新編排音樂。
+AI Voice Convert：改變對白聲音的音色，保留語氣與語調，甚至能在嘈雜環境中提升聲音清晰度，適合後期配音或修復音頻。
+AI Detect Music Beats：自動檢測音樂節拍並視覺化呈現，方便剪輯師將畫面切換與音樂節奏對齊，提升影片節奏感。
+New AI SuperScale：新增 3x 與 4x 增強效果，提升低解析度素材的畫質，適用於舊素材修復或需要放大畫面的場景。
+
+剪輯與工作流程改進
+
+專用關鍵幀編輯器：在剪輯與快編頁面新增專用關鍵幀編輯器，提供更精細的動畫控制，方便調整不透明度、縮放等參數。
+旁白面板：新增專用旁白錄製與編輯面板，簡化旁白製作流程，提升效率。
+Blackmagic Cloud 增強：引入雲端檔案夾功能，允許用戶與協作者共享專案素材，僅在需要時本地同步，保持媒體池整潔。
+多層合成工具：Fusion 頁面新增進階多層合成工作流程，支援更複雜的視覺效果製作，例如 OpenXR 與 PSD 檔案的處理。
+新光流向量工具：提升運動追蹤與平滑度，特別適用於動態畫面或變速效果。
+
+調色與視覺效果
+
+Chroma Warp：色彩扭曲器新增 Chroma Warp 功能，允許更精細的色彩分離與調整，增強調色靈活性。
+深度貼圖升級：改進的 AI 深度貼圖技術，加快場景分析與遮罩生成，提升調色與合成效率。
+Resolve FX 新增插件：新增背景散焦插件（適用於人像拍攝）與電影風格創建器，允許調整色彩、飽和度與亮度，模擬多種電影效果，並可添加膠片顆粒。
+
+音頻處理
+
+Fairlight 音頻增強：新增 AI 音頻工具，如自動化音頻混音、移除靜音片段、按說話者分割對白等，提升音頻後期效率。
+沉浸式音頻支援：支援高解析度 3D 音頻格式（最高 22.2），包括杜比全景聲、MPEG-H、Auro-3D 等，適合電影或沉浸式內容製作。
+
+其他功能
+
+支援 Apple Vision Pro：針對 Apple Immersive Video 的剪輯、調色與音頻混音功能，支援 Blackmagic URSA Cine Immersive 攝影機拍攝的素材。
+多用戶協作：改進項目庫，支援實時本地與遠端協作，提升團隊製作效率。
+
+
+DaVinci Resolve 20.1
+DaVinci Resolve 20.1 於 2025 年 8 月發布，作為 20.0 的增量更新，重點在於修復 Beta 版的問題並新增部分功能。以下為主要更新：">
+<meta name="author" content="">
+<link rel="canonical" href="http://localhost:1313/kai_studio/posts/davinciupdate20/">
+<link crossorigin="anonymous" href="/kai_studio/assets/css/stylesheet.c807e8990834895c76fba2e3c366bc5eb3fe9c89284f40a1fbca4b0b95b441c9.css" integrity="sha256-yAfomQg0iVx2&#43;6Ljw2a8XrP&#43;nIkoT0Ch&#43;8pLC5W0Qck=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/kai_studio/img/demo1.png">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/kai_studio/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/kai_studio/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/kai_studio/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/kai_studio/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/kai_studio/posts/davinciupdate20/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/kai_studio/" accesskey="h" title="KAI STUDIO (Alt + H)">KAI STUDIO</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="http://localhost:1313/kai_studio/" title="首頁">
+                    <span>首頁</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/kai_studio/posts/" title="文章">
+                    <span>文章</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/kai_studio/tags/" title="標籤">
+                    <span>標籤</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/kai_studio/about/" title="關於我">
+                    <span>關於我</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/kai_studio/first/" title="新手村">
+                    <span>新手村</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+
+  
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="http://localhost:1313/kai_studio/">Home</a>&nbsp;»&nbsp;<a href="http://localhost:1313/kai_studio/posts/">Posts</a></div>
+    <h1 class="post-title entry-hint-parent">
+      DaVinci Resolve 重榜更新！追求時代
+    </h1>
+
+    
+      <div class="post-meta">
+        <span title='2025-09-12 00:00:00 +0800 CST'>September 12, 2025</span>
+      </div>
+
+  </header>
+
+  
+   
+
+  
+
+  
+    <div class="post-content">
+        <h1 id="達文西-davinci-resolve-200-至-202-版本新增功能介紹">達文西 DaVinci Resolve 20.0 至 20.2 版本新增功能介紹<a hidden class="anchor" aria-hidden="true" href="#達文西-davinci-resolve-200-至-202-版本新增功能介紹">#</a></h1>
+<p>以下為 Blackmagic Design 旗下專業影片剪輯、調色、視覺效果與音頻後期製作軟體 <strong>DaVinci Resolve</strong> 從 20.0 版到 20.2 版的重大新增功能整理。本文以詳細的方式介紹各版本的核心更新，涵蓋剪輯、調色、視覺效果、音頻處理及 AI 工具的進展，並確保內容適用於 X 平台分享，字數超過 1000 字，採用 Markdown 格式撰寫，適合 Hugo 框架使用。</p>
+<hr>
+<h2 id="davinci-resolve-200">DaVinci Resolve 20.0<a hidden class="anchor" aria-hidden="true" href="#davinci-resolve-200">#</a></h2>
+<p>DaVinci Resolve 20.0 於 2025 年 4 月 5 日以公開 Beta 版形式發布，帶來超過 100 項新功能，特別聚焦於 AI 技術的應用以及跨平台協作能力的提升。以下為主要新增功能：</p>
+<h3 id="ai-工具的全面升級">AI 工具的全面升級<a hidden class="anchor" aria-hidden="true" href="#ai-工具的全面升級">#</a></h3>
+<ul>
+<li><strong>AI IntelliScript</strong>：這項功能允許用戶匯入文字腳本，系統會自動將腳本與媒體檔案的轉錄音頻進行比對，生成最佳選擇的時間線，並將備用鏡次放置於其他軌道，方便剪輯師進一步檢查與調整。這對於需要快速從腳本生成粗剪的製作流程尤其實用。<a href="https://www.fuji.com.tw/shownews.asp?RecordNo=6376"></a></li>
+<li><strong>AI Animated Subtitles</strong>：字幕功能進化，新增動態效果，字幕可隨著對白內容動態出現，提升視覺吸引力，特別適合社群媒體影片或需要強調對白的場景。<a href="https://www.threads.com/%40benchan_colorist/post/DIGJcAST20r/davinci-resolve-%25E9%2581%2594%25E8%258A%25AC%25E5%25A5%2587-20-%25E7%259A%2584-%25E6%2596%25B0ai-%25E5%258A%259F%25E8%2583%25BDai-intelliscript-%25E5%258C%25AF%25E5%2585%25A5%25E6%2596%2587%25E5%25AD%2597%25E8%2585%25B3%25E6%259C%25AC%25E7%2585%25A7%25E8%2585%25B3%25E6%259C%25AC%25E7%2594%259F%25E6%2588%2590timelineai-dialogue-m?hl=zh-tw"></a></li>
+<li><strong>AI Multicam SmartSwitch</strong>：利用 AI 技術，根據說話者檢測自動切換多機位角度，生成時間線，簡化多機位剪輯流程，特別適用於訪談或直播內容製作。<a href="https://www.fuji.com.tw/shownews.asp?RecordNo=6376"></a></li>
+<li><strong>AI Audio Assistant</strong>：自動分析時間線音頻並生成專業混音，平衡對白、音樂和音效，無需手動調整即可獲得自然且專業的音頻效果。<a href="https://www.fcportables.com/davinci-resolve-portable/"></a></li>
+<li><strong>AI Magic Mask 2</strong>：改進的遮罩追蹤技術，新增筆刷效果，追蹤更精準，可快速分離人物或物體，適用於複雜的調色或視覺效果處理。<a href="https://www.threads.com/%40benchan_colorist/post/DIGJcAST20r/davinci-resolve-%25E9%2581%2594%25E8%258A%25AC%25E5%25A5%2587-20-%25E7%259A%2584-%25E6%2596%25B0ai-%25E5%258A%259F%25E8%2583%25BDai-intelliscript-%25E5%258C%25AF%25E5%2585%25A5%25E6%2596%2587%25E5%25AD%2597%25E8%2585%25B3%25E6%259C%25AC%25E7%2585%25A7%25E8%2585%25B3%25E6%259C%25AC%25E7%2594%259F%25E6%2588%2590timelineai-dialogue-m?hl=zh-tw"></a></li>
+<li><strong>AI Dialogue Matcher</strong>：統一不同時間、地點錄製的對白聲場與環境音，讓聲音聽起來一致，特別適用於跨場景的對白整合。<a href="https://www.threads.com/%40benchan_colorist/post/DIGJcAST20r/davinci-resolve-%25E9%2581%2594%25E8%258A%25AC%25E5%25A5%2587-20-%25E7%259A%2584-%25E6%2596%25B0ai-%25E5%258A%259F%25E8%2583%25BDai-intelliscript-%25E5%258C%25AF%25E5%2585%25A5%25E6%2596%2587%25E5%25AD%2597%25E8%2585%25B3%25E6%259C%25AC%25E7%2585%25A7%25E8%2585%25B3%25E6%259C%25AC%25E7%2594%259F%25E6%2588%2590timelineai-dialogue-m?hl=zh-tw"></a></li>
+<li><strong>AI Music Editor</strong>：自動調整音樂長度以匹配影片時長，無需手動裁剪或重新編排音樂。<a href="https://www.threads.com/%40benchan_colorist/post/DIGJcAST20r/davinci-resolve-%25E9%2581%2594%25E8%258A%25AC%25E5%25A5%2587-20-%25E7%259A%2584-%25E6%2596%25B0ai-%25E5%258A%259F%25E8%2583%25BDai-intelliscript-%25E5%258C%25AF%25E5%2585%25A5%25E6%2596%2587%25E5%25AD%2597%25E8%2585%25B3%25E6%259C%25AC%25E7%2585%25A7%25E8%2585%25B3%25E6%259C%25AC%25E7%2594%259F%25E6%2588%2590timelineai-dialogue-m?hl=zh-tw"></a></li>
+<li><strong>AI Voice Convert</strong>：改變對白聲音的音色，保留語氣與語調，甚至能在嘈雜環境中提升聲音清晰度，適合後期配音或修復音頻。<a href="https://www.threads.com/%40benchan_colorist/post/DIGJcAST20r/davinci-resolve-%25E9%2581%2594%25E8%258A%25AC%25E5%25A5%2587-20-%25E7%259A%2584-%25E6%2596%25B0ai-%25E5%258A%259F%25E8%2583%25BDai-intelliscript-%25E5%258C%25AF%25E5%2585%25A5%25E6%2596%2587%25E5%25AD%2597%25E8%2585%25B3%25E6%259C%25AC%25E7%2585%25A7%25E8%2585%25B3%25E6%259C%25AC%25E7%2594%259F%25E6%2588%2590timelineai-dialogue-m?hl=zh-tw"></a></li>
+<li><strong>AI Detect Music Beats</strong>：自動檢測音樂節拍並視覺化呈現，方便剪輯師將畫面切換與音樂節奏對齊，提升影片節奏感。<a href="https://www.threads.com/%40benchan_colorist/post/DIGJcAST20r/davinci-resolve-%25E9%2581%2594%25E8%258A%25AC%25E5%25A5%2587-20-%25E7%259A%2584-%25E6%2596%25B0ai-%25E5%258A%259F%25E8%2583%25BDai-intelliscript-%25E5%258C%25AF%25E5%2585%25A5%25E6%2596%2587%25E5%25AD%2597%25E8%2585%25B3%25E6%259C%25AC%25E7%2585%25A7%25E8%2585%25B3%25E6%259C%25AC%25E7%2594%259F%25E6%2588%2590timelineai-dialogue-m?hl=zh-tw"></a></li>
+<li><strong>New AI SuperScale</strong>：新增 3x 與 4x 增強效果，提升低解析度素材的畫質，適用於舊素材修復或需要放大畫面的場景。<a href="https://www.threads.com/%40benchan_colorist/post/DIGJcAST20r/davinci-resolve-%25E9%2581%2594%25E8%258A%25AC%25E5%25A5%2587-20-%25E7%259A%2584-%25E6%2596%25B0ai-%25E5%258A%259F%25E8%2583%25BDai-intelliscript-%25E5%258C%25AF%25E5%2585%25A5%25E6%2596%2587%25E5%25AD%2597%25E8%2585%25B3%25E6%259C%25AC%25E7%2585%25A7%25E8%2585%25B3%25E6%259C%25AC%25E7%2594%259F%25E6%2588%2590timelineai-dialogue-m?hl=zh-tw"></a></li>
+</ul>
+<h3 id="剪輯與工作流程改進">剪輯與工作流程改進<a hidden class="anchor" aria-hidden="true" href="#剪輯與工作流程改進">#</a></h3>
+<ul>
+<li><strong>專用關鍵幀編輯器</strong>：在剪輯與快編頁面新增專用關鍵幀編輯器，提供更精細的動畫控制，方便調整不透明度、縮放等參數。<a href="https://www.fuji.com.tw/shownews.asp?RecordNo=6376"></a></li>
+<li><strong>旁白面板</strong>：新增專用旁白錄製與編輯面板，簡化旁白製作流程，提升效率。<a href="https://www.fuji.com.tw/shownews.asp?RecordNo=6376"></a></li>
+<li><strong>Blackmagic Cloud 增強</strong>：引入雲端檔案夾功能，允許用戶與協作者共享專案素材，僅在需要時本地同步，保持媒體池整潔。<a href="https://www.fuji.com.tw/shownews.asp?RecordNo=6376"></a></li>
+<li><strong>多層合成工具</strong>：Fusion 頁面新增進階多層合成工作流程，支援更複雜的視覺效果製作，例如 OpenXR 與 PSD 檔案的處理。<a href="https://apps.apple.com/tw/app/davinci-resolve/id571213070?mt=12"></a></li>
+<li><strong>新光流向量工具</strong>：提升運動追蹤與平滑度，特別適用於動態畫面或變速效果。<a href="https://www.fuji.com.tw/shownews.asp?RecordNo=6376"></a></li>
+</ul>
+<h3 id="調色與視覺效果">調色與視覺效果<a hidden class="anchor" aria-hidden="true" href="#調色與視覺效果">#</a></h3>
+<ul>
+<li><strong>Chroma Warp</strong>：色彩扭曲器新增 Chroma Warp 功能，允許更精細的色彩分離與調整，增強調色靈活性。<a href="https://www.fuji.com.tw/shownews.asp?RecordNo=6376"></a></li>
+<li><strong>深度貼圖升級</strong>：改進的 AI 深度貼圖技術，加快場景分析與遮罩生成，提升調色與合成效率。<a href="https://www.fuji.com.tw/shownews.asp?RecordNo=6376"></a></li>
+<li><strong>Resolve FX 新增插件</strong>：新增背景散焦插件（適用於人像拍攝）與電影風格創建器，允許調整色彩、飽和度與亮度，模擬多種電影效果，並可添加膠片顆粒。<a href="https://www.blackmagicdesign.com/products/davinciresolve"></a></li>
+</ul>
+<h3 id="音頻處理">音頻處理<a hidden class="anchor" aria-hidden="true" href="#音頻處理">#</a></h3>
+<ul>
+<li><strong>Fairlight 音頻增強</strong>：新增 AI 音頻工具，如自動化音頻混音、移除靜音片段、按說話者分割對白等，提升音頻後期效率。<a href="https://www.fcportables.com/davinci-resolve-portable/"></a></li>
+<li><strong>沉浸式音頻支援</strong>：支援高解析度 3D 音頻格式（最高 22.2），包括杜比全景聲、MPEG-H、Auro-3D 等，適合電影或沉浸式內容製作。<a href="http://www.fuji.com.tw/posts/4877"></a></li>
+</ul>
+<h3 id="其他功能">其他功能<a hidden class="anchor" aria-hidden="true" href="#其他功能">#</a></h3>
+<ul>
+<li><strong>支援 Apple Vision Pro</strong>：針對 Apple Immersive Video 的剪輯、調色與音頻混音功能，支援 Blackmagic URSA Cine Immersive 攝影機拍攝的素材。<a href="https://www.fuji.com.tw/shownews.asp?RecordNo=6376"></a></li>
+<li><strong>多用戶協作</strong>：改進項目庫，支援實時本地與遠端協作，提升團隊製作效率。<a href="https://www.blackmagicdesign.com/products/davinciresolve"></a></li>
+</ul>
+<hr>
+<h2 id="davinci-resolve-201">DaVinci Resolve 20.1<a hidden class="anchor" aria-hidden="true" href="#davinci-resolve-201">#</a></h2>
+<p>DaVinci Resolve 20.1 於 2025 年 8 月發布，作為 20.0 的增量更新，重點在於修復 Beta 版的問題並新增部分功能。以下為主要更新：</p>
+<h3 id="ai-工具優化">AI 工具優化<a hidden class="anchor" aria-hidden="true" href="#ai-工具優化">#</a></h3>
+<ul>
+<li><strong>AI IntelliCut 增強</strong>：新增自動移除靜音片段、按說話者分割對白、生成 ADR（自動對白替換）提示等功能，進一步簡化音頻剪輯流程。<a href="https://www.fcportables.com/davinci-resolve-portable/"></a></li>
+<li><strong>Resolve FX AI Set Extender</strong>：新增 AI 驅動的場景擴展工具，允許將畫面邊緣延伸，適用於重新構圖或修復不完整畫面。<a href="https://www.fcportables.com/davinci-resolve-portable/"></a></li>
+</ul>
+<h3 id="音頻與剪輯改進">音頻與剪輯改進<a hidden class="anchor" aria-hidden="true" href="#音頻與剪輯改進">#</a></h3>
+<ul>
+<li><strong>音頻自動化曲線升級</strong>：支援向量關鍵幀，提供更精細的音頻控制，允許圖形化編輯、修剪與移動關鍵幀。新增自動化編輯視圖，方便管理曲線與關鍵幀。<a href="https://www.fcportables.com/davinci-resolve-portable/"></a></li>
+<li><strong>Fairlight Chain FX</strong>：允許創建與恢復常用的音頻插件鏈，提升重複性任務效率。<a href="https://www.fcportables.com/davinci-resolve-portable/"></a></li>
+<li><strong>Dolby Vision XML 5.1.0 支援</strong>：支援 Dolby Vision 家庭與影院目標的修剪，新增 L11 元數據選項，提升 HDR 工作流程兼容性。<a href="https://www.fcportables.com/davinci-resolve-portable/"></a></li>
+</ul>
+<h3 id="格式與硬體支援">格式與硬體支援<a hidden class="anchor" aria-hidden="true" href="#格式與硬體支援">#</a></h3>
+<ul>
+<li><strong>Sony Burano 2.0 支援</strong>：新增對 Sony Burano 2.0 格式的支援，提升相容性。<a href="https://www.fcportables.com/davinci-resolve-portable/"></a></li>
+<li><strong>RED SDK 8.6 支援</strong>：改進 RED 相機素材的解碼與編碼性能。<a href="https://www.fcportables.com/davinci-resolve-portable/"></a></li>
+<li><strong>Blackmagic RAW 5.0 SDK</strong>：提升 URSA Cine 12K LF 與 17K 65 素材的解碼速度。<a href="https://apps.apple.com/tw/app/davinci-resolve-for-ipad/id1581363826"></a></li>
+<li><strong>WebP 圖像編解碼</strong>：支援 WebP 圖像的解碼與編碼，適合輕量級影像處理。<a href="https://apps.apple.com/tw/app/davinci-resolve-for-ipad/id1581363826"></a></li>
+<li><strong>HDR 與 SDR PNG 支援</strong>：改進 PNG 檔案的 HDR 與 SDR 信號處理，提升圖像兼容性。<a href="https://www.fcportables.com/davinci-resolve-portable/"></a></li>
+</ul>
+<h3 id="工作流程改進">工作流程改進<a hidden class="anchor" aria-hidden="true" href="#工作流程改進">#</a></h3>
+<ul>
+<li><strong>自動快取管理</strong>：新增用戶偏好設定，允許自動管理快取，提升系統性能。<a href="https://www.fcportables.com/davinci-resolve-portable/"></a></li>
+<li><strong>雙螢幕支援</strong>：支援超寬螢幕的雙螢幕視窗配置，提升多任務處理效率。<a href="https://www.fcportables.com/davinci-resolve-portable/"></a></li>
+<li><strong>改進的媒體池管理</strong>：用戶可自定義 Resolve 創建媒體的儲存位置，保持媒體池整潔。<a href="https://www.fcportables.com/davinci-resolve-portable/"></a></li>
+</ul>
+<hr>
+<h2 id="davinci-resolve-202">DaVinci Resolve 20.2<a hidden class="anchor" aria-hidden="true" href="#davinci-resolve-202">#</a></h2>
+<p>DaVinci Resolve 20.2 是 20 系列的最新更新，於 2025 年晚期發布，專注於穩定性改進與細化功能。以下為主要新增功能：</p>
+<h3 id="視覺效果與調色">視覺效果與調色<a hidden class="anchor" aria-hidden="true" href="#視覺效果與調色">#</a></h3>
+<ul>
+<li><strong>Secondary Glow in Resolve FX</strong>：新增次級發光效果，提升光暈與光線效果的靈活性，適合創建柔和或強烈的光影效果。<a href="https://apps.apple.com/tw/app/davinci-resolve-for-ipad/id1581363826"></a></li>
+<li><strong>Atmosphere Controls for Light Rays and Glow</strong>：新增大氣控制選項，增強光線與發光效果的真實感，適用於電影化場景渲染。<a href="https://apps.apple.com/tw/app/davinci-resolve-for-ipad/id1581363826"></a></li>
+<li><strong>Regrain in Face Refinement</strong>：改進面部精細化工具，新增皮膚平滑區域的重新添加顆粒功能，保持自然外觀。<a href="https://apps.apple.com/tw/app/davinci-resolve-for-ipad/id1581363826"></a></li>
+</ul>
+<h3 id="剪輯與介面優化">剪輯與介面優化<a hidden class="anchor" aria-hidden="true" href="#剪輯與介面優化">#</a></h3>
+<ul>
+<li><strong>改進的版面配置</strong>：針對小螢幕、雙螢幕與垂直影片提供優化的版面，提升不同設備上的使用體驗。<a href="https://apps.apple.com/tw/app/davinci-resolve-for-ipad/id1581363826"></a></li>
+<li><strong>效果搜索對話框</strong>：使用 Shift+Space 快速調出效果搜索對話框，支援英文與應用程式語言的效果搜索，提升操作效率。<a href="https://apps.apple.com/tw/app/davinci-resolve-for-ipad/id1581363826"></a></li>
+<li><strong>多系統 Bin 版面保留</strong>：改進多用戶項目的 Bin 版面保留功能，確保每個系統的配置一致。<a href="https://apps.apple.com/tw/app/davinci-resolve-for-ipad/id1581363826"></a></li>
+</ul>
+<h3 id="其他改進">其他改進<a hidden class="anchor" aria-hidden="true" href="#其他改進">#</a></h3>
+<ul>
+<li><strong>DRT 時間線導出</strong>：新增對 Fusion 媒體引用的支援，提升時間線導出的完整性。<a href="https://apps.apple.com/tw/app/davinci-resolve-for-ipad/id1581363826"></a></li>
+<li><strong>OCIO 2.4.2 與 ACES 2.0 支援</strong>：提升色彩管理的相容性與精確度，適合專業調色工作流程。<a href="https://www.fcportables.com/davinci-resolve-portable/"></a></li>
+<li><strong>Nvidia Blackwell GPU 支援</strong>：支援基於 CUDA 12.8 的 Nvidia Blackwell GPU，提升渲染與 AI 處理性能。<a href="https://www.reddit.com/r/davinciresolve/comments/1jrm6p7/davinci_resolve_20_public_beta_1_release_notes/"></a></li>
+<li><strong>穩定性與性能改進</strong>：修復 Beta 版中的黑畫面問題（例如剪輯暫停時的黑畫面），提升整體穩定性。<a href="https://www.threads.com/%40benchan_colorist/post/DKLu6Gcz9HD/davinci-resolve-%25E9%2581%2594%25E8%258A%25AC%25E5%25A5%2587-20%25E9%2581%2594%25E8%258A%25AC%25E5%25A5%2587-20-%25E6%25AD%25A3%25E5%25BC%258F%25E7%2589%2588%25E4%25BB%258A%25E5%25A4%25A9%25E5%2587%25BA%25E4%25BA%2586-%25E4%25B9%258B%25E5%2589%258D%25E9%2583%25BD%25E6%2598%25AFbeta%25E7%2589%2588%25E4%25BD%2586%25E6%2598%25AF%25E6%2588%2591%25E8%25A6%2581%25E7%25AD%2589%25E6%2589%258B%25E4%25B8%258A%25E7%259A%2584%25E9%2595%25B7%25E6%25A1%2588%25E7%25B5%2590%25E6%259D%259F%25E6%2589%258D%25E6%259C%2583%25E5%258E%25BB%25E5%258D%2587%25E7%25B4%259A20%25E5%2585%258D%25E5%25BE%2597%25E5%2587%25BA%25E7%258F%25BE%25E5%258A%259F%25E8%2583%25BD%25E6%2595%2588%25E6%259E%259C%25E4%25B8%258D%25E4%25B8%2580%25E6%25A8%25A3%25E5%25B0%258E%25E8%2587%25B4%25E9%25A1%258F%25E8%2589%25B2"></a></li>
+</ul>
+<hr>
+<h2 id="總結">總結<a hidden class="anchor" aria-hidden="true" href="#總結">#</a></h2>
+<p>從 DaVinci Resolve 20.0 到 20.2，Blackmagic Design 持續推動 AI 技術與工作流程的整合，新增了眾多強大的 AI 工具（如 IntelliScript、Animated Subtitles、Audio Assistant 等），大幅提升剪輯、調色與音頻處理的效率。20.1 與 20.2 則進一步優化了這些功能，增加了硬體與格式支援，並改善了穩定性與用戶體驗。這些更新使 DaVinci Resolve 成為影視製作領域的頂尖工具，無論是獨立創作者還是大型製作團隊都能受益。</p>
+<hr>
+<!-- raw HTML omitted -->
+
+
+    </div>
+
+  
+  <footer class="post-footer">
+
+    
+    <ul class="post-tags">
+        <li><a href="http://localhost:1313/kai_studio/tags/davinci-resolve/">DaVinci Resolve</a></li>
+        <li><a href="http://localhost:1313/kai_studio/tags/%E6%9B%B4%E6%96%B0/">更新</a></li>
+        <li><a href="http://localhost:1313/kai_studio/tags/ai/">AI</a></li>
+    </ul>
+
+    
+
+    
+      
+  <section id="comments" class="mt-10">
+    <script src="https://utteranc.es/client.js"
+            repo="Kaihchs118/kai_studio"
+            issue-term="pathname"
+            label="💬 留言區"
+            theme="preferred-color-scheme"
+            crossorigin="anonymous"
+            async>
+    </script>
+  </section>
+
+
+    
+      
+<nav class="paginav">
+  <a class="next" href="http://localhost:1313/kai_studio/posts/robloxgame/">
+    <span class="title">Next »</span>
+    <br>
+    <span>Roblox 遊戲推薦大全終於來了</span>
+  </a>
+</nav>
+
+
+  </footer>
+
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2025 <a href="http://localhost:1313/kai_studio/">KAI STUDIO</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'copy';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'copied!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'copy';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script>
+</body>
+
+</html>
