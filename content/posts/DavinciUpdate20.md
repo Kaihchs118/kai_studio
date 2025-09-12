@@ -8,12 +8,6 @@ tags: ["DaVinci Resolve", "更新", "AI"]
 comments: true
 ---
 
-# 達文西 DaVinci Resolve 20.0 至 20.2 版本新增功能介紹
-
-以下為 Blackmagic Design 旗下專業影片剪輯、調色、視覺效果與音頻後期製作軟體 **DaVinci Resolve** 從 20.0 版到 20.2 版的重大新增功能整理。本文以詳細的方式介紹各版本的核心更新，涵蓋剪輯、調色、視覺效果、音頻處理及 AI 工具的進展，並確保內容適用於 X 平台分享，字數超過 1000 字，採用 Markdown 格式撰寫，適合 Hugo 框架使用。
-
----
-
 ## DaVinci Resolve 20.0
 
 DaVinci Resolve 20.0 於 2025 年 4 月 5 日以公開 Beta 版形式發布，帶來超過 100 項新功能，特別聚焦於 AI 技術的應用以及跨平台協作能力的提升。以下為主要新增功能：
