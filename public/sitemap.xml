@@ -2,10 +2,10 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/kai_studio/</loc>
-    <lastmod>2035-09-09T10:00:00+08:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/kai_studio/posts/r/</loc>
+    <lastmod>2025-09-13T23:20:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/kai_studio/</loc>
     <lastmod>2025-09-13T23:20:00+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/kai_studio/posts/</loc>
@@ -23,7 +23,10 @@
     <loc>http://localhost:1313/kai_studio/tags/%E9%81%8A%E6%88%B2%E6%8E%A8%E8%96%A6/</loc>
     <lastmod>2025-09-13T23:20:00+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/kai_studio/robloxobbyparty/</loc>
+    <loc>http://localhost:1313/kai_studio/roblox/robloxobbyparty/</loc>
+    <lastmod>2025-09-13T11:30:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/kai_studio/roblox/</loc>
     <lastmod>2025-09-13T11:30:00+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/kai_studio/tags/%E6%90%9E%E7%AC%91%E6%B4%BE%E5%B0%8D/</loc>
@@ -31,6 +34,12 @@
   </url><url>
     <loc>http://localhost:1313/kai_studio/tags/%E8%B7%91%E9%85%B7/</loc>
     <lastmod>2025-09-13T11:30:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/kai_studio/nav/</loc>
+    <lastmod>2025-09-13T09:00:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/kai_studio/nav/now1/</loc>
+    <lastmod>2025-09-13T09:00:00+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/kai_studio/tags/pvp/</loc>
     <lastmod>2025-09-11T18:00:00+08:00</lastmod>
@@ -53,10 +62,10 @@
     <loc>http://localhost:1313/kai_studio/categories/games/roblox/</loc>
     <lastmod>2025-09-11T11:30:00+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/kai_studio/roblox/</loc>
+    <loc>http://localhost:1313/kai_studio/roblox/roblox/</loc>
     <lastmod>2025-09-11T11:30:00+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/kai_studio/300robloxgames/</loc>
+    <loc>http://localhost:1313/kai_studio/roblox/300robloxgames/</loc>
     <lastmod>2025-09-11T11:30:00+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/kai_studio/tags/ai/</loc>
@@ -116,10 +125,10 @@
     <loc>http://localhost:1313/kai_studio/tags/%E8%87%AA%E7%94%B1%E8%BB%9F%E9%AB%94/</loc>
     <lastmod>2025-09-09T19:00:00+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/kai_studio/first/</loc>
+    <loc>http://localhost:1313/kai_studio/nav/first/</loc>
     <lastmod>2025-09-09T10:00:00+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/kai_studio/about/</loc>
+    <loc>http://localhost:1313/kai_studio/nav/about/</loc>
     <lastmod>2025-09-09T09:00:00+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/kai_studio/categories/news/2025/</loc>

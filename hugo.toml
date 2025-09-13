@@ -43,33 +43,42 @@ theme = "PaperMod"
 
 [menu]
   [[menu.main]]
+  identifier = "now"
+  name = "NOW"
+  url = "/nav/now1/"
+  weight = 1
+
+  [[menu.main]]
   identifier = "home"
   name = "首頁"
   url = "/"
-  weight = 1
+  weight = 2
 
   [[menu.main]]
   identifier = "posts"
   name = "文章"
   url = "/posts/"
-  weight = 2
+  weight = 3
 
 
   [[menu.main]]
   identifier = "tags"
   name = "標籤"
   url = "/tags/"
-  weight = 3
+  weight = 4
 
-
+  [[menu.main]]
+  identifier = "first-visit"
+  name = "新手看這邊"
+  url = "/nav/First/"
+  weight = 5
+  
   [[menu.main]]
   identifier = "about"
   name = "關於我"
-  url = "/about/"
-  weight = 4
+  url = "/nav/about/"
+  weight = 6
   
-  [[menu.main]]
-  identifier = "first-visit"
-  name = "新手村"
-  url = "/First/"
-  weight = 5
+
+
+

@@ -1,0 +1,8 @@
+/* 突顯「新手看這邊」選單 */
+.navbar-nav .menu-first-visit > a {
+    background-color: #FFDD57; /* 黃色背景 */
+    color: #000000;           /* 文字黑色 */
+    font-weight: bold;        /* 加粗 */
+    border-radius: 5px;       /* 圓角 */
+    padding: 5px 10px;
+}
