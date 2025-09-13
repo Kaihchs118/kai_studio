@@ -16,17 +16,17 @@ cover:
 ## 真的好！
 📌 **特色**：收錄 Roblox 中有感筆電真的喜歡的，還有魏巍評論 
 
-> [👉 點我查看](https://kaihchs118.github.io/kai_studio/posts/roblox/)
+> [👉 此生必看]({{< relref "300robloxgames.md" >}})
 ---
 ### 2 經典必玩遊戲 先看這個！！！！！
 📌 **特色**：整理 Roblox 中歷久不衰、評價高的遊戲清單，每個遊戲都值得一玩。  
-[👉 點我查看](/haha/)
+[👉 點我查看]({{< relref "robloxobbyparty.md" >}})
 
 ---
 
 ### 3 經典必玩遊戲 先看這個！！！！！
 📌 **特色**：整理 Roblox 中歷久不衰、評價高的遊戲清單，每個遊戲都值得一玩。  
-[👉 點我查看](https://kaihchs118.github.io/kai_studio/posts/robloxgames/)
+[👉 點我查看]({{< relref "roblox.md" >}})
 
 ---
 

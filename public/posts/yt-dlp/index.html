@@ -42,7 +42,7 @@ Windows (使用 Python Pip &#43; 手動安裝 FFmpeg)
 在終端機中輸入以下指令，即可從 Python 套件索引 (PyPI) 安裝 yt-dlp。">
 <meta name="author" content="">
 <link rel="canonical" href="http://localhost:1313/kai_studio/posts/yt-dlp/">
-<link crossorigin="anonymous" href="/kai_studio/assets/css/stylesheet.8fe10233a706bc87f2e08b3cf97b8bd4c0a80f10675a143675d59212121037c0.css" integrity="sha256-j&#43;ECM6cGvIfy4Is8&#43;XuL1MCoDxBnWhQ2ddWSEhIQN8A=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/kai_studio/assets/css/stylesheet.cafce7e84a1f9b65407096e53889d694a4f553b4db52c4240b6f88dd03a81a85.css" integrity="sha256-yvzn6Eofm2VAcJblOInWlKT1U7TbUsQkC2&#43;I3QOoGoU=" rel="preload stylesheet" as="style">
 <link rel="icon" href="http://localhost:1313/kai_studio/img/demo1.png">
 <link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/kai_studio/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/kai_studio/favicon-32x32.png">
@@ -173,7 +173,49 @@ Windows (使用 Python Pip &#43; 手動安裝 FFmpeg)
 <figure class="entry-cover">
         <img loading="eager" src="https://thf.bing.com/th/id/OIP.5FR4S5tojUE6z_fbTu9cWQHaE8?w=220&amp;h=180&amp;c=7&amp;r=0&amp;o=7&amp;cb=thfc1&amp;dpr=2&amp;pid=1.7&amp;rm=3" alt="yt-dlp 和 FFmpeg 的標誌">
         
-</figure>
+</figure><div class="toc">
+    <details >
+        <summary accesskey="c" title="(Alt + C)">
+            <span class="details">Table of Contents</span>
+        </summary>
+
+        <div class="inner"><ul>
+                <li>
+                    <a href="#%e7%82%ba%e4%bd%95%e9%81%b8%e6%93%87-yt-dlp--ffmpeg" aria-label="為何選擇 yt-dlp &#43; FFmpeg？">為何選擇 yt-dlp + FFmpeg？</a></li>
+                <li>
+                    <a href="#%e5%ae%89%e8%a3%9d%e6%8c%87%e5%8d%97-windows-macos-linux-android" aria-label="安裝指南 (Windows, macOS, Linux, Android)">安裝指南 (Windows, macOS, Linux, Android)</a><ul>
+                        
+                <li>
+                    <a href="#windows-%e4%bd%bf%e7%94%a8-python-pip--%e6%89%8b%e5%8b%95%e5%ae%89%e8%a3%9d-ffmpeg" aria-label="Windows (使用 Python Pip &#43; 手動安裝 FFmpeg)">Windows (使用 Python Pip + 手動安裝 FFmpeg)</a><ul>
+                        
+                <li>
+                    <a href="#%e7%ac%ac%e4%b8%80%e6%ad%a5%e5%ae%89%e8%a3%9d-python-%e8%88%87-yt-dlp" aria-label="第一步：安裝 Python 與 yt-dlp">第一步：安裝 Python 與 yt-dlp</a></li>
+                <li>
+                    <a href="#%e7%ac%ac%e4%ba%8c%e6%ad%a5%e5%ae%89%e8%a3%9d-ffmpeg-%e4%b8%a6%e8%a8%ad%e5%ae%9a%e7%92%b0%e5%a2%83%e8%ae%8a%e6%95%b8" aria-label="第二步：安裝 FFmpeg 並設定環境變數">第二步：安裝 FFmpeg 並設定環境變數</a></li></ul>
+                </li>
+                <li>
+                    <a href="#macos" aria-label="macOS">macOS</a></li>
+                <li>
+                    <a href="#linux-ubuntudebian" aria-label="Linux (Ubuntu/Debian)">Linux (Ubuntu/Debian)</a></li></ul>
+                </li>
+                <li>
+                    <a href="#%e5%af%a6%e7%94%a8%e6%8c%87%e4%bb%a4%e6%95%99%e5%ad%b8" aria-label="實用指令教學">實用指令教學</a><ul>
+                        
+                <li>
+                    <a href="#yt-dlp%e5%bd%b1%e7%89%87%e8%88%87%e9%9f%b3%e8%a8%8a%e4%b8%8b%e8%bc%89" aria-label="yt-dlp：影片與音訊下載">yt-dlp：影片與音訊下載</a></li>
+                <li>
+                    <a href="#ffmpeg%e8%bd%89%e6%aa%94%e8%88%87%e5%9f%ba%e7%a4%8e%e8%99%95%e7%90%86" aria-label="FFmpeg：轉檔與基礎處理">FFmpeg：轉檔與基礎處理</a></li></ul>
+                </li>
+                <li>
+                    <a href="#%e5%b8%b8%e7%94%a8%e6%8c%87%e4%bb%a4%e9%80%9f%e6%9f%a5%e8%a1%a8" aria-label="常用指令速查表">常用指令速查表</a></li>
+                <li>
+                    <a href="#%e7%b5%90%e8%aa%9e" aria-label="結語">結語</a>
+                </li>
+            </ul>
+        </div>
+    </details>
+</div>
+
   <div class="post-content"><p>在日常工作中，不論是尋找影片素材、下載線上課程，或是處理音樂檔案，我們常常會遇到網頁下載器畫質受限、廣告繁多，或根本不支援某些網站的窘境。</p>
 <p>其實，你只需要兩個強大且免費的自由軟體，就能乾淨、快速、高效地解決絕大多數的影音下載與處理需求：</p>
 <ul>

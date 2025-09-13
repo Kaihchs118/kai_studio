@@ -13,6 +13,9 @@ theme = "PaperMod"
   showPostNavLinks = true
   showCodeCopyButtons = true
   customCSS = ["css/custom.css"]
+  showtoc = true
+  tocopen = false
+  background = true
   # 開啟搜尋
   [params.search]
     enable = true
