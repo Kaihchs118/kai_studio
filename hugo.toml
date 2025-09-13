@@ -16,6 +16,7 @@ theme = "PaperMod"
   showtoc = true
   tocopen = false
   background = true
+  paginate = 6
   # 開啟搜尋
   [params.search]
     enable = true
@@ -78,7 +79,5 @@ theme = "PaperMod"
   name = "關於我"
   url = "/nav/about/"
   weight = 6
-  
-
 
 
