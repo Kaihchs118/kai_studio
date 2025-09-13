@@ -20,10 +20,53 @@
     {{- end }}
 </header>
 
-<div id="searchbox">
-    <input id="searchInput" autofocus placeholder="{{ .Params.placeholder | default (printf "%s ↵" .Title) }}"
-        aria-label="search" type="search" autocomplete="off" maxlength="64">
-    <ul id="searchResults" aria-label="search results"></ul>
+
+<div id="search-container">
+    <input id="searchInput" type="search" placeholder="{{ .Params.placeholder | default "輸入關鍵字搜尋文章..." }}" autocomplete="off" autofocus maxlength="64" class="search-input"/>
+    <ul id="searchResults" class="search-results" aria-label="search results"></ul>
 </div>
+
+<!-- 加入搜尋 JS -->
+<script src="{{ "js/lunr.min.js" | relURL }}"></script>
+<script src="{{ "js/search.js" | relURL }}"></script>
+
+<style>
+/* 搜尋框樣式 */
+#search-container {
+    max-width: 600px;
+    margin: 20px auto;
+    position: relative;
+}
+
+.search-input {
+    width: 100%;
+    padding: 10px 15px;
+    font-size: 1rem;
+    border-radius: 8px;
+    border: 2px solid #ccc;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.search-results {
+    list-style: none;
+    padding: 0;
+    margin-top: 5px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+.search-results li {
+    padding: 8px 12px;
+    border-bottom: 1px solid #eee;
+    cursor: pointer;
+}
+
+.search-results li:hover {
+    background-color: #f0f0f0;
+}
+</style>
 
 {{- end }}{{/* end main */}}

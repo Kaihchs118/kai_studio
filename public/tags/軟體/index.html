@@ -96,17 +96,70 @@
                         <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
                     </svg>
                 </button>
+
+                
+                <div id="search-container">
+                    <input id="searchInput" type="search" placeholder="輸入關鍵字搜尋文章..." autocomplete="off" class="search-input"/>
+                    <ul id="searchResults" class="search-results"></ul>
+                </div>
+
+                
+                <script src="/kai_studio/js/lunr.min.js"></script>
+                <script src="/kai_studio/js/search.js"></script>
+
+                <style>
+                 
+                #search-container {
+                    max-width: 400px;
+                    margin-left: 20px;
+                    display: inline-block;
+                    vertical-align: middle;
+                    position: relative;
+                }
+
+                .search-input {
+                    width: 100%;
+                    padding: 6px 10px;
+                    border-radius: 6px;
+                    border: 1.5px solid #ccc;
+                    font-size: 0.9rem;
+                }
+
+                .search-results {
+                    list-style: none;
+                    padding: 0;
+                    margin-top: 5px;
+                    border: 1px solid #ddd;
+                    border-radius: 6px;
+                    background-color: #fff;
+                    max-height: 300px;
+                    overflow-y: auto;
+                    position: absolute;
+                    z-index: 100;
+                    width: 100%;
+                }
+
+                .search-results li {
+                    padding: 6px 10px;
+                    border-bottom: 1px solid #eee;
+                    cursor: pointer;
+                }
+
+                .search-results li:hover {
+                    background-color: #f0f0f0;
+                }
+                </style>
             </div>
         </div>
         <ul id="menu">
             <li>
-                <a href="http://localhost:1313/kai_studio/nav/now1/" title="NOW">
-                    <span>NOW</span>
+                <a href="http://localhost:1313/kai_studio/" title="首頁">
+                    <span>首頁</span>
                 </a>
             </li>
             <li>
-                <a href="http://localhost:1313/kai_studio/" title="首頁">
-                    <span>首頁</span>
+                <a href="http://localhost:1313/kai_studio/nav/now1/" title="NOW">
+                    <span>NOW</span>
                 </a>
             </li>
             <li>
@@ -159,7 +212,19 @@ Google DeepMind 推出 AI 交通預測模型 Google DeepMind 發表了新的 AI 
 NVIDIA Jetson Thor Blackwell 架構解析 NVIDIA 推出 Jetson Thor Blackwell 架構，專為 AI 機器人設計，提供更強大的運算能力。此架構將應用於 AI 機器人的「大腦」升級，推動自動化與智慧化應用，特別在工業與服務領域展現潛力。 [4]
 ...</p>
   </div>
-  <footer class="entry-footer"><span title='2025-09-08 15:30:00 +0800 CST'>September 8, 2025</span></footer>
+  <footer class="entry-footer">
+
+
+
+
+
+
+
+
+
+
+
+<span>發布日期：2025年09月08日</span>&nbsp;·&nbsp;⏰閱讀時間：大約 1 分鐘</footer>
   <a class="entry-link" aria-label="post link to 電腦新聞新鮮報 (2025年9月)" href="http://localhost:1313/kai_studio/posts/9technews/"></a>
 </article>
 </div>

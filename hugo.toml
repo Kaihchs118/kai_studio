@@ -2,13 +2,10 @@ baseURL = "https://Kaihchs118.github.io/kai_studio/"
 languageCode = "zh-TW"
 title = "KAI STUDIO"
 theme = "PaperMod"
-
 [outputs]
   home = ["HTML", "RSS", "JSON"]
-
-
 [params]
-  showReadingTime = false
+  showReadingTime = true  # 啟用閱讀時間顯示
   showBreadCrumbs = true
   showPostNavLinks = true
   showCodeCopyButtons = true
@@ -17,67 +14,55 @@ theme = "PaperMod"
   tocopen = false
   background = true
   paginate = 6
-  # 開啟搜尋
+  readingTimeWordsPerMinute = 1 # 修正為每分鐘 5 字
+  enableGitInfo = true
   [params.search]
     enable = true
     provider = "lunr"
-
   [params.utterances]
     enabled = true
-    repo = "Kaihchs118/kai_studio"   # 你的 repo
-    issueTerm = "pathname"           # 以網址作為 issue 對應
+    repo = "Kaihchs118/kai_studio"
+    issueTerm = "pathname"
     label = "💬 留言區"
     theme = "preferred-color-scheme"
-
   [params.assets]
     favicon = "img/demo1.png"
-
   [params.homeInfoParams]
     Title = "歡迎來到KAI STUDIO"
     Content = "往下滑看看吧"
-
-
+    
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
-
 [menu]
   [[menu.main]]
-  identifier = "now"
-  name = "NOW"
-  url = "/nav/now1/"
-  weight = 1
-
+    identifier = "home"
+    name = "首頁"
+    url = "/"
+    weight = 1
   [[menu.main]]
-  identifier = "home"
-  name = "首頁"
-  url = "/"
-  weight = 2
-
+    identifier = "now"
+    name = "NOW"
+    url = "/nav/now1/"
+    weight = 2
   [[menu.main]]
-  identifier = "posts"
-  name = "文章"
-  url = "/posts/"
-  weight = 3
-
-
+    identifier = "posts"
+    name = "文章"
+    url = "/posts/"
+    weight = 3
   [[menu.main]]
-  identifier = "tags"
-  name = "標籤"
-  url = "/tags/"
-  weight = 4
-
+    identifier = "tags"
+    name = "標籤"
+    url = "/tags/"
+    weight = 4
   [[menu.main]]
-  identifier = "first-visit"
-  name = "新手看這邊"
-  url = "/nav/First/"
-  weight = 5
-  
+    identifier = "first-visit"
+    name = "新手看這邊"
+    url = "/nav/First/"
+    weight = 5
   [[menu.main]]
-  identifier = "about"
-  name = "關於我"
-  url = "/nav/about/"
-  weight = 6
-
-
+    identifier = "about"
+    name = "關於我"
+    url = "/nav/about/"
+    weight = 6

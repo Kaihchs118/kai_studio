@@ -96,17 +96,70 @@
                         <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
                     </svg>
                 </button>
+
+                
+                <div id="search-container">
+                    <input id="searchInput" type="search" placeholder="輸入關鍵字搜尋文章..." autocomplete="off" class="search-input"/>
+                    <ul id="searchResults" class="search-results"></ul>
+                </div>
+
+                
+                <script src="/kai_studio/js/lunr.min.js"></script>
+                <script src="/kai_studio/js/search.js"></script>
+
+                <style>
+                 
+                #search-container {
+                    max-width: 400px;
+                    margin-left: 20px;
+                    display: inline-block;
+                    vertical-align: middle;
+                    position: relative;
+                }
+
+                .search-input {
+                    width: 100%;
+                    padding: 6px 10px;
+                    border-radius: 6px;
+                    border: 1.5px solid #ccc;
+                    font-size: 0.9rem;
+                }
+
+                .search-results {
+                    list-style: none;
+                    padding: 0;
+                    margin-top: 5px;
+                    border: 1px solid #ddd;
+                    border-radius: 6px;
+                    background-color: #fff;
+                    max-height: 300px;
+                    overflow-y: auto;
+                    position: absolute;
+                    z-index: 100;
+                    width: 100%;
+                }
+
+                .search-results li {
+                    padding: 6px 10px;
+                    border-bottom: 1px solid #eee;
+                    cursor: pointer;
+                }
+
+                .search-results li:hover {
+                    background-color: #f0f0f0;
+                }
+                </style>
             </div>
         </div>
         <ul id="menu">
             <li>
-                <a href="http://localhost:1313/kai_studio/nav/now1/" title="NOW">
-                    <span>NOW</span>
+                <a href="http://localhost:1313/kai_studio/" title="首頁">
+                    <span>首頁</span>
                 </a>
             </li>
             <li>
-                <a href="http://localhost:1313/kai_studio/" title="首頁">
-                    <span>首頁</span>
+                <a href="http://localhost:1313/kai_studio/nav/now1/" title="NOW">
+                    <span>NOW</span>
                 </a>
             </li>
             <li>
@@ -175,7 +228,19 @@
 核稿編輯：林君玶
 </p>
   </div>
-  <footer class="entry-footer"><span title='2025-09-03 08:00:00 +0800 CST'>September 3, 2025</span></footer>
+  <footer class="entry-footer">
+
+
+
+
+
+
+
+
+
+
+
+<span>發布日期：2025年09月03日</span>&nbsp;·&nbsp;⏰閱讀時間：大約 1 分鐘</footer>
   <a class="entry-link" aria-label="post link to 為你彈奏蕭邦的夜曲：捷運綠線列車進站時的音樂，為何聽起來如此熟悉？" href="http://localhost:1313/kai_studio/posts/metro/"></a>
 </article>
 
@@ -200,7 +265,19 @@ Finale 誕生於 1988 年，其核心程式碼已有超過 35 年的歷史。你
 然而，這僅是權宜之計。「無限期」不等於「永久」，一旦未來作業系統（如 macOS、Windows）有重大更新導致 Finale 無法執行，這個承諾也將終結。同時，社群中也出現了希望 MakeMusic 將 Finale 開源 (Open Source) 的呼聲，期望能由社群接手維護這個傳奇軟體。
 ...</p>
   </div>
-  <footer class="entry-footer"><span title='2025-08-28 18:00:00 +0800 CST'>August 28, 2025</span></footer>
+  <footer class="entry-footer">
+
+
+
+
+
+
+
+
+
+
+
+<span>發布日期：2025年08月28日</span>&nbsp;·&nbsp;⏰閱讀時間：大約 1 分鐘</footer>
   <a class="entry-link" aria-label="post link to 一個時代的終結：為什麽 Finale 選擇了下台一鞠躬？" href="http://localhost:1313/kai_studio/posts/finale/"></a>
 </article>
 </div>

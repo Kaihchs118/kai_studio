@@ -127,17 +127,70 @@ Windows (使用 Python Pip &#43; 手動安裝 FFmpeg)
                         <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
                     </svg>
                 </button>
+
+                
+                <div id="search-container">
+                    <input id="searchInput" type="search" placeholder="輸入關鍵字搜尋文章..." autocomplete="off" class="search-input"/>
+                    <ul id="searchResults" class="search-results"></ul>
+                </div>
+
+                
+                <script src="/kai_studio/js/lunr.min.js"></script>
+                <script src="/kai_studio/js/search.js"></script>
+
+                <style>
+                 
+                #search-container {
+                    max-width: 400px;
+                    margin-left: 20px;
+                    display: inline-block;
+                    vertical-align: middle;
+                    position: relative;
+                }
+
+                .search-input {
+                    width: 100%;
+                    padding: 6px 10px;
+                    border-radius: 6px;
+                    border: 1.5px solid #ccc;
+                    font-size: 0.9rem;
+                }
+
+                .search-results {
+                    list-style: none;
+                    padding: 0;
+                    margin-top: 5px;
+                    border: 1px solid #ddd;
+                    border-radius: 6px;
+                    background-color: #fff;
+                    max-height: 300px;
+                    overflow-y: auto;
+                    position: absolute;
+                    z-index: 100;
+                    width: 100%;
+                }
+
+                .search-results li {
+                    padding: 6px 10px;
+                    border-bottom: 1px solid #eee;
+                    cursor: pointer;
+                }
+
+                .search-results li:hover {
+                    background-color: #f0f0f0;
+                }
+                </style>
             </div>
         </div>
         <ul id="menu">
             <li>
-                <a href="http://localhost:1313/kai_studio/nav/now1/" title="NOW">
-                    <span>NOW</span>
+                <a href="http://localhost:1313/kai_studio/" title="首頁">
+                    <span>首頁</span>
                 </a>
             </li>
             <li>
-                <a href="http://localhost:1313/kai_studio/" title="首頁">
-                    <span>首頁</span>
+                <a href="http://localhost:1313/kai_studio/nav/now1/" title="NOW">
+                    <span>NOW</span>
                 </a>
             </li>
             <li>
@@ -171,7 +224,19 @@ Windows (使用 Python Pip &#43; 手動安裝 FFmpeg)
     <h1 class="post-title entry-hint-parent">
       抓片神器＋轉檔全能：yt-dlp 與 FFmpeg 終極應用！
     </h1>
-    <div class="post-meta"><span title='2025-09-09 19:00:00 +0800 CST'>September 9, 2025</span>
+    <div class="post-meta">
+
+
+
+
+
+
+
+
+
+
+
+<span>發布日期：2025年09月09日</span>&nbsp;·&nbsp;⏰閱讀時間：大約 2 分鐘
 
 </div>
   </header> 

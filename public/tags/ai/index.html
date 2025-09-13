@@ -96,17 +96,70 @@
                         <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
                     </svg>
                 </button>
+
+                
+                <div id="search-container">
+                    <input id="searchInput" type="search" placeholder="輸入關鍵字搜尋文章..." autocomplete="off" class="search-input"/>
+                    <ul id="searchResults" class="search-results"></ul>
+                </div>
+
+                
+                <script src="/kai_studio/js/lunr.min.js"></script>
+                <script src="/kai_studio/js/search.js"></script>
+
+                <style>
+                 
+                #search-container {
+                    max-width: 400px;
+                    margin-left: 20px;
+                    display: inline-block;
+                    vertical-align: middle;
+                    position: relative;
+                }
+
+                .search-input {
+                    width: 100%;
+                    padding: 6px 10px;
+                    border-radius: 6px;
+                    border: 1.5px solid #ccc;
+                    font-size: 0.9rem;
+                }
+
+                .search-results {
+                    list-style: none;
+                    padding: 0;
+                    margin-top: 5px;
+                    border: 1px solid #ddd;
+                    border-radius: 6px;
+                    background-color: #fff;
+                    max-height: 300px;
+                    overflow-y: auto;
+                    position: absolute;
+                    z-index: 100;
+                    width: 100%;
+                }
+
+                .search-results li {
+                    padding: 6px 10px;
+                    border-bottom: 1px solid #eee;
+                    cursor: pointer;
+                }
+
+                .search-results li:hover {
+                    background-color: #f0f0f0;
+                }
+                </style>
             </div>
         </div>
         <ul id="menu">
             <li>
-                <a href="http://localhost:1313/kai_studio/nav/now1/" title="NOW">
-                    <span>NOW</span>
+                <a href="http://localhost:1313/kai_studio/" title="首頁">
+                    <span>首頁</span>
                 </a>
             </li>
             <li>
-                <a href="http://localhost:1313/kai_studio/" title="首頁">
-                    <span>首頁</span>
+                <a href="http://localhost:1313/kai_studio/nav/now1/" title="NOW">
+                    <span>NOW</span>
                 </a>
             </li>
             <li>
@@ -153,7 +206,19 @@
 AI 工具的全面升級 AI IntelliScript：這項功能允許用戶匯入文字腳本，系統會自動將腳本與媒體檔案的轉錄音頻進行比對，生成最佳選擇的時間線，並將備用鏡次放置於其他軌道，方便剪輯師進一步檢查與調整。這對於需要快速從腳本生成粗剪的製作流程尤其實用。 AI Animated Subtitles：字幕功能進化，新增動態效果，字幕可隨著對白內容動態出現，提升視覺吸引力，特別適合社群媒體影片或需要強調對白的場景。 AI Multicam SmartSwitch：利用 AI 技術，根據說話者檢測自動切換多機位角度，生成時間線，簡化多機位剪輯流程，特別適用於訪談或直播內容製作。 AI Audio Assistant：自動分析時間線音頻並生成專業混音，平衡對白、音樂和音效，無需手動調整即可獲得自然且專業的音頻效果。 AI Magic Mask 2：改進的遮罩追蹤技術，新增筆刷效果，追蹤更精準，可快速分離人物或物體，適用於複雜的調色或視覺效果處理。 AI Dialogue Matcher：統一不同時間、地點錄製的對白聲場與環境音，讓聲音聽起來一致，特別適用於跨場景的對白整合。 AI Music Editor：自動調整音樂長度以匹配影片時長，無需手動裁剪或重新編排音樂。 AI Voice Convert：改變對白聲音的音色，保留語氣與語調，甚至能在嘈雜環境中提升聲音清晰度，適合後期配音或修復音頻。 AI Detect Music Beats：自動檢測音樂節拍並視覺化呈現，方便剪輯師將畫面切換與音樂節奏對齊，提升影片節奏感。 New AI SuperScale：新增 3x 與 4x 增強效果，提升低解析度素材的畫質，適用於舊素材修復或需要放大畫面的場景。 剪輯與工作流程改進 專用關鍵幀編輯器：在剪輯與快編頁面新增專用關鍵幀編輯器，提供更精細的動畫控制，方便調整不透明度、縮放等參數。 旁白面板：新增專用旁白錄製與編輯面板，簡化旁白製作流程，提升效率。 Blackmagic Cloud 增強：引入雲端檔案夾功能，允許用戶與協作者共享專案素材，僅在需要時本地同步，保持媒體池整潔。 多層合成工具：Fusion 頁面新增進階多層合成工作流程，支援更複雜的視覺效果製作，例如 OpenXR 與 PSD 檔案的處理。 新光流向量工具：提升運動追蹤與平滑度，特別適用於動態畫面或變速效果。 調色與視覺效果 Chroma Warp：色彩扭曲器新增 Chroma Warp 功能，允許更精細的色彩分離與調整，增強調色靈活性。 深度貼圖升級：改進的 AI 深度貼圖技術，加快場景分析與遮罩生成，提升調色與合成效率。 Resolve FX 新增插件：新增背景散焦插件（適用於人像拍攝）與電影風格創建器，允許調整色彩、飽和度與亮度，模擬多種電影效果，並可添加膠片顆粒。 音頻處理 Fairlight 音頻增強：新增 AI 音頻工具，如自動化音頻混音、移除靜音片段、按說話者分割對白等，提升音頻後期效率。 沉浸式音頻支援：支援高解析度 3D 音頻格式（最高 22.2），包括杜比全景聲、MPEG-H、Auro-3D 等，適合電影或沉浸式內容製作。 其他功能 支援 Apple Vision Pro：針對 Apple Immersive Video 的剪輯、調色與音頻混音功能，支援 Blackmagic URSA Cine Immersive 攝影機拍攝的素材。 多用戶協作：改進項目庫，支援實時本地與遠端協作，提升團隊製作效率。 DaVinci Resolve 20.1 DaVinci Resolve 20.1 於 2025 年 8 月發布，作為 20.0 的增量更新，重點在於修復 Beta 版的問題並新增部分功能。以下為主要更新：
 ...</p>
   </div>
-  <footer class="entry-footer"><span title='2025-09-11 00:00:00 +0800 CST'>September 11, 2025</span></footer>
+  <footer class="entry-footer">
+
+
+
+
+
+
+
+
+
+
+
+<span>發布日期：2025年09月11日</span>&nbsp;·&nbsp;⏰閱讀時間：大約 2 分鐘</footer>
   <a class="entry-link" aria-label="post link to DaVinci Resolve 重榜更新！追求時代" href="http://localhost:1313/kai_studio/posts/davinciupdate20/"></a>
 </article>
 
@@ -176,7 +241,19 @@ Google DeepMind 推出 AI 交通預測模型 Google DeepMind 發表了新的 AI 
 NVIDIA Jetson Thor Blackwell 架構解析 NVIDIA 推出 Jetson Thor Blackwell 架構，專為 AI 機器人設計，提供更強大的運算能力。此架構將應用於 AI 機器人的「大腦」升級，推動自動化與智慧化應用，特別在工業與服務領域展現潛力。 [4]
 ...</p>
   </div>
-  <footer class="entry-footer"><span title='2025-09-08 15:30:00 +0800 CST'>September 8, 2025</span></footer>
+  <footer class="entry-footer">
+
+
+
+
+
+
+
+
+
+
+
+<span>發布日期：2025年09月08日</span>&nbsp;·&nbsp;⏰閱讀時間：大約 1 分鐘</footer>
   <a class="entry-link" aria-label="post link to 電腦新聞新鮮報 (2025年9月)" href="http://localhost:1313/kai_studio/posts/9technews/"></a>
 </article>
 </div>
