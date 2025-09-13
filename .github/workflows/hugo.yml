@@ -1,33 +1,32 @@
-# Sample workflow for building and deploying a Hugo site to GitHub Pages
-name: Deploy Hugo site to Pages
+name: Deploy Hugo site to GitHub Pages
 
 on:
-  # Runs on pushes targeting the default branch
+  # 1️⃣ 當 main 分支有 push 時觸發
   push:
     branches:
-      - main # 注意：這裡要填寫你的預設分支名稱，可能是 main 或是 master
+      - main  # 注意：請改成你的預設分支名稱
 
-  # Allows you to run this workflow manually from the Actions tab
+  # 2️⃣ 手動觸發
   workflow_dispatch:
 
-# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
+  # 3️⃣ 定時排程（每天 UTC 00:00 執行一次）
+  schedule:
+    - cron: '0 0 * * *'  # UTC 時間，每天零點執行一次
+
 permissions:
   contents: read
   pages: write
   id-token: write
 
-# Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
-# However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
 concurrency:
   group: "pages"
   cancel-in-progress: false
 
 jobs:
-  # Build job
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: Checkout repository
         uses: actions/checkout@v4
         with:
           submodules: true
@@ -35,11 +34,12 @@ jobs:
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
         with:
-          hugo-version: 'latest' # 你也可以指定 Hugo 的版本，例如 '0.119.0'
-          # extended: true # 如果你的主題需要擴充版 (extended version) 的 Hugo，請取消這行的註解
+          hugo-version: 'latest'
+          # extended: true # 如果主題需要 Hugo Extended，取消註解
 
-      - name: Build
-        run: hugo --minify
+      - name: Build the site
+        # 🔑 加上 --buildFuture 讓未來日期文章也生成
+        run: hugo --minify --buildFuture
 
       - name: Setup Pages
         id: pages
@@ -50,14 +50,13 @@ jobs:
         with:
           path: ./public
 
-  # Deployment job
   deploy:
+    runs-on: ubuntu-latest
+    needs: build
     environment:
       name: github-pages
       url: ${{ steps.pages.outputs.base_url }}
-    runs-on: ubuntu-latest
-    needs: build
     steps:
       - name: Deploy to GitHub Pages
-        id: deployment
         uses: actions/deploy-pages@v4
+        id: deployment
