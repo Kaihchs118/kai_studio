@@ -1,4 +1,5 @@
 {{- define "main" }}
+<div class="post-list-grid">
 
 {{- if (and site.Params.profileMode.enabled .IsHome) }}
 {{- partial "index_profile.html" . }}
@@ -94,6 +95,7 @@
 {{- end }}
 
 {{- if gt $paginator.TotalPages 1 }}
+</div>
 <footer class="page-footer">
   <nav class="pagination">
     {{- if $paginator.HasPrev }}
@@ -114,6 +116,8 @@
     {{- end }}
   </nav>
 </footer>
+{{- else }}
+</div>
 {{- end }}
 
 {{- end }}{{/* end profileMode */}}

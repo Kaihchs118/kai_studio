@@ -1,4 +1,3 @@
-
 ---
 title: "DaVinci Resolve 重榜更新！追求時代"
 date: 2025-09-11T00:00:00+08:00
@@ -6,6 +5,8 @@ draft: false
 categories: ["SOFTWARE/DaVinci Resolve"]
 tags: ["DaVinci Resolve", "更新", "AI"]
 comments: true
+cover:
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5It02HdOqycvTEkxk7coqr9BF0Y6nvX2QyA&s"
 ---
 
 ## DaVinci Resolve 20.0
