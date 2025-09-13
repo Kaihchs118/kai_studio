@@ -10,9 +10,9 @@ comments: true
 從熱血對戰到休閒放鬆，總有一款適合你！點擊下方目錄，探索你的最愛！  
 
 ### 🚀 快速導覽・遊戲分類目錄
+- [🏃‍♂️ 極限跑酷 & OBBY](#obby)
 - [🗡️ PVP 熱血對戰](#pvp)
 - [🌆 角色扮演 & 開放世界](#rp-open-world)
-- [🏃‍♂️ 極限跑酷 & OBBY](#obby)
 - [💰 模擬器 & 大亨](#simulator-tycoon)
 - [😱 驚悚恐怖](#horror)
 - [⛺ 生存挑戰](#survival)
