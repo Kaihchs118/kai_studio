@@ -4,8 +4,6 @@ date: 2025-09-14T19:00:00+08:00
 updatedate: 2025-09-15T09:00:00+08:00
 tags: ["本篇由最懂你失誤的魏魏親嘴撰寫"]
 draft : false
-cover:
-  image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiS_xmEUy-kheaSzbv3VP7uCHIJ8TqkzCj-_zvkkLXMZsARTL9_wJ6A-DPV1k60GmmuMQ&usqp=CAU"
 comments: true
 author: 最懂你失誤的魏魏
 ---
