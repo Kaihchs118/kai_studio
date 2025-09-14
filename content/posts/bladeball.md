@@ -5,7 +5,7 @@ updatedate: 2025-09-15T09:00:00+08:00
 tags: ["本篇由最懂你失誤的魏魏親嘴撰寫"]
 draft : false
 cover:
-  image: "https://www.google.com/imgres?imgurl=https%3A%2F%2Fi.ytimg.com%2Fvi%2F2swg7ztgHVc%2Foardefault.jpg%3Fsqp%3D-oaymwEYCJUDENAFSFqQAgHyq4qpAwcIARUAAIhC%26rs%3DAOn4CLDuyTW-9pVrXYxvpjrJ5xHgVmyF5Q&tbnid=j9ru-jMcJ_p0xM&vet=1&imgrefurl=https%3A%2F%2Fwww.youtube.com%2F%40%25E9%25AD%258F%25E5%25B7%258D%2Fshorts&docid=AT_LqxMpzUUV-M&w=405&h=720&hl=zh-TW&source=sh%2Fx%2Fim%2Fm1%2F4&kgs=301f3e8cbdbab0ad&shem=isst"
+  image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiS_xmEUy-kheaSzbv3VP7uCHIJ8TqkzCj-_zvkkLXMZsARTL9_wJ6A-DPV1k60GmmuMQ&usqp=CAU"
 comments: true
 author: 最懂你失誤的魏魏
 ---
