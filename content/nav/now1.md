@@ -17,7 +17,7 @@ _build_menu_ignore: true
 
 - **Hugo + PaperMod 部落格維護**
   - 調整首頁文章列表格子排版，實現多欄 Grid 顯示。
-  - 移除不必要的 YouTube 短代碼 `{{< youtube id="..." >}}`。
+  - 移除不必要的 YouTube 短代碼 `{{< youtube id="5RtPfBn6x8" >}}`。
   - 自訂 CSS/SCSS 動態效果，例如滑鼠滑過格子會亮起或漸變。
   - 嘗試自動排程文章發佈，方便維護大量內容。
   - 優化搜尋框體驗，減少 Hugo 預設搜尋框的冗餘顯示。
