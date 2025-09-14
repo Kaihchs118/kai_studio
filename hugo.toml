@@ -38,31 +38,31 @@ theme = "PaperMod"
 [menu]
   [[menu.main]]
     identifier = "home"
-    name = "首頁"
+    name = "🌐首頁"
     url = "/"
     weight = 1
   [[menu.main]]
     identifier = "now"
-    name = "NOW"
+    name = "🧭NOW"
     url = "/nav/now1/"
     weight = 2
   [[menu.main]]
     identifier = "posts"
-    name = "文章"
+    name = "⭐文章"
     url = "/posts/"
     weight = 3
   [[menu.main]]
     identifier = "tags"
-    name = "標籤"
+    name = "🎫標籤"
     url = "/tags/"
     weight = 4
   [[menu.main]]
     identifier = "first-visit"
-    name = "新手看這邊"
+    name = "🤡新手看這邊"
     url = "/nav/First/"
     weight = 5
   [[menu.main]]
     identifier = "about"
-    name = "關於我"
+    name = "📞關於我"
     url = "/nav/about/"
     weight = 6
