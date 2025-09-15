@@ -1,0 +1,35 @@
+{{ define "main" }}
+<main class="main">
+  <header class="page-header">
+    <h1>{{ .Title }}</h1>
+  </header>
+  <div class="archive-year">
+    {{ $pages := .Pages.ByDate.Reverse }}
+    {{ range $year, $yearPages := $pages.GroupByDate "2006" }}
+      <h2 class="archive-year-header">
+        {{ $year }}<sup class="archive-count">&nbsp;&nbsp;{{ len $yearPages }} 篇</sup>
+      </h2>
+      {{ range $month, $monthPages := $yearPages.GroupByDate "January" }}
+        <div class="archive-month">
+          <h3 class="archive-month-header">
+            {{ $month }}<sup class="archive-count">&nbsp;&nbsp;{{ len $monthPages }}</sup>
+          </h3>
+          <div class="archive-posts">
+            {{ range $monthPages }}
+              <div class="archive-entry">
+                <h3 class="archive-entry-title">{{ .Title }}</h3>
+                <div class="archive-meta">
+                  <span>📅 {{ .Date.Format "2006-01-02" }}</span>
+                  <span>✍️ {{ .WordCount }} 字</span>
+                  <span>⏱ {{ .ReadingTime }} 分鐘</span>
+                </div>
+                <a class="entry-link" href="{{ .Permalink }}"></a>
+              </div>
+            {{ end }}
+          </div>
+        </div>
+      {{ end }}
+    {{ end }}
+  </div>
+</main>
+{{ end }}

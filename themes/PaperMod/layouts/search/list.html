@@ -1,0 +1,36 @@
+{{ define "main" }}
+<section>
+  <h1>搜尋</h1>
+  <input type="text" id="search-input" placeholder="輸入關鍵字..." />
+  <ul id="results"></ul>
+</section>
+
+<script src="https://cdn.jsdelivr.net/npm/lunr/lunr.min.js"></script>
+<script>
+  async function initSearch() {
+    const res = await fetch("/index.json");
+    const data = await res.json();
+    const idx = lunr(function () {
+      this.ref("permalink");
+      this.field("title");
+      this.field("contents");
+      data.forEach(doc => this.add(doc));
+    });
+
+    document.getElementById("search-input").addEventListener("input", function() {
+      const results = idx.search(this.value);
+      const list = document.getElementById("results");
+      list.innerHTML = "";
+      results.forEach(r => {
+        const item = data.find(d => d.permalink === r.ref);
+        if (item) {
+          const li = document.createElement("li");
+          li.innerHTML = `<a href="${item.permalink}">${item.title}</a>`;
+          list.appendChild(li);
+        }
+      });
+    });
+  }
+  initSearch();
+</script>
+{{ end }}

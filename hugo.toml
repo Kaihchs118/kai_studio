@@ -7,7 +7,7 @@ theme = "PaperMod"
 [params]
   showReadingTime = true  # 啟用閱讀時間顯示
   showBreadCrumbs = true
-  showPostNavLinks = true
+  showPostNavLinks = false
   showCodeCopyButtons = true
   customCSS = ["css/custom.css"]
   showtoc = true
@@ -16,6 +16,15 @@ theme = "PaperMod"
   paginate = 6
   readingTimeWordsPerMinute = 1 # 修正為每分鐘 5 字
   enableGitInfo = true
+  [params.fuseOpts]
+  isCaseSensitive = false
+  includeMatches = true
+  shouldSort = true
+  location = 0
+  distance = 1000
+  threshold = 0.4
+  minMatchCharLength = 0
+  keys = ["title", "permalink", "summary", "content"]
   [params.search]
     enable = true
     provider = "lunr"
@@ -37,10 +46,11 @@ theme = "PaperMod"
       unsafe = true
 [menu]
   [[menu.main]]
-    identifier = "home"
-    name = "🌐首頁"
-    url = "/"
+    identifier = "search"
+    name = "🔎搜尋"
+    url = "/nav/search/"
     weight = 1
+
   [[menu.main]]
     identifier = "now"
     name = "🧭NOW"
@@ -58,7 +68,7 @@ theme = "PaperMod"
     weight = 4
   [[menu.main]]
     identifier = "first-visit"
-    name = "🤡新手看這邊"
+    name = "🤡新手專區"
     url = "/nav/First/"
     weight = 5
   [[menu.main]]
@@ -66,3 +76,8 @@ theme = "PaperMod"
     name = "📞關於我"
     url = "/nav/about/"
     weight = 6
+  [[menu.main]]
+  identifier = "archives"
+  name = "📚文章列表"
+  url = "/archives/"
+  weight = 7
