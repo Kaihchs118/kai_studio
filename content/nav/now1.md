@@ -7,8 +7,6 @@ comments: true
 _build_menu_ignore: true
 ---
 
-# 暟宸最近在幹嘛？📝
-
 歡迎來到我的生活紀錄小角落，這裡整理了我最近的學習、創作與各種技術探索。  
 
 ---
