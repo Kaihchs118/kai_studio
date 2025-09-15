@@ -1,35 +1,48 @@
 {{ define "main" }}
 <main class="main">
-  <header class="page-header">
-    <h1>{{ .Title }}</h1>
+  <header class="page-header" style="text-align:center; margin-bottom:2rem;">
+    <h1 style="font-weight: 900; font-size: 3rem; background: linear-gradient(90deg, #ff7e5f, #feb47b); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">
+      {{ .Title }}
+    </h1>
   </header>
-  <div class="archive-year">
+  <div class="archive-container" style="display: flex; flex-direction: column; gap: 3rem;">
     {{ $pages := .Pages.ByDate.Reverse }}
     {{ range $year, $yearPages := $pages.GroupByDate "2006" }}
-      <h2 class="archive-year-header">
-        {{ $year }}<sup class="archive-count">&nbsp;&nbsp;{{ len $yearPages }} 篇</sup>
-      </h2>
-      {{ range $month, $monthPages := $yearPages.GroupByDate "January" }}
-        <div class="archive-month">
-          <h3 class="archive-month-header">
-            {{ $month }}<sup class="archive-count">&nbsp;&nbsp;{{ len $monthPages }}</sup>
-          </h3>
-          <div class="archive-posts">
-            {{ range $monthPages }}
-              <div class="archive-entry">
-                <h3 class="archive-entry-title">{{ .Title }}</h3>
-                <div class="archive-meta">
-                  <span>📅 {{ .Date.Format "2006-01-02" }}</span>
-                  <span>✍️ {{ .WordCount }} 字</span>
-                  <span>⏱ {{ .ReadingTime }} 分鐘</span>
-                </div>
-                <a class="entry-link" href="{{ .Permalink }}"></a>
-              </div>
-            {{ end }}
-          </div>
-        </div>
-      {{ end }}
+      <section class="archive-year-section" style="border-left: 6px solid #ff7e5f; padding-left: 1rem;">
+        <h2 class="archive-year-header" style="font-size: 2rem; font-weight: 800; margin-bottom: 1rem; color: #ff7e5f;">
+          {{ $year }} <sup style="font-weight: 600; font-size: 1rem; color: #feb47b;">{{ len $yearPages }} 篇</sup>
+        </h2>
+        {{ range $month, $monthPages := $yearPages.GroupByDate "January" }}
+          <section class="archive-month-section" style="margin-bottom: 2rem;">
+            <h3 class="archive-month-header" style="font-size: 1.5rem; font-weight: 700; margin-bottom: 1rem; color: #feb47b;">
+              {{ $month }} <sup style="font-weight: 600; font-size: 0.9rem; color: #ff7e5f;">{{ len $monthPages }}</sup>
+            </h3>
+            <div class="archive-posts" style="display: grid; grid-template-columns: repeat(auto-fill,minmax(280px,1fr)); gap: 1.5rem;">
+              {{ range $monthPages }}
+                <a href="{{ .Permalink }}" class="archive-entry-card" style="display: block; background: linear-gradient(145deg, #ffffff, #f0f0f0); border-radius: 12px; padding: 1.5rem; box-shadow: 0 6px 15px rgba(0,0,0,0.1); text-decoration: none; color: inherit; transform-style: preserve-3d; transition: transform 0.4s ease, box-shadow 0.4s ease;">
+                  <h3 class="archive-entry-title" style="font-size: 1.25rem; font-weight: 700; margin-bottom: 0.75rem;">
+                    {{ .Title }}
+                  </h3>
+                  <div class="archive-meta" style="font-size: 0.9rem; color: #666; display: flex; gap: 1rem; flex-wrap: wrap;">
+                    <span>📅 {{ .Date.Format "2006-01-02" }}</span>
+                    <span>✍️ {{ .WordCount }} 字</span>
+                    <span>⏱ {{ .ReadingTime }} 分鐘</span>
+                  </div>
+                </a>
+              {{ end }}
+            </div>
+          </section>
+        {{ end }}
+      </section>
     {{ end }}
   </div>
+  <style>
+    .archive-entry-card:hover {
+      background: linear-gradient(145deg, #feb47b, #ff7e5f);
+      color: white !important;
+      box-shadow: 0 12px 30px rgba(255, 126, 95, 0.6);
+      transform: translateY(-8px) rotateX(5deg);
+    }
+  </style>
 </main>
 {{ end }}
