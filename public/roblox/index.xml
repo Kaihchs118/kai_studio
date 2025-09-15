@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Robloxes on KAI STUDIO</title>
-    <link>https://Kaihchs118.github.io/kai_studio/roblox/</link>
+    <link>http://localhost:1313/kai_studio/roblox/</link>
     <description>Recent content in Robloxes on KAI STUDIO</description>
     <generator>Hugo -- 0.148.2</generator>
     <language>zh-TW</language>
     <lastBuildDate>Sat, 13 Sep 2025 11:30:00 +0800</lastBuildDate>
-    <atom:link href="https://Kaihchs118.github.io/kai_studio/roblox/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/kai_studio/roblox/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Roblox 跑酷與派對小遊戲推薦 🎮</title>
-      <link>https://Kaihchs118.github.io/kai_studio/roblox/robloxobbyparty/</link>
+      <link>http://localhost:1313/kai_studio/roblox/robloxobbyparty/</link>
       <pubDate>Sat, 13 Sep 2025 11:30:00 +0800</pubDate>
-      <guid>https://Kaihchs118.github.io/kai_studio/roblox/robloxobbyparty/</guid>
+      <guid>http://localhost:1313/kai_studio/roblox/robloxobbyparty/</guid>
       <description>&lt;p&gt;真的以下整理了 100 個 Roblox 遊戲，分為 跑酷 (Obby) 和 派對小遊戲 (Party Mini-Games) 各 50 個，涵蓋 2025 年 Roblox 平台最新流行遊戲，根據玩家社群討論與造訪次數精選。每款遊戲包含詳細介紹（玩法、特色、適合玩家類型），並附上 Roblox 遊戲連結，使用 Markdown 語法 呈現，包含標題、列表、強調與表情符號，確保內容清晰有趣。目錄僅列出分類，方便快速導航。&lt;/p&gt;
 &lt;h3 id=&#34;目錄-&#34;&gt;目錄 📑&lt;/h3&gt;
 &lt;ul&gt;
@@ -34,11 +34,31 @@
     </item>
     <item>
       <title>Roblox 終極遊戲聖經：220款精選遊戲</title>
-      <link>https://Kaihchs118.github.io/kai_studio/roblox/roblox/</link>
+      <link>http://localhost:1313/kai_studio/roblox/roblox/</link>
       <pubDate>Thu, 11 Sep 2025 11:30:00 +0800</pubDate>
-      <guid>https://Kaihchs118.github.io/kai_studio/roblox/roblox/</guid>
+      <guid>http://localhost:1313/kai_studio/roblox/roblox/</guid>
       <description>&lt;p&gt;歡迎來到 Roblox 終極遊戲聖經！🎉 這份清單精選 220 款遊戲，涵蓋各種風格，&lt;br&gt;
 從熱血對戰到休閒放鬆，總有一款適合你！點擊下方目錄，探索你的最愛！&lt;/p&gt;
+&lt;h3 id=&#34;-快速導覽遊戲分類目錄&#34;&gt;🚀 快速導覽・遊戲分類目錄&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#obby&#34;&gt;🏃‍♂️ 極限跑酷 &amp;amp; OBBY&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#pvp&#34;&gt;🗡️ PVP 熱血對戰&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#rp-open-world&#34;&gt;🌆 角色扮演 &amp;amp; 開放世界&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#simulator-tycoon&#34;&gt;💰 模擬器 &amp;amp; 大亨&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#horror&#34;&gt;😱 驚悚恐怖&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#survival&#34;&gt;⛺ 生存挑戰&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#party-minigames&#34;&gt;🎈 派對同樂 &amp;amp; 迷你遊戲&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#funny-meme&#34;&gt;🤡 搞笑 &amp;amp; 迷因&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#building-sandbox&#34;&gt;🛠️ 創意建築 &amp;amp; 沙盒&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#story-adventure&#34;&gt;📚 互動故事 &amp;amp; 冒險&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#anime-movie&#34;&gt;🎬 動漫 &amp;amp; 影視改編&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#sports&#34;&gt;⚽ 運動 &amp;amp; 競技&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#puzzle&#34;&gt;🧠 益智 &amp;amp; 合作解謎&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#experimental&#34;&gt;🪐 獵奇 &amp;amp; 實驗性玩法&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#casual&#34;&gt;🌿 休閒 &amp;amp; 放鬆&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#inspirational&#34;&gt;💖 感人 &amp;amp; 勵志&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
 &lt;h2 id=&#34;pvp&#34;&gt;🗡️ PVP 熱血對戰&lt;/h2&gt;
 &lt;h3 id=&#34;bedwars-床戰&#34;&gt;BedWars 床戰&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;核心玩法&lt;/strong&gt;：🔥 在懸浮島嶼上與隊友合作，保護你的床（復活點），&lt;br&gt;
@@ -46,43 +66,35 @@
 &lt;strong&gt;獨特賣點&lt;/strong&gt;：建築與 PVP 完美融合，考驗團隊默契，地圖多變超刺激。&lt;br&gt;
 &lt;strong&gt;適合玩家&lt;/strong&gt;：愛策略與快節奏對戰的玩家，新手老手都好玩！&lt;br&gt;
 &lt;strong&gt;適合人數&lt;/strong&gt;：4-16 人（最佳 4-8 人）&lt;br&gt;
-&lt;a href=&#34;https://www.roblox.com/games/6872265039/BedWars&#34;&gt;👉 點我開玩&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&#34;arsenal-兵工廠&#34;&gt;Arsenal 兵工廠&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;核心玩法&lt;/strong&gt;：🎮 快節奏 FPS 遊戲，每次擊殺換隨機武器，從火箭筒到&lt;br&gt;
-魔法棒，目標是用黃金小刀完成終結一擊，稱霸全場！地圖緊湊超爽快。&lt;br&gt;
-&lt;strong&gt;獨特賣點&lt;/strong&gt;：武器輪替讓戰鬥充滿意外，幽默風格與多變地圖超有趣。&lt;br&gt;
-&lt;strong&gt;適合玩家&lt;/strong&gt;：熱愛 FPS 與快速反應的玩家，短時間刺激首選！&lt;br&gt;
-&lt;strong&gt;適合人數&lt;/strong&gt;：2-16 人（最佳 6-12 人）&lt;br&gt;
-&lt;a href=&#34;https://www.roblox.com/games/286090429/Arsenal&#34;&gt;👉 點我開玩&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&#34;phantom-forces&#34;&gt;Phantom Forces&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;核心玩法&lt;/strong&gt;：🔫 硬核 FPS 遊戲，模擬真實戰場，提供多樣武器與地圖。&lt;br&gt;
-從團隊死鬥到佔領模式，考驗戰術與槍法，體驗真實戰爭氛圍！&lt;br&gt;
-&lt;strong&gt;獨特賣點&lt;/strong&gt;：擬真彈道與深度戰術，武器自訂豐富，硬核玩家的天堂。&lt;br&gt;
-&lt;strong&gt;適合玩家&lt;/strong&gt;：喜愛戰術射擊與團隊合作的玩家，挑戰高難度！&lt;br&gt;
-&lt;strong&gt;適合人數&lt;/strong&gt;：4-32 人（最佳 8-16 人）&lt;br&gt;
-&lt;a href=&#34;https://www.roblox.com/games/292439477/Phantom-Forces&#34;&gt;👉 點我開玩&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&#34;the-strongest-battlegrounds-最強的戰場&#34;&gt;The Strongest Battlegrounds 最強的戰場&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;核心玩法&lt;/strong&gt;：💪 靈感來自《一拳超人》，化身超能力英雄，在競技場&lt;br&gt;
-展開激烈對決。每個角色有獨特技能，拳拳到肉的打擊感超爽！&lt;br&gt;
-&lt;strong&gt;獨特賣點&lt;/strong&gt;：動漫風格與流暢戰鬥結合，技能組合多變，熱血沸騰。&lt;br&gt;
-&lt;strong&gt;適合玩家&lt;/strong&gt;：愛動漫與近戰格鬥的玩家，追求爽快打擊感！&lt;br&gt;
-&lt;strong&gt;適合人數&lt;/strong&gt;：2-12 人（最佳 4-8 人）&lt;br&gt;
-&lt;a href=&#34;https://www.roblox.com/games/11634563065/The-Strongest-Battlegrounds&#34;&gt;👉 點我開玩&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&#34;combat-warriors-戰鬥勇士&#34;&gt;Combat Warriors 戰鬥勇士&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;核心玩法&lt;/strong&gt;：⚔️ 快節奏近戰格鬥遊戲，專注冷兵器對決，刀劍揮砍&lt;br&gt;
-考驗技巧與反應。地圖多障礙，戰鬥流暢，充滿生死一瞬間的緊張感！&lt;br&gt;
-&lt;strong&gt;獨特賣點&lt;/strong&gt;：流暢動作系統與多樣武器，純粹格鬥樂趣無與倫比。&lt;br&gt;
-&lt;strong&gt;適合玩家&lt;/strong&gt;：喜愛近戰與技巧操作的玩家，想秀走位必玩！&lt;br&gt;
-&lt;strong&gt;適合人數&lt;/strong&gt;：2-16 人（最佳 4-10 人）&lt;br&gt;
-&lt;a href=&#34;https://www.roblox.com/games/4282933015/Combat-Warriors&#34;&gt;👉 點我開玩&lt;/a&gt;&lt;/p&gt;</description>
+&lt;a href=&#34;https://www.roblox.com/games/6872265039/BedWars&#34;&gt;👉 點我開玩&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Roblox 終極遊戲聖經：300ˇ多款精選遊戲</title>
-      <link>https://Kaihchs118.github.io/kai_studio/roblox/300robloxgames/</link>
+      <link>http://localhost:1313/kai_studio/roblox/300robloxgames/</link>
       <pubDate>Thu, 11 Sep 2025 11:30:00 +0800</pubDate>
-      <guid>https://Kaihchs118.github.io/kai_studio/roblox/300robloxgames/</guid>
+      <guid>http://localhost:1313/kai_studio/roblox/300robloxgames/</guid>
       <description>&lt;p&gt;歡迎來到 Roblox 遊戲的終極殿堂！這份清單為你 exhaustive 地整理了來自兩本遊戲寶典、 &lt;strong&gt;全部 300 款&lt;/strong&gt; 橫跨各種風格的超讚遊戲。無論你是想找刺激的對戰、沉浸式的角色扮演，還是只想找點樂子放鬆一下，這份清單都能滿足你！&lt;/p&gt;
 &lt;p&gt;點擊下方目錄，直接跳到你最感興趣的分類吧！&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;快速導覽遊戲分類目錄&#34;&gt;&lt;strong&gt;快速導覽・遊戲分類目錄&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#pvp-%E7%86%B1%E8%A1%80%E5%B0%8D%E6%88%B0&#34;&gt;PVP 熱血對戰&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#%E8%A7%92%E8%89%B2%E6%89%AE%E6%BC%94--%E9%96%8B%E6%94%BE%E4%B8%96%E7%95%8C-rp--open-world&#34;&gt;角色扮演&amp;ndash;開放世界-rp&amp;ndash;open-world&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#%E6%A5%B5%E9%99%90%E8%B7%91%E9%85%B7--obby&#34;&gt;極限跑酷&amp;ndash;obby&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#%E6%A8%A1%E6%93%AC%E5%99%A8--%E5%A4%A7%E4%BA%A8&#34;&gt;模擬器&amp;ndash;大亨&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#%E9%A9%9A%E6%82%9A%E6%81%90%E6%80%96&#34;&gt;驚悚恐怖&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#%E7%94%9F%E5%AD%98%E6%8C%91%E6%88%B0&#34;&gt;生存挑戰&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#%E6%B4%BE%E5%B0%8D%E5%90%8C%E6%A8%82--%E8%BF%B7%E4%BD%A0%E9%81%8A%E6%88%B2&#34;&gt;派對同樂&amp;ndash;迷你遊戲&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#%E6%90%9E%E7%AC%91--%E8%BF%B7%E5%9B%A0&#34;&gt;搞笑&amp;ndash;迷因&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#%E5%89%B5%E6%84%8F%E5%BB%BA%E7%AF%89--%E6%B2%99%E7%9B%92&#34;&gt;創意建築&amp;ndash;沙盒&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#%E4%BA%92%E5%8B%95%E6%95%85%E4%BA%8B--%E5%86%92%E9%9A%AA&#34;&gt;互動故事&amp;ndash;冒險&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#%E5%8B%95%E6%BC%AB--%E5%BD%B1%E8%A6%96%E6%94%B9%E7%B7%A8&#34;&gt;動漫&amp;ndash;影視改編&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#%E9%81%8B%E5%8B%95--%E7%AB%B6%E6%8A%80&#34;&gt;運動&amp;ndash;競技&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#%E7%9B%8A%E6%99%BA--%E5%90%88%E4%BD%9C%E8%A7%A3%E8%AC%8E&#34;&gt;益智&amp;ndash;合作解謎&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#%E7%8D%B5%E5%A5%87--%E5%AF%A6%E9%A9%97%E6%80%A7%E7%8E%A9%E6%B3%95&#34;&gt;獵奇&amp;ndash;實驗性玩法&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#%E4%BC%91%E9%96%92--%E6%94%BE%E9%AC%86&#34;&gt;休閒&amp;ndash;放鬆&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#%E6%84%9F%E4%BA%BA--%E5%8B%B5%E5%BF%97&#34;&gt;感人&amp;ndash;勵志&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;pvp-熱血對戰&#34;&gt;PVP 熱血對戰&lt;/h2&gt;
 &lt;p&gt;這不只是蓋蓋方塊，更是策略與團隊合作的終極考驗！你必須保護好自己隊伍的床，因為床在，你就能無限復活。同時，也要勇敢地衝向敵陣，摧毀他們的床，讓他們無法重生，最終成為戰場上唯一的贏家！遊戲中有豐富的資源收集與升級系統，玩家可以透過佔領地圖上的資源點來獲取鐵、金或鑽石，進而購買更強大的裝備和防禦設施。每一場戰鬥都極度講究團隊分工，有人專注於防守基地，有人則負責衝鋒陷陣，甚至還有玩家專精於偷襲與破壞。遊戲節奏緊湊，勝負往往在一瞬間逆轉，讓你每分每秒都腎上腺素飆升！此外，獨特的地圖設計與不斷更新的玩法模式，讓每場比賽都充滿新鮮感與挑戰性。無論你是新手還是高手，都能在這裡找到屬於自己的榮耀時刻！
@@ -127,15 +139,7 @@
 &lt;h2 id=&#34;角色扮演--開放世界-rp--open-world&#34;&gt;角色扮演 &amp;amp; 開放世界 (RP &amp;amp; Open World)&lt;/h2&gt;
 &lt;h3 id=&#34;brookhaven-布魯克黑文&#34;&gt;Brookhaven 布魯克黑文&lt;/h3&gt;
 &lt;p&gt;歡迎來到布魯克黑文，一個讓你打造第二人生的夢想小鎮！這裡沒有固定的規則或任務，你可以買房子、開名車、找工作，或是單純地和朋友們四處閒逛。想成為任何人、做任何事，這裡就是你的舞台。
-&lt;a href=&#34;https://www.roblox.com/games/4924962211/Brookhaven-RP&#34;&gt;👉 點我開玩&lt;/a&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;h3 id=&#34;jailbreak-越獄&#34;&gt;Jailbreak 越獄&lt;/h3&gt;
-&lt;p&gt;這是一場永無止境的警匪追逐戰！你可以選擇當個足智多謀的罪犯，精心策劃搶案與越獄；或是化身正義的警察，駕駛直升機、設置路障，將所有壞蛋繩之以法。整個城市都是你的遊樂場！
-&lt;a href=&#34;https://www.roblox.com/games/606849621/Jailbreak&#34;&gt;👉 點我開玩&lt;/a&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;h3 id=&#34;the-wild-west-狂野西部&#34;&gt;The Wild West 狂野西部&lt;/h3&gt;
-&lt;p&gt;戴上你的牛仔帽，踏上這片塵土飛揚的西部大地！你可以當個尋找黃金的拓荒者、四處劫掠的亡命之徒，或是維護法律的警長。狩獵、採礦、馴馬，甚至參與刺激的火車搶劫，體驗最純正的西部風情。
-&lt;a href=&#34;https://www.roblox.com/games/2499119531/The-Wild-West&#34;&gt;👉 點我開玩&lt;/a&gt;&lt;/p&gt;</description>
+&lt;a href=&#34;https://www.roblox.com/games/4924962211/Brookhaven-RP&#34;&gt;👉 點我開玩&lt;/a&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
