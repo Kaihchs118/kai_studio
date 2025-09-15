@@ -4,6 +4,7 @@ title = "KAI STUDIO"
 theme = "PaperMod"
 [outputs]
   home = ["HTML", "RSS", "JSON"]
+  section = ["HTML", "JSON"] 
 [params]
   showReadingTime = true  # 啟用閱讀時間顯示
   showBreadCrumbs = true
@@ -28,6 +29,8 @@ theme = "PaperMod"
   [params.search]
     enable = true
     provider = "lunr"
+    searchContent = true
+    includeLastmod = true
   [params.utterances]
     enabled = true
     repo = "Kaihchs118/kai_studio"
@@ -45,12 +48,7 @@ theme = "PaperMod"
     [markup.goldmark.renderer]
       unsafe = true
 [menu]
-  [[menu.main]]
-    identifier = "search"
-    name = "🔎搜尋"
-    url = "/nav/search/"
-    weight = 1
-
+  
   [[menu.main]]
     identifier = "now"
     name = "🧭NOW"
@@ -81,3 +79,4 @@ theme = "PaperMod"
   name = "📚文章列表"
   url = "/archives/"
   weight = 7
+  
