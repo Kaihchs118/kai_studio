@@ -33,7 +33,7 @@
 <div class="archive-section">
   <h2 class="archive-section-header" id="{{ .Key | urlize }}">
     <a class="archive-header-link" href="#{{ .Key | urlize }}">
-      {{- .Key | title -}}
+      {{- if .Key }}{{ .Key | title }}{{- else }}Miscellaneous{{- end -}}
     </a>
     <sup class="archive-count">&nbsp;{{ len .Pages }}</sup>
   </h2>
@@ -53,7 +53,9 @@
         {{- end }}
       </h3>
       <div class="archive-meta">
-        {{- partial "post_meta.html" . -}}
+        {{- with .PublishDate }}
+        <span>{{ .Format "2006-01-02" }}</span>
+        {{- end }}
       </div>
       <a class="entry-link" aria-label="post link to {{ .Title | plainify }}" href="{{ .Permalink }}"></a>
     </div>
