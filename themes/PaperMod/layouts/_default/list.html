@@ -25,9 +25,6 @@
     {{ .Description }}
   </div>
   {{- end }}
-  <div class="search-container">
-    <input type="text" id="search-input" placeholder="搜尋文章標題或日期..." aria-label="搜尋文章">
-  </div>
 </header>
 
 {{- $pages := site.RegularPages }}
@@ -67,26 +64,5 @@
   </div>
 </div>
 {{- end }}
-
-<script>
-  document.getElementById('search-input').addEventListener('input', function() {
-    const query = this.value.trim().toLowerCase();
-    const entries = document.querySelectorAll('.archive-entry');
-    
-    entries.forEach(entry => {
-      const title = entry.querySelector('.archive-entry-title').textContent.toLowerCase();
-      const meta = entry.querySelector('.archive-meta').textContent.toLowerCase();
-      const isVisible = title.includes(query) || meta.includes(query);
-      entry.style.display = isVisible ? '' : 'none';
-    });
-
-    // 隱藏空的 section
-    const sections = document.querySelectorAll('.archive-section');
-    sections.forEach(section => {
-      const visibleEntries = section.querySelectorAll('.archive-entry[style=""]');
-      section.style.display = visibleEntries.length > 0 ? '' : 'none';
-    });
-  });
-</script>
 
 {{- end }}
