@@ -38,8 +38,8 @@ theme = "PaperMod"
 [menu]
   [[menu.main]]
     identifier = "home"
-    name = "🌐首頁"
-    url = "/"
+    name = "🌐文章列表"
+    url = "/archives/"
     weight = 1
   [[menu.main]]
     identifier = "now"
