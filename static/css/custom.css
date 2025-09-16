@@ -6,3 +6,42 @@
     border-radius: 5px;       /* 圓角 */
     padding: 5px 10px;
 }
+
+.search-container {
+  margin: 1em 0;
+}
+
+#search-input {
+  width: 100%;
+  max-width: 400px;
+  padding: 0.5em;
+  font-size: 1em;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+#search-input:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+.archive-section {
+  margin-bottom: 2em;
+}
+
+.archive-section-header {
+  font-size: 1.5em;
+}
+
+.archive-posts {
+  margin-left: 1em;
+}
+
+.archive-entry {
+  margin-bottom: 1em;
+}
+
+.archive-meta {
+  color: #666;
+  font-size: 0.9em;
+}
