@@ -38,7 +38,7 @@ theme = "PaperMod"
 [menu]
   [[menu.main]]
     identifier = "home"
-    name = "🌐文章列表"
+    name = "🌐所有文章"
     url = "/archives/"
     weight = 1
   [[menu.main]]
@@ -58,7 +58,7 @@ theme = "PaperMod"
     weight = 4
   [[menu.main]]
     identifier = "first-visit"
-    name = "🤡新手看這邊"
+    name = "🤡歡迎"
     url = "/nav/First/"
     weight = 5
   [[menu.main]]
