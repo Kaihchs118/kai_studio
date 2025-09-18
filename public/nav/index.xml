@@ -60,7 +60,15 @@
       <link>http://localhost:1313/kai_studio/nav/now1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/kai_studio/nav/now1/</guid>
-      <description>&lt;p&gt;歡迎來到我的生活紀錄小角落，這裡整理了我最近的學習、創作與各種技術探索。&lt;/p&gt;
+      <description>&lt;blockquote&gt;
+&lt;p&gt;好像大多網站都會記錄作者的最新狀態&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h2 id=&#34;音樂編曲相關&#34;&gt;🎹音樂編曲相關&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;今天自己嘗試戴上耳機，接上麥克風&lt;/li&gt;
+&lt;li&gt;自己用鋼琴彈一首歌&lt;/li&gt;
+&lt;li&gt;對自己唱出旋律來&lt;/li&gt;
+&lt;li&gt;最後用 Logic 簡單編曲&lt;/li&gt;
+&lt;/ul&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;-網站與程式相關&#34;&gt;💻 網站與程式相關&lt;/h2&gt;
 &lt;ul&gt;
@@ -85,55 +93,7 @@
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;瀏覽器與工具設定&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;調整 Chrome、Edge、Safari 語言與性能設定。&lt;/li&gt;
-&lt;li&gt;測試 Prompt API 與自動化工具，探索更高效的操作方式。&lt;/li&gt;
-&lt;li&gt;Wine / Play on Mac 嘗試在 macOS 執行 Windows 軟體。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;-影片剪輯與創作&#34;&gt;🎬 影片剪輯與創作&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;使用 &lt;strong&gt;DaVinci Resolve 20&lt;/strong&gt; 進行影片剪輯，參考 Tim 的教學風格。&lt;/li&gt;
-&lt;li&gt;整理進階快捷鍵，提高剪輯效率。&lt;/li&gt;
-&lt;li&gt;嘗試 Keynote 和 CandidMap 來管理影片素材與簡報內容。&lt;/li&gt;
-&lt;li&gt;學習影片逐字稿翻譯、斷句技巧，保留專有名詞（如 Affinity Photo、Adobe）。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;-roblox-遊戲整理&#34;&gt;🎮 Roblox 遊戲整理&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;收集並整理遊戲清單，超過 200 款遊戲。&lt;/li&gt;
-&lt;li&gt;遊戲分類：
-&lt;ul&gt;
-&lt;li&gt;🥊 對戰類&lt;/li&gt;
-&lt;li&gt;🏃 跑酷類&lt;/li&gt;
-&lt;li&gt;🎭 角色扮演類&lt;/li&gt;
-&lt;li&gt;🎉 派對/迷你遊戲&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;整合到單一 Markdown 檔案，方便網站顯示與快速跳轉。&lt;/li&gt;
-&lt;li&gt;推薦筆電友好遊戲與多人同樂派對遊戲。&lt;/li&gt;
-&lt;li&gt;使用 Emoji 和 Markdown 強調特色，增加可讀性。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;-技術挑戰與探索&#34;&gt;🔧 技術挑戰與探索&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;嘗試批量下載網頁資料，研究 EDM 自動化流程。&lt;/li&gt;
-&lt;li&gt;調整 Hugo 搜尋框、文章分類與 Grid 排版。&lt;/li&gt;
-&lt;li&gt;Wine / Play on Mac 遇到穩定性問題，尋找開源替代方案。&lt;/li&gt;
-&lt;li&gt;比較各瀏覽器性能，找出最佳網站呈現方式。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;-個人進度與心情&#34;&gt;📌 個人進度與心情&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;雖然經常遇到技術困難，但正在累積解決問題能力。&lt;/li&gt;
-&lt;li&gt;希望能持續提升剪輯和網站維護技能。&lt;/li&gt;
-&lt;li&gt;想建立更多互動，也希望找到志同道合的朋友討論。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;h3 id=&#34;-內部連結建議&#34;&gt;🔗 內部連結建議&lt;/h3&gt;</description>
+&lt;p&gt;&lt;strong&gt;瀏覽器與工具設定&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
