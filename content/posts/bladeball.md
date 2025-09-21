@@ -5,7 +5,8 @@ updatedate: 2025-09-15T09:00:00+08:00
 tags: ["本篇由最懂你失誤的魏魏親嘴撰寫"]
 draft : false
 comments: true
-author: 最懂你失誤的魏魏
+cover:
+    image: "https://i.ytimg.com/vi/lK_TyYTGobo/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCXS5Pb76ha7GsI1tjXPyk110Aq4g"
 ---
 
 # 有感筆電刀刃球的高手祕訣！沒時間解釋了，跟著大哥衝！
