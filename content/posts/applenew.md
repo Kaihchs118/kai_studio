@@ -6,7 +6,9 @@ tags: ["iPhone 17", "iPhone 17 Air", "iPhone 17 Pro", "iPhone 17 Pro Max", "Appl
 categories: ["科技", "產品評測"]
 description: "解析 iPhone 17 系列：超薄 Air、強大 Pro Max，規格、價格與選購建議一篇搞定！📱"
 author: "Kai"
-Comment : true
+comments: true
+cover:
+    image: "https://www.apple.com/v/iphone-17-pro/b/images/overview/welcome/hero__bdntboqignj6_xlarge.jpg" 
 ---
 
 # iPhone 17 系列評測：升級亮點、價格與選購攻略 🚀
