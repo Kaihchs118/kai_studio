@@ -1,0 +1,20 @@
+/* 搜尋連結樣式 */
+.menu a[href="/search/"] {
+  font-size: 1rem;
+  padding: 0.5rem;
+}
+
+/* 搜尋頁面輸入框 */
+.search-container input {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 200px;
+}
+
+/* 搜尋結果 */
+.search-result-item {
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+  border-bottom: 1px solid #eee;
+}
