@@ -65,9 +65,3 @@ theme = "PaperMod"
     name = "📞關於我"
     url = "/nav/about/"
     weight = 6
-  [[menu.main]]
-    identifier = "search"
-    name = "🔍搜尋"
-    url = "/nav/search/"
-    weight = 7
-    pageRef = "/search"
