@@ -1,16 +1,17 @@
 {{- define "main" }}
 
 <header class="page-header">
-    <h1>{{- (printf "%s&nbsp;" .Title ) | htmlUnescape -}}
+    <h1>
+        {{- .Title | safeHTML -}}
         <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none"
-            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
             <circle cx="11" cy="11" r="8"></circle>
             <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
         </svg>
     </h1>
-    {{- if .Description }}
+    {{- with .Description }}
     <div class="post-description">
-        {{ .Description }}
+        {{ . | safeHTML }}
     </div>
     {{- end }}
     {{- if not (.Param "hideMeta") }}
@@ -20,53 +21,78 @@
     {{- end }}
 </header>
 
-
 <div id="search-container">
-    <input id="searchInput" type="search" placeholder="{{ .Params.placeholder | default "輸入關鍵字搜尋文章..." }}" autocomplete="off" autofocus maxlength="64" class="search-input"/>
-    <ul id="searchResults" class="search-results" aria-label="search results"></ul>
+    <input 
+        id="searchInput" 
+        type="search" 
+        placeholder="{{ .Params.placeholder | default (i18n "searchPlaceholder" | default "Search articles...") }}" 
+        autocomplete="off" 
+        maxlength="64" 
+        class="search-input"
+        aria-label="Search articles"
+    />
+    <ul id="searchResults" class="search-results" aria-label="Search results"></ul>
 </div>
 
-<!-- 加入搜尋 JS -->
-<script src="{{ "js/lunr.min.js" | relURL }}"></script>
-<script src="{{ "js/search.js" | relURL }}"></script>
+{{- $lunr := resources.Get "js/lunr.min.js" | minify -}}
+{{- $search := resources.Get "js/search.js" | minify -}}
+<script src="{{ $lunr.RelPermalink }}"></script>
+<script src="{{ $search.RelPermalink }}"></script>
 
 <style>
-/* 搜尋框樣式 */
-#search-container {
+.search-container {
     max-width: 600px;
-    margin: 20px auto;
+    margin: 2rem auto;
     position: relative;
 }
 
 .search-input {
     width: 100%;
-    padding: 10px 15px;
+    padding: 0.75rem 1rem;
     font-size: 1rem;
     border-radius: 8px;
-    border: 2px solid #ccc;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    border: 2px solid #e2e8f0;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+    transition: border-color 0.2s ease;
+}
+
+.search-input:focus {
+    outline: none;
+    border-color: #3182ce;
 }
 
 .search-results {
     list-style: none;
     padding: 0;
-    margin-top: 5px;
+    margin: 0.5rem 0 0;
     border-radius: 8px;
-    border: 1px solid #ddd;
+    border: 1px solid #e2e8f0;
     background-color: #fff;
     max-height: 400px;
     overflow-y: auto;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
 }
 
 .search-results li {
-    padding: 8px 12px;
-    border-bottom: 1px solid #eee;
+    padding: 0.75rem 1rem;
+    border-bottom: 1px solid #edf2f7;
     cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.search-results li:last-child {
+    border-bottom: none;
 }
 
 .search-results li:hover {
-    background-color: #f0f0f0;
+    background-color: #f7fafc;
+}
+
+.search-results li a {
+    text-decoration: none;
+    color: #2d3748;
+    display: block;
 }
 </style>
 
-{{- end }}{{/* end main */}}
+{{- end }}
