@@ -21,7 +21,7 @@
     {{- end }}
 </header>
 
-<div id="search-container">
+<div class="search-container">
     <input 
         id="searchInput" 
         type="search" 
@@ -34,8 +34,8 @@
     <ul id="searchResults" class="search-results" aria-label="Search results"></ul>
 </div>
 
-{{- $lunr := resources.Get "js/lunr.min.js" | minify -}}
-{{- $search := resources.Get "js/search.js" | minify -}}
+{{- $lunr := resources.Get "js/lunr.min.js" -}}
+{{- $search := resources.Get "js/search.js" -}}
 <script src="{{ $lunr.RelPermalink }}"></script>
 <script src="{{ $search.RelPermalink }}"></script>
 
