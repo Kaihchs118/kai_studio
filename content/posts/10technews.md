@@ -6,7 +6,7 @@ tags : ["電腦新聞"]
 categories : ["NEWS/2025"]
 comments : true
 cover:
-    image:"https://tse1.mm.bing.net/th/id/OIP.83QQCWXc3IpFi9Bxnp9JVgHaHa?w=199&h=144&c=7&r=0&o=7&dpr=2&pid=1.7"
+  image: "https://tse1.mm.bing.net/th/id/OIP.83QQCWXc3IpFi9Bxnp9JVgHaHa?w=199&h=144&c=7&r=0&o=7&dpr=2&pid=1.7"
 ---
 
 # 🖥️ 電腦新聞新鮮報 — 2025年10月（硬體 / Mac / Windows 專題）
