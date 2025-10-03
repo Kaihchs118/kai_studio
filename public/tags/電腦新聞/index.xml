@@ -6,8 +6,54 @@
     <description>Recent content in 電腦新聞 on KAI STUDIO</description>
     <generator>Hugo -- 0.148.2</generator>
     <language>zh-TW</language>
-    <lastBuildDate>Mon, 08 Sep 2025 15:30:00 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 29 Sep 2025 08:00:00 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/kai_studio/tags/%E9%9B%BB%E8%85%A6%E6%96%B0%E8%81%9E/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>電腦新聞新鮮報 (2025年10月)</title>
+      <link>http://localhost:1313/kai_studio/posts/10technews/</link>
+      <pubDate>Mon, 29 Sep 2025 08:00:00 +0800</pubDate>
+      <guid>http://localhost:1313/kai_studio/posts/10technews/</guid>
+      <description>&lt;h1 id=&#34;-電腦新聞新鮮報--2025年10月硬體--mac--windows-專題&#34;&gt;🖥️ 電腦新聞新鮮報 — 2025年10月（硬體 / Mac / Windows 專題）&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;歡迎收看 10 月號，這一版鎖定「有體溫的硬體消息」：&lt;strong&gt;Mac、Windows、PC 晶片、Nintendo Switch 2&lt;/strong&gt;。&lt;br&gt;
+內容偏技術面與實作面，會告訴你關鍵時間點＋該做的事。🔧✨&lt;/p&gt;&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-本期重點快速導航&#34;&gt;🔎 本期重點（快速導航）&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Windows 10 將於 2025-10-14 結束支援&lt;/strong&gt;：影響數億用戶，立即行動！🚨&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;特別專欄 — macOS 26（Tahoe）正式版&lt;/strong&gt;：功能亮點、相容性與升級指南。🌊✨&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Apple 新款 MacBook Pro（M5 系列）&lt;/strong&gt;：量產進度與性能預測。🍏🔋&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Qualcomm Snapdragon X2 系列&lt;/strong&gt;：ARM PC 市場新挑戰者。⚡️🧠&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Nintendo Switch 2&lt;/strong&gt;：全新一代主機的上市動向與預期功能。🎮&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-特別專欄--macos-26tahoe正式版&#34;&gt;🌟 【特別專欄 — macOS 26（Tahoe）正式版】&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;🔔 &lt;strong&gt;特別專欄&lt;/strong&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;🔷 &lt;strong&gt;macOS Tahoe（macOS 26） — 正式版重點一覽&lt;/strong&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;發布狀態&lt;/strong&gt;：Apple 於 2025 年正式推出 macOS Tahoe（代號 Tahoe，版本 26），現已開放受支援裝置免費升級。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;外觀與互動&lt;/strong&gt;：全新 &lt;em&gt;Liquid Glass&lt;/em&gt; UI 設計，視覺更流暢，具備「流動玻璃」質感；Safari 升級至 26.0，網頁載入速度提升約 15%，支援新 Web API。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;效能與能源&lt;/strong&gt;：針對 M4/M5 系列晶片優化，Neural Engine 效能提升，特別在 AI 相關任務（如 Final Cut Pro 的自動剪輯）表現突出；電池續航在 M5 機型上平均延長 1-2 小時（依機型而定）。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;相容性重點&lt;/strong&gt;：macOS Tahoe 是 &lt;em&gt;最後一版支援 Intel 架構的 macOS&lt;/em&gt;。2026 年後的 macOS 將完全轉向 Apple Silicon。若你使用 Intel Mac，需開始規劃硬體升級。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;實務建議&lt;/strong&gt;：
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;備份&lt;/strong&gt;：升級前使用 Time Machine 或外接硬碟備份完整系統。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;相容性檢查&lt;/strong&gt;：確認設備是否在支援清單（參考 &lt;a href=&#34;https://www.apple.com/tw/newsroom/2025/06/macos-tahoe-26-makes-the-mac-more-capable-productive-and-intelligent-than-ever/&#34;&gt;Apple 台灣新聞室&lt;/a&gt;)。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;軟體更新&lt;/strong&gt;：檢查常用軟體（如 Adobe Creative Suite、Logic Pro）是否已針對 Tahoe 優化。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;外設驅動&lt;/strong&gt;：升級後，檢查 Thunderbolt 外設或第三方顯示器驅動是否正常。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;建議&lt;/strong&gt;：若使用第三方虛擬化軟體（如 Parallels Desktop），請確認其版本支援 Tahoe，避免 VM 運行問題。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-mac--apple-硬體觀察&#34;&gt;🖥️ Mac / Apple 硬體觀察&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;MacBook Pro 新機量產進度&lt;/strong&gt;：&lt;br&gt;
+根據供應鏈消息，Apple 新款 MacBook Pro（搭載 M5、M5 Pro、M5 Max 晶片）已進入量產準備階段，預計於 2025 年底至 2026 年 Q1 發布。M5 系列將採用台積電 3nm 製程，GPU 核心數增加約 20%，記憶體頻寬提升，特別針對 AI 工作負載與 8K 渲染優化。 &lt;a href=&#34;https://www.macrumors.com/2025/09/28/next-macbook-pro-nears-mass-production-report/&#34;&gt;參考 MacRumors&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
     <item>
       <title>電腦新聞新鮮報 (2025年9月)</title>
       <link>http://localhost:1313/kai_studio/posts/9technews/</link>
