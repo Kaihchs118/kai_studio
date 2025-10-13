@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><script src="/kai_studio/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=kai_studio/livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="noindex, nofollow">
+<title>一個時代的終結：為什麽 Finale 選擇了下台一鞠躬？ | KAI STUDIO</title>
+<meta name="keywords" content="Finale, 記譜軟體, Dorico, MuseScore, 音樂科技, 軟體開發">
+<meta name="description" content="2024年8月26日，MakeMusic 投下震撼彈，宣布終止開發擁有35年歷史的記譜軟體 Finale。本文將深入探討其背後原因、市場變化，以及對音樂創作者的深遠影響。">
+<meta name="author" content="">
+<link rel="canonical" href="http://localhost:1313/kai_studio/posts/finale/">
+<link crossorigin="anonymous" href="/kai_studio/assets/css/stylesheet.cafce7e84a1f9b65407096e53889d694a4f553b4db52c4240b6f88dd03a81a85.css" integrity="sha256-yvzn6Eofm2VAcJblOInWlKT1U7TbUsQkC2&#43;I3QOoGoU=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/kai_studio/img/demo1.png">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/kai_studio/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/kai_studio/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/kai_studio/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/kai_studio/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/kai_studio/posts/finale/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/kai_studio/" accesskey="h" title="KAI STUDIO (Alt + H)">KAI STUDIO</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="http://localhost:1313/kai_studio/nav/now1/" title="🧭NOW">
+                    <span>🧭NOW</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/kai_studio/tags/" title="🎫標籤">
+                    <span>🎫標籤</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/kai_studio/nav/first/" title="🤡歡迎">
+                    <span>🤡歡迎</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/kai_studio/nav/about/" title="📞關於我">
+                    <span>📞關於我</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="http://localhost:1313/kai_studio/">Home</a>&nbsp;»&nbsp;<a href="http://localhost:1313/kai_studio/posts/">Posts</a></div>
+    <h1 class="post-title entry-hint-parent">
+      一個時代的終結：為什麽 Finale 選擇了下台一鞠躬？
+    </h1>
+    <div class="post-description">
+      2024年8月26日，MakeMusic 投下震撼彈，宣布終止開發擁有35年歷史的記譜軟體 Finale。本文將深入探討其背後原因、市場變化，以及對音樂創作者的深遠影響。
+    </div>
+    <div class="post-meta">
+
+
+
+
+
+
+
+
+
+
+
+<span>發布日期：2025年08月28日</span>&nbsp;·&nbsp;⏰閱讀時間：大約 1 分鐘
+
+</div>
+  </header> 
+<figure class="entry-cover">
+        <img loading="eager" src="https://thf.bing.com/th/id/OIP.DGgujOomSM-5fREFNm2-_QHaF7?w=258&amp;h=206&amp;c=7&amp;r=0&amp;o=5&amp;cb=thfc1&amp;dpr=2&amp;pid=1.7%20" alt="">
+        
+</figure><div class="toc">
+    <details >
+        <summary accesskey="c" title="(Alt + C)">
+            <span class="details">Table of Contents</span>
+        </summary>
+
+        <div class="inner"><ul>
+                <li>
+                    <a href="#%e4%b8%80%e5%80%8b%e6%99%82%e4%bb%a3%e7%9a%84%e7%b5%82%e7%b5%90%e7%82%ba%e4%bb%80%e9%ba%bd-finale-%e9%81%b8%e6%93%87%e4%ba%86%e4%b8%8b%e5%8f%b0%e4%b8%80%e9%9e%a0%e8%ba%ac" aria-label="一個時代的終結：為什麽 Finale 選擇了下台一鞠躬？">一個時代的終結：為什麽 Finale 選擇了下台一鞠躬？</a><ul>
+                        
+                <li>
+                    <a href="#%e5%85%ac%e5%91%8a%e7%9a%84%e6%ae%98%e9%85%b7%e8%88%87%e7%8f%be%e5%af%a6%e9%87%8d%e9%bb%9e%e8%a7%a3%e6%9e%90" aria-label="公告的殘酷與現實：重點解析">公告的殘酷與現實：重點解析</a></li>
+                <li>
+                    <a href="#%e7%82%ba%e4%bd%95%e8%b5%b0%e5%90%91%e7%b5%82%e9%bb%9e%e5%a3%93%e5%9e%ae%e5%b7%a8%e4%ba%ba%e7%9a%84%e6%8a%80%e8%a1%93%e5%82%b5" aria-label="為何走向終點？壓垮巨人的「技術債」">為何走向終點？壓垮巨人的「技術債」</a></li>
+                <li>
+                    <a href="#%e7%a4%be%e7%be%a4%e7%9a%84%e5%8f%8d%e5%bd%88%e8%88%87%e8%bd%89%e6%a9%9f%e5%be%9e%e5%81%9c%e6%ad%a2%e6%8e%88%e6%ac%8a%e5%88%b0%e7%84%a1%e9%99%90%e6%9c%9f%e5%bb%b6%e9%95%b7" aria-label="社群的反彈與轉機：從停止授權到「無限期延長」">社群的反彈與轉機：從停止授權到「無限期延長」</a></li>
+                <li>
+                    <a href="#%e6%88%91%e8%88%87-finale-%e7%9a%84%e7%b7%a3%e5%88%86%e4%b8%80%e6%ae%b5%e8%b7%a8%e8%b6%8a-35-%e5%b9%b4%e7%9a%84%e8%a8%98%e6%86%b6" aria-label="我與 Finale 的緣分：一段跨越 35 年的記憶">我與 Finale 的緣分：一段跨越 35 年的記憶</a></li>
+                <li>
+                    <a href="#%e6%95%b8%e4%bd%8d%e8%a8%98%e8%ad%9c%e7%9a%84%e5%b8%82%e5%a0%b4%e5%85%89%e8%ad%9c%e6%88%91%e5%80%91%e8%a9%b2%e4%bd%95%e5%8e%bb%e4%bd%95%e5%be%9e" aria-label="數位記譜的市場光譜：我們該何去何從？">數位記譜的市場光譜：我們該何去何從？</a><ul>
+                        
+                <li>
+                    <a href="#finale-%e4%b9%8b%e5%be%8c%e7%9a%84%e9%81%b8%e6%93%87" aria-label="Finale 之後的選擇：">Finale 之後的選擇：</a></li></ul>
+                </li>
+                <li>
+                    <a href="#%e7%b5%90%e8%aa%9e" aria-label="結語">結語</a><ul>
+                        
+                <li>
+                    <a href="#%e9%99%84%e9%8c%84%e7%b5%a6%e6%87%b7%e8%88%8a%e8%80%85%e7%9a%84%e6%99%82%e5%85%89%e6%a9%9f" aria-label="附錄：給懷舊者的時光機">附錄：給懷舊者的時光機</a>
+                </li>
+            </ul>
+            </li>
+            </ul>
+            </li>
+            </ul>
+        </div>
+    </details>
+</div>
+
+  <div class="post-content"><h2 id="一個時代的終結為什麽-finale-選擇了下台一鞠躬">一個時代的終結：為什麽 Finale 選擇了下台一鞠躬？<a hidden class="anchor" aria-hidden="true" href="#一個時代的終結為什麽-finale-選擇了下台一鞠躬">#</a></h2>
+<p><strong>2024年8月26日，這一天將被許多音樂工作者銘記。</strong> 記譜軟體界的泰山北斗、擁有35年輝煌歷史的 Finale，其開發商 MakeMusic 投下一顆震撼彈：<strong>宣布 Finale 將永久終止開發</strong>，並出人意料地鼓勵用戶轉向競爭對手 Steinberg 的 Dorico。</p>
+<p>這個消息不僅僅是一款軟體的謝幕，它象徵著一個數位記譜時代的轉捩點。</p>
+<h3 id="公告的殘酷與現實重點解析">公告的殘酷與現實：重點解析<a hidden class="anchor" aria-hidden="true" href="#公告的殘酷與現實重點解析">#</a></h3>
+<p>MakeMusic 的官方公告直接而明確，幾乎沒有留下任何轉圜的餘地：</p>
+<blockquote>
+<p><strong>核心決策</strong></p>
+<ul>
+<li><strong>全面停止開發</strong>：旗下所有記譜軟體，包括 Finale、PrintMusic、Notepad 及 Songwriter 將不再有新版本。</li>
+<li><strong>即刻停止銷售</strong>：MakeMusic 線上商店已全面下架 Finale 相關產品。</li>
+<li><strong>授權與支援的終點</strong>：已安裝的軟體雖可繼續使用，但官方原計畫於 <strong>2025年8月</strong> 後，不再提供新電腦或重灌系統時的授權啟用與技術支援。</li>
+</ul></blockquote>
+<h3 id="為何走向終點壓垮巨人的技術債">為何走向終點？壓垮巨人的「技術債」<a hidden class="anchor" aria-hidden="true" href="#為何走向終點壓垮巨人的技術債">#</a></h3>
+<p>一個稱霸市場數十年的軟體，為何會做出如此決絕的決定？答案只有一個：<strong>沉重的技術債 (Technical Debt)</strong>。</p>
+<p>Finale 誕生於 1988 年，其核心程式碼已有超過 35 年的歷史。你可以想像這是一棟不斷加蓋、擴建的老舊大樓。雖然外表華麗，但內部的管線、地基早已不堪負荷。</p>
+<ul>
+<li><strong>維護成本極高</strong>：要在如此陳舊的架構上修正錯誤、增加新功能，如同在古蹟上進行現代化裝修，成本高昂且困難重重。</li>
+<li><strong>難以適應現代 UI/UX</strong>：近年新興的軟體（如 Dorico、MuseScore 4）都採用了更直覺、圖形化、參數化的現代介面。Finale 的舊架構使其難以進行底層革新，無法跟上市場對「易用性」的追求。</li>
+<li><strong>見好就收的策略</strong>：MakeMusic 坦言，與其每年推出功能有限、無法解決根本問題的付費升級，不如選擇讓產品在它仍受尊敬時光榮退役。</li>
+</ul>
+<h3 id="社群的反彈與轉機從停止授權到無限期延長">社群的反彈與轉機：從停止授權到「無限期延長」<a hidden class="anchor" aria-hidden="true" href="#社群的反彈與轉機從停止授權到無限期延長">#</a></h3>
+<p>最初「一年後停止授權」的決定，引發了全球用戶的強烈反彈。無數作曲家、編曲家、音樂教育者都面臨著「未來換電腦，畢生心血樂譜將無法開啟」的窘境。</p>
+<p>在排山倒海的陳情壓力下，MakeMusic 於 2024年8月27日做出讓步，宣布：</p>
+<blockquote>
+<p><strong>[更新]</strong> Finale 的授權驗證程序將 <strong>「無限期延長」</strong>。這意味著即使用戶更換電腦或重灌系統，短期內依然可以重新授權使用。</p></blockquote>
+<p>然而，這僅是權宜之計。「無限期」不等於「永久」，一旦未來作業系統（如 macOS、Windows）有重大更新導致 Finale 無法執行，這個承諾也將終結。同時，社群中也出現了希望 MakeMusic 將 <strong>Finale 開源 (Open Source)</strong> 的呼聲，期望能由社群接手維護這個傳奇軟體。</p>
+<h3 id="我與-finale-的緣分一段跨越-35-年的記憶">我與 Finale 的緣分：一段跨越 35 年的記憶<a hidden class="anchor" aria-hidden="true" href="#我與-finale-的緣分一段跨越-35-年的記憶">#</a></h3>
+<p>作為一名從 1989 年就在 Macintosh 單色螢幕上敲打音符的老用戶，Finale 對我而言不僅是工具，更是一位陪伴創作的夥伴。</p>
+<p>我鍾愛它的 <strong>Speedy Entry</strong> 功能，那種純粹用鍵盤就能高速輸入音符的流暢感，是許多後輩軟體難以企及的。更重要的是，它對特殊記譜法、自創符號的強大支援，讓它成為無數現代音樂作曲家的首選。</p>
+<p>然而，看著它在 Windows 時代的掙扎、被 MakeMusic 接手後的大幅改動，以及近年好不容易追上 macOS 支援腳步後卻戛然而止，心中滿是無限感慨。</p>
+<h3 id="數位記譜的市場光譜我們該何去何從">數位記譜的市場光譜：我們該何去何從？<a hidden class="anchor" aria-hidden="true" href="#數位記譜的市場光譜我們該何去何從">#</a></h3>
+<p>Finale 的退場，讓我們更清晰地看見了當今記譜軟體的市場分佈。這很像文書處理軟體的生態：</p>
+<ul>
+<li><strong>85% 一般用戶 (Word / Pages 等級)</strong>：需求是快速、簡單、夠用。
+<ul>
+<li><strong>對應軟體</strong>：<strong>Dorico</strong>、<strong>MuseScore</strong>。它們擁有現代化的介面和工作流程，足以滿足絕大多數用戶。</li>
+</ul>
+</li>
+<li><strong>10% 專業出版 (InDesign 等級)</strong>：需求是極致的排版控制與靈活性。
+<ul>
+<li><strong>對應軟體</strong>：過去的 <strong>Finale</strong> / <strong>Sibelius</strong>。它們學習曲線雖高，但能實現各種天馬行空的版面需求。</li>
+</ul>
+</li>
+<li><strong>5% 自由創作 (Illustrator / CorelDraw 等級)</strong>：需求是打破框架，進行圖形化的自由創作。</li>
+</ul>
+<h4 id="finale-之後的選擇">Finale 之後的選擇：<a hidden class="anchor" aria-hidden="true" href="#finale-之後的選擇">#</a></h4>
+<ol>
+<li><strong>官方接班人 - Dorico</strong>：由前 Sibelius 核心團隊打造，擁有最先進的設計哲學和工作流程，是專業用戶的首選。</li>
+<li><strong>開源霸主 - MuseScore</strong>：完全免費，功能日益強大，社群活躍。對於學生和業餘愛好者極具吸引力。</li>
+<li><strong>程式化記譜 - LilyPond</strong>：如果你有程式設計的邏輯思維，LilyPond 能讓你用程式碼產生最精美的樂譜，排版品質堪比百年老譜。</li>
+<li><strong>雲端與其他選擇</strong>：Forte, Noteflight, Flat.io 等基於雲端的協作平台也正在崛起。</li>
+</ol>
+<h3 id="結語">結語<a hidden class="anchor" aria-hidden="true" href="#結語">#</a></h3>
+<p>Finale 的故事暫時劃上了句點。它的離去，不僅是一個時代的結束，也迫使我們思考：在快速迭代的科技浪潮中，什麼才是工具的真正價值？是強大的功能，還是流暢的體驗？</p>
+<p>無論未來你選擇哪一套軟體，都讓我們感謝 Finale 這 35 年來為無數美妙音樂的誕生所付出的貢獻。再會了，老朋友。</p>
+<hr>
+<h4 id="附錄給懷舊者的時光機">附錄：給懷舊者的時光機<a hidden class="anchor" aria-hidden="true" href="#附錄給懷舊者的時光機">#</a></h4>
+<ul>
+<li><strong>早期 Finale 介紹文 (mu:zines 雜誌)</strong>
+<ul>
+<li><a href="%E9%80%A3%E7%B5%90%E7%B6%B2%E5%9D%80">Coda Music Finale — Apple Macintosh 軟體 (1988/12)</a></li>
+<li><a href="%E9%80%A3%E7%B5%90%E7%B6%B2%E5%9D%80">結局（第一部分）(1989/3)</a></li>
+<li><a href="%E9%80%A3%E7%B5%90%E7%B6%B2%E5%9D%80">結局（第二部分）(1989/4)</a></li>
+<li><a href="%E9%80%A3%E7%B5%90%E7%B6%B2%E5%9D%80">Finale 分析 — PC 音樂符號軟體 (1991/2)</a></li>
+</ul>
+</li>
+<li><strong>在瀏覽器中體驗復古 Mac OS</strong>
+<ul>
+<li><strong>Infinite Mac</strong>：模擬 System 1.0~9.2.2。</li>
+<li><strong>PCE.js</strong>：執行 Mac OS System 7 模擬器。</li>
+</ul>
+</li>
+</ul>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="http://localhost:1313/kai_studio/tags/finale/">Finale</a></li>
+      <li><a href="http://localhost:1313/kai_studio/tags/%E8%A8%98%E8%AD%9C%E8%BB%9F%E9%AB%94/">記譜軟體</a></li>
+      <li><a href="http://localhost:1313/kai_studio/tags/dorico/">Dorico</a></li>
+      <li><a href="http://localhost:1313/kai_studio/tags/musescore/">MuseScore</a></li>
+      <li><a href="http://localhost:1313/kai_studio/tags/%E9%9F%B3%E6%A8%82%E7%A7%91%E6%8A%80/">音樂科技</a></li>
+      <li><a href="http://localhost:1313/kai_studio/tags/%E8%BB%9F%E9%AB%94%E9%96%8B%E7%99%BC/">軟體開發</a></li>
+    </ul>
+<nav class="paginav">
+  <a class="prev" href="http://localhost:1313/kai_studio/posts/metro/">
+    <span class="title">« Prev</span>
+    <br>
+    <span>為你彈奏蕭邦的夜曲：捷運綠線列車進站時的音樂，為何聽起來如此熟悉？</span>
+  </a>
+</nav>
+
+  </footer>
+<script src="https://utteranc.es/client.js"
+        repo="Kaihchs118/kai_studio"
+        issue-term="pathname"
+        label="💬 留言區"
+        theme="preferred-color-scheme"
+        crossorigin="anonymous"
+        async>
+</script>
+
+
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2025 <a href="http://localhost:1313/kai_studio/">KAI STUDIO</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'copy';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'copied!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'copy';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script>
+</body>
+
+</html>
