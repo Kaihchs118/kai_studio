@@ -6,7 +6,7 @@ tags: ["有感筆電💻"]
 categories: ["ROBLOX"]
 comments: true
 cover:
-    image: "/img/weiwei.png"
+    image: /img/weiwei.png
 ---
 
 # 第一部份

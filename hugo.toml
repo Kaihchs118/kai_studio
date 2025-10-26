@@ -19,6 +19,7 @@ theme = "PaperMod"
   readingTimeWordsPerMinute = 1
   enableGitInfo = true
   enableSearch = true
+  AutoThumbnailImage = true
   [params.fuseOpts]
     isCaseSensitive = false
     shouldSort = true
