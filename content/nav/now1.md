@@ -10,6 +10,11 @@ _build_menu_ignore: true
 > 好像大多網站都會記錄作者的最新狀態
 
 # 最新動態 ⚡️
+## 2025/11/14 - 今天音樂會結束了！
+很開心因為我，鍾承恩，黃宥竣雖然只練習了三次
+但是我們認為我們很猛！
+拉得很開心，雖然開頭很緊張<爆掉了>
+但是還是很開心！
 ## 2025/10/28 - 倒放大挑戰
 
 🎉 **今天的心情**：超級好笑！ 
@@ -30,7 +35,7 @@ _build_menu_ignore: true
 > 重點是到後面我還拿```玫瑰少年```歌詞，
 用ChordsPad 來快速建立和弦
 大概像這樣
-![](static/image/cubase/chordspad.png)
+![](/img/cubase/chordspad.png)
 
 **#倒放大挑戰 #Cubase #Logic**
 
