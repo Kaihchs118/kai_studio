@@ -1,6 +1,6 @@
 ---
 title: "NOW"
-updatedate: 2025-09-23T11:35:00+08:00
+updatedate: 2025-11-14T11:35:00+08:00
 draft: false
 type: "home"
 comments: true
