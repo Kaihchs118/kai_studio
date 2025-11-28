@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>AI on KAI STUDIO</title>
-    <link>http://localhost:1313/kai_studio/tags/ai/</link>
+    <link>http://localhost:64693/kai_studio/tags/ai/</link>
     <description>Recent content in AI on KAI STUDIO</description>
     <generator>Hugo -- 0.148.2</generator>
     <language>zh-TW</language>
     <lastBuildDate>Thu, 11 Sep 2025 00:00:00 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/kai_studio/tags/ai/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:64693/kai_studio/tags/ai/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>DaVinci Resolve 重榜更新！追求時代</title>
-      <link>http://localhost:1313/kai_studio/posts/davinciupdate20/</link>
+      <link>http://localhost:64693/kai_studio/posts/davinciupdate20/</link>
       <pubDate>Thu, 11 Sep 2025 00:00:00 +0800</pubDate>
-      <guid>http://localhost:1313/kai_studio/posts/davinciupdate20/</guid>
+      <guid>http://localhost:64693/kai_studio/posts/davinciupdate20/</guid>
       <description>&lt;h2 id=&#34;davinci-resolve-200&#34;&gt;DaVinci Resolve 20.0&lt;/h2&gt;
 &lt;p&gt;DaVinci Resolve 20.0 於 2025 年 4 月 5 日以公開 Beta 版形式發布，帶來超過 100 項新功能，特別聚焦於 AI 技術的應用以及跨平台協作能力的提升。以下為主要新增功能：&lt;/p&gt;
 &lt;h3 id=&#34;ai-工具的全面升級&#34;&gt;AI 工具的全面升級&lt;/h3&gt;
@@ -58,9 +58,9 @@
     </item>
     <item>
       <title>電腦新聞新鮮報 (2025年9月)</title>
-      <link>http://localhost:1313/kai_studio/posts/9technews/</link>
+      <link>http://localhost:64693/kai_studio/posts/9technews/</link>
       <pubDate>Mon, 08 Sep 2025 15:30:00 +0800</pubDate>
-      <guid>http://localhost:1313/kai_studio/posts/9technews/</guid>
+      <guid>http://localhost:64693/kai_studio/posts/9technews/</guid>
       <description>&lt;h2 id=&#34;電腦新聞新鮮報--2025年9月&#34;&gt;電腦新聞新鮮報 | 2025年9月&lt;/h2&gt;
 &lt;p&gt;嗨，大家好！這裡是九月份的電腦科技新聞整理，涵蓋了從硬體、軟體到 AI 技術的最新動態。讓我們一起來看看科技界發生了哪些大事！&lt;/p&gt;
 &lt;h3 id=&#34;一ai-整合與基礎建設&#34;&gt;一、AI 整合與基礎建設&lt;/h3&gt;
